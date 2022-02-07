@@ -15,13 +15,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <span
-            style={{
-              color: '#ff7100',
-            }}
-          >
-            S
-          </span>
+          <span style={{ color: '#ff7100' }}>S</span>
           <span style={{ color: '#e3771c' }}>y</span>
           <span style={{ color: '#c67d39' }}>n</span>
           <span style={{ color: '#aa8255' }}>a</span>
@@ -33,9 +27,17 @@ const Home: NextPage = () => {
           <span style={{ color: '#00a5ff' }}>I</span>
         </h1>
 
-        <h3 className={styles.description}>Our courses will help you <b>learn AI fast</b></h3>
+        <h3 className={styles.description}>
+          Our courses will help you <b>learn AI fast</b>
+        </h3>
 
-        <Button id="get-started-btn" variant='primary' className={styles.getStartedBtn}>Get Started!</Button>
+        <Button
+          id='get-started-btn'
+          variant='primary'
+          className={styles.getStartedBtn}
+        >
+          Get Started!
+        </Button>
       </main>
 
       <footer className={styles.footer}>
