@@ -1,2 +1,3 @@
-# website
+# SynapticAI
+
 Website for SynapticAI
