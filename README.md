@@ -1,3 +1,3 @@
-# SynapticAI
+# Neuracode
 
-Website for SynapticAI
+Website for Neuracode

@@ -8,8 +8,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SynapticAI</title>
-        <meta name='description' content='SynapticAI' />
+        <title>Neuracode</title>
+        <meta name='description' content='Neuracode' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        Copyright &copy; {new Date().getFullYear()} SynapticAI
+        Copyright &copy; {new Date().getFullYear()} Neuracode
       </footer>
     </div>
   );

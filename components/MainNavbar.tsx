@@ -73,7 +73,7 @@ const MainNavbar: React.FC = () => {
       <Navbar bg='light' variant='light' id='navbar'>
         <Container>
           <Link href='/' passHref={true}>
-            <Navbar.Brand>SynapticAI</Navbar.Brand>
+            <Navbar.Brand>Neuracode</Navbar.Brand>
           </Link>
           <Nav className='ms-auto'>
             <Nav.Link>
