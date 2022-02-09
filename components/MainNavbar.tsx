@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Nav, Navbar, Button } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import Image from 'next/image';
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 import Link from 'next/link';
@@ -59,7 +60,7 @@ const Dropdown: React.FC<DropdownProps> = ({ name, options }) => {
         leaveFrom='transform opacity-100 scale-100'
         leaveTo='transform opacity-0 scale-95'
       >
-        <Menu.Items className='absolute right-0 w-56 mt-2 origin-top-right bg-slate-100 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none'>
+        <Menu.Items className='absolute right-0 w-56 mt-2 origin-top-right bg-slate-100 divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10'>
           <div className='px-1 py-1 '>{items}</div>
         </Menu.Items>
       </Transition>
@@ -70,19 +71,32 @@ const Dropdown: React.FC<DropdownProps> = ({ name, options }) => {
 const MainNavbar: React.FC = () => {
   return (
     <>
-      <Navbar bg='light' variant='light' id='navbar'>
+      <Navbar collapseOnSelect bg='light' variant='light' id='navbar' expand='lg' >
         <Container>
           <Link href='/' passHref={true}>
-            <Navbar.Brand>Neuracode</Navbar.Brand>
+            <Navbar.Brand className='d-flex flex-row'>
+              <Image src='/neuracode_logo.png' width='36' height='30' alt='neuracode_logo' />
+              Neuracode
+            </Navbar.Brand>
           </Link>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ms-auto'>
             <Nav.Link>
               <Dropdown
                 name='Courses'
                 options={[
                   {
+                    name: 'Overview',
+                    href: '/courses/overview',
+                  },
+                  {
                     name: 'Intro to AI',
                     href: '/courses/intro-to-ai',
+                  },
+                  {
+                    name: 'Intro to Python',
+                    href: '/courses/intro-to-python',
                   },
                   {
                     name: 'Intro to Scikit-Learn',
@@ -130,7 +144,23 @@ const MainNavbar: React.FC = () => {
                 ]}
               />
             </Nav.Link>
-          </Nav>
+            <Nav.Link>
+              <Dropdown
+                name='Join'
+                options={[
+                  {
+                    name: 'Overview',
+                    href: '/join/overview',
+                  },
+                  {
+                    name: 'Apply',
+                    href: '/join/apply',
+                  },
+                ]}
+              />
+            </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

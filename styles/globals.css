@@ -33,3 +33,7 @@ a {
   color: black;
   font-weight: 600;
 }
+
+#navbar .navbar-collapse {
+  text-align: center;
+}
