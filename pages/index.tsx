@@ -40,10 +40,6 @@ const Home: NextPage = () => {
         </Button>
         </Link>
       </main>
-
-      <footer className={styles.footer}>
-        Copyright &copy; {new Date().getFullYear()} Neuracode
-      </footer>
     </div>
   );
 };

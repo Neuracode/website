@@ -8,6 +8,9 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <MainNavbar />
       <Component {...pageProps} />
+      <footer>
+        Copyright &copy; {new Date().getFullYear()} Neuracode
+      </footer>
     </>
   );
 }

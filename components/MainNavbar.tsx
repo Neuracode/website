@@ -118,10 +118,6 @@ const MainNavbar: React.FC = () => {
                 name='About'
                 options={[
                   {
-                    name: 'Overview',
-                    href: '/about/overview',
-                  },
-                  {
                     name: 'Team',
                     href: '/about/team',
                   },
@@ -154,7 +150,7 @@ const MainNavbar: React.FC = () => {
                   },
                   {
                     name: 'Apply',
-                    href: '/join/apply',
+                    href: 'https://forms.gle/7dYev7Agaj36qsHe8',
                   },
                 ]}
               />
