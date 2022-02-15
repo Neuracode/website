@@ -71,90 +71,101 @@ const Dropdown: React.FC<DropdownProps> = ({ name, options }) => {
 const MainNavbar: React.FC = () => {
   return (
     <>
-      <Navbar collapseOnSelect bg='light' variant='light' id='navbar' expand='lg' >
+      <Navbar
+        collapseOnSelect
+        bg='light'
+        variant='light'
+        id='navbar'
+        expand='lg'
+      >
         <Container>
           <Link href='/' passHref={true}>
             <Navbar.Brand className='d-flex flex-row'>
-              <Image src='/neuracode_logo.png' width='36' height='30' alt='neuracode_logo' />
+              <Image
+                src='/neuracode_logo.png'
+                width='36'
+                height='30'
+                alt='neuracode_logo'
+              />
               Neuracode
             </Navbar.Brand>
           </Link>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
-          <Nav className='ms-auto'>
-            <Nav.Link>
-              <Dropdown
-                name='Courses'
-                options={[
-                  {
-                    name: 'Overview',
-                    href: '/courses/overview',
-                  },
-                  {
-                    name: 'Intro to AI',
-                    href: '/courses/intro-to-ai',
-                  },
-                  {
-                    name: 'Intro to Python',
-                    href: '/courses/intro-to-python',
-                  },
-                  {
-                    name: 'Intro to Scikit-Learn',
-                    href: '/courses/intro-to-scikit-learn',
-                  },
-                  {
-                    name: 'Intro to Keras',
-                    href: '/courses/intro-to-keras',
-                  },
-                  {
-                    name: 'Intro to Tensorflow',
-                    href: '/courses/intro-to-tensorflow',
-                  },
-                ]}
-              />
-            </Nav.Link>
-            <Nav.Link>
-              <Dropdown
-                name='About'
-                options={[
-                  {
-                    name: 'Team',
-                    href: '/about/team',
-                  },
-                  {
-                    name: 'Discord',
-                    href: 'https://discord.gg/N2dC3nNA7n',
-                  },
-                  {
-                    name: 'FAQ',
-                    href: '/about/faq',
-                  },
-                  {
-                    name: 'Donate',
-                    href: '/about/donate',
-                  },
-                  {
-                    name: 'Privacy Policy',
-                    href: '/about/privacy-policy',
-                  },
-                ]}
-              />
-            </Nav.Link>
-            <Nav.Link>
-              <Dropdown
-                name='Join'
-                options={[
-                  {
-                    name: 'Overview',
-                    href: '/join/overview',
-                  },
-                  {
-                    name: 'Apply',
-                    href: 'https://forms.gle/7dYev7Agaj36qsHe8',
-                  },
-                ]}
-              />
-            </Nav.Link>
+            <Nav className='ms-auto'>
+              <Nav.Link>
+                <Dropdown
+                  name='Courses'
+                  options={[
+                    {
+                      name: 'Overview',
+                      href: '/courses/overview',
+                    },
+                    {
+                      name: 'Intro to AI',
+                      href: '/courses/intro-to-ai',
+                    },
+                    {
+                      name: 'Intro to Python',
+                      href: '/courses/intro-to-python',
+                    },
+                    {
+                      name: 'Intro to Scikit-Learn',
+                      href: '/courses/intro-to-scikit-learn',
+                    },
+                    {
+                      name: 'Intro to Keras',
+                      href: '/courses/intro-to-keras',
+                    },
+                    {
+                      name: 'Intro to Tensorflow',
+                      href: '/courses/intro-to-tensorflow',
+                    },
+                  ]}
+                />
+              </Nav.Link>
+              <Nav.Link>
+                <Dropdown
+                  name='About'
+                  options={[
+                    {
+                      name: 'Team',
+                      href: '/about/team',
+                    },
+                    {
+                      name: 'Discord',
+                      href: 'https://discord.gg/N2dC3nNA7n',
+                    },
+                    {
+                      name: 'FAQ',
+                      href: '/about/faq',
+                    },
+                    {
+                      name: 'Donate',
+                      href: '/about/donate',
+                    },
+                    {
+                      name: 'Privacy Policy',
+                      href: 'https://docs.google.com/document/d/1YkSyThzuvsnHqJiHTcniDk6tLdCiuWs_jMC8bAZwbPQ/edit?usp=sharing',
+                    },
+                  ]}
+                />
+              </Nav.Link>
+              <Nav.Link>
+                <Dropdown
+                  name='Join'
+                  options={[
+                    {
+                      name: 'Overview',
+                      href: '/join/overview',
+                    },
+                    {
+                      name: 'Apply',
+                      href: 'https://forms.gle/7dYev7Agaj36qsHe8',
+                    },
+                  ]}
+                />
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
