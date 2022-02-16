@@ -8,11 +8,11 @@ const Team: React.FC = () => {
     <>
       <Container>
         <h1 className={styles.title}>Team</h1>
-        <div className={styles.teamHeader}>
+        <h3 className={styles.topText}>
           As AI continues to grow, Neuracode&apos;s mission is to help students
-          around the world become exposed to the field.
-        </div>
-        <div className={`${styles.team} mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around`}>
+          around the world become exposed to the field
+        </h3>
+        <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
           <TeamCard
             name='Azam Ahmed'
             title='Founder'

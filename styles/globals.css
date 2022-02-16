@@ -41,6 +41,7 @@ a {
 h1 {
   font-family: 'Roboto', sans-serif;
   color: #0099ff;
+  font-size: 4rem !important;
 }
 
 footer {
