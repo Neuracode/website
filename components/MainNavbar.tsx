@@ -110,6 +110,10 @@ const MainNavbar: React.FC = () => {
                       href: '/courses/intro-to-python',
                     },
                     {
+                      name: 'Intermediate Python',
+                      href: '/courses/intermediate-python',
+                    },
+                    {
                       name: 'Intro to Scikit-Learn',
                       href: '/courses/intro-to-scikit-learn',
                     },
