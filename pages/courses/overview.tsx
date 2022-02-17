@@ -9,6 +9,7 @@ const Overview: React.FC = () => {
     description: string;
     image: string;
     href: string;
+    prerequisites: string[];
   }
 
   const courses: ICourse[] = [
@@ -18,18 +19,29 @@ const Overview: React.FC = () => {
       image:
         'https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/512/000000/external-ai-digital-business-photo3ideastudio-gradient-photo3ideastudio.png',
       href: '/courses/intro-to-ai',
+      prerequisites: [],
     },
     {
       name: 'Intro to Python',
-      description: 'Learn how to build a Python model',
+      description: 'Learn how to use basic python',
       image: 'https://img.icons8.com/color/480/000000/python--v2.png',
       href: '/courses/intro-to-python',
+      prerequisites: [],
+    },
+    {
+      name: 'Intermediate Python',
+      description:
+        'Building upon previous knowledge, learn to use more advanced python',
+      image: 'https://img.icons8.com/color/480/000000/python--v2.png',
+      href: '/courses/intermediate-python',
+      prerequisites: ['Basic Python'],
     },
     {
       name: 'Intro to Scikit-Learn',
       description: 'Learn how to use Scikit-Learn',
       image: 'https://avatars2.githubusercontent.com/u/365630?v=3&s=400',
       href: '/courses/intro-to-scikit-learn',
+      prerequisites: ['Basic Python', 'Intermediate Python', 'AI Concepts'],
     },
     {
       name: 'Intro to Keras',
@@ -37,12 +49,19 @@ const Overview: React.FC = () => {
       image:
         'https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg',
       href: '/courses/intro-to-keras',
+      prerequisites: ['Basic Python', 'Intermediate Python', 'AI Concepts'],
     },
     {
       name: 'Intro to Tensorflow',
       description: 'Learn how to use Tensorflow',
       image: 'https://img.icons8.com/color/480/000000/tensorflow.png',
       href: '/courses/intro-to-tensorflow',
+      prerequisites: [
+        'Basic Python',
+        'Intermediate Python',
+        'AI Concepts',
+        'Keras',
+      ],
     },
   ];
 
@@ -60,7 +79,13 @@ const Overview: React.FC = () => {
                 />
                 <Card.Body>
                   <Card.Title>{course.name}</Card.Title>
-                  <Card.Text>{course.description}</Card.Text>
+                  <Card.Text>
+                    {course.description}
+                    <br />
+                    <br />
+                    <b>Prerequisites:</b>{' '}
+                    {course.prerequisites.join(', ') || 'None'}
+                  </Card.Text>
                 </Card.Body>
               </Card>
             </Link>

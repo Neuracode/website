@@ -13,7 +13,11 @@ const Overview: React.FC = () => {
           their knowledge to the world
         </h3>
         <div className='mt-5 text-center'>
-          <Button variant='outline-danger' size='lg'>Apply Now!</Button>
+          <a href='https://forms.gle/7dYev7Agaj36qsHe8'>
+            <Button variant='outline-danger' size='lg'>
+              Apply Now!
+            </Button>
+          </a>
         </div>
         <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
           <PositionCard
@@ -22,15 +26,15 @@ const Overview: React.FC = () => {
           />
           <PositionCard
             title='Tutor: Intro to Python'
-            description='Intro to Python tutors will be required to have basic knowledge of the Python programming knowledge, including concepts like OOP, magic methods, and more.'
+            description='Intro to Python tutors will be required to have basic knowledge of the Python programming knowledge.'
           />
           <PositionCard
             title='Tutor: Intermediate Python'
-            description='Intro to AI tutors will be required to have advanced knowledge of the Python programming knowledge, including concepts like OOP, magic methods, and more.'
+            description='Intermediate Python tutors will be required to have advanced knowledge of the Python programming knowledge, including concepts like OOP, magic methods, and more.'
           />
           <PositionCard
             title='Tutor: Intro to Scikit-Learn'
-            description='Scikit-learn tutors will be required to have knowledge of Scikit-Learn and AI concepts.'
+            description='Scikit-Learn tutors will be required to have knowledge of Scikit-Learn and AI concepts.'
           />
           <PositionCard
             title='Tutor: Intro to Keras'
@@ -42,7 +46,7 @@ const Overview: React.FC = () => {
           />
           <PositionCard
             title='Frontend Developer'
-            description='Frontend developers will be required to have knowledge of and experience with both Next.js and CSS'
+            description='Frontend developers will be required to have knowledge of and experience with both Next.js and CSS.'
           />
           <PositionCard
             title='Recruiter'
@@ -54,7 +58,7 @@ const Overview: React.FC = () => {
           />
           <PositionCard
             title='Marketing/PR'
-            description='As a marketer, you wil be required to post and moderate content on Instagram, LinkedIn, and YouTube, along with reaching out to other organizations.'
+            description='As a marketer and public relations officer, you will be required to post and moderate content on Instagram, LinkedIn, and YouTube, along with reaching out to other organizations.'
           />
           <PositionCard
             title='Events organizer'
