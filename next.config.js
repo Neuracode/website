@@ -5,9 +5,7 @@ const nextConfig = {
     domains: ['img.icons8.com'],
     loader: 'akamai',
     path: '/'
-  },
-  basePath: '/',
-  assetPrefix: '/'
+  }
 }
 
 module.exports = nextConfig
