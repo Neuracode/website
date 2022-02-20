@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Neuracode</title>
         <meta name='description' content='Neuracode' />
-        <link rel='icon' href='/neuracode_logo.png' />
+        <link rel='shortcut icon' href='/neuracode_logo.png' />
       </Head>
 
       <main className={styles.main}>
