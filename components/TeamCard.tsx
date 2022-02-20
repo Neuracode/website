@@ -39,7 +39,7 @@ const TeamCard: React.FC<ITeamCard> = ({
                   <Image
                     width={30}
                     height={30}
-                    src='https://img.icons8.com/ios/250/000000/linkedin.png'
+                    src='/team/icons/linkedin.png'
                     alt='linkedin'
                     role='button'
                   />
@@ -50,7 +50,7 @@ const TeamCard: React.FC<ITeamCard> = ({
                   <Image
                     width={30}
                     height={30}
-                    src='https://img.icons8.com/material-outlined/250/000000/github.png'
+                    src='/team/icons/github.png'
                     alt='github'
                     role='button'
                   />
@@ -61,8 +61,8 @@ const TeamCard: React.FC<ITeamCard> = ({
                   <Image
                     width={30}
                     height={30}
-                    src='https://img.icons8.com/ios/250/000000/domain.png'
-                    alt='linkedin'
+                    src='/team/icons/domain.png'
+                    alt='website'
                     role='button'
                   />
                 </a>

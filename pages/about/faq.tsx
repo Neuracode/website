@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Accordion } from 'react-bootstrap';
+import styles from '../../styles/About.module.css';
 
 const FAQ: React.FC = () => {
   return (
     <>
       <Container>
-        <h1>FAQ</h1>
+        <h1 className={styles.title}>FAQ</h1>
         <div className='mt-5 mb-5'>
           <Accordion>
             <Accordion.Item eventKey='0'>

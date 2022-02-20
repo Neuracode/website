@@ -82,10 +82,10 @@ const MainNavbar: React.FC = () => {
           <Link href='/' passHref={true}>
             <Navbar.Brand className='d-flex flex-row'>
               <Image
-                src='/neuracode_logo.png'
+                src='/android-chrome-384x384.png'
                 width='36'
                 height='30'
-                alt='neuracode_logo'
+                alt='neuracode logo'
               />
               Neuracode
             </Navbar.Brand>
