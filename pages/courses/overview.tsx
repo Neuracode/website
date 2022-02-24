@@ -14,11 +14,11 @@ const Overview: React.FC = () => {
 
   const courses: ICourse[] = [
     {
-      name: 'Intro to AI',
+      name: 'Intro to Machine Learning',
       description: 'Learn how to build an AI model',
       image:
         'https://img.icons8.com/external-photo3ideastudio-gradient-photo3ideastudio/512/000000/external-ai-digital-business-photo3ideastudio-gradient-photo3ideastudio.png',
-      href: '/courses/intro-to-ai',
+      href: '/courses/intro-to-machine-learning',
       prerequisites: [],
     },
     {

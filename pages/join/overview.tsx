@@ -21,8 +21,8 @@ const Overview: React.FC = () => {
         </div>
         <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
           <PositionCard
-            title='Tutor: Intro to AI'
-            description='Intro to AI tutors will be required to have basic knowledge of AI concepts and no programming knowledge is required; it is a conceptual course.'
+            title='Tutor: Intro to Machine Learning'
+            description='Intro to Machine Learning tutors will be required to have basic knowledge of AI concepts and no programming knowledge is required; it is a conceptual course.'
           />
           <PositionCard
             title='Tutor: Intro to Python'
@@ -63,6 +63,10 @@ const Overview: React.FC = () => {
           <PositionCard
             title='Events organizer'
             description='As an events organizer you will be required to organize events for Neuracode, including workshops, hackathons, and more.'
+          />
+          <PositionCard
+            title='Curriculum creator'
+            description='As an curriculum creator you will be required to create and maintain the Neuracode curriculum and help with the creation of the course materials (presentations, etc.).'
           />
         </div>
       </Container>

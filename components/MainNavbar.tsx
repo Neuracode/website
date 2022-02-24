@@ -102,8 +102,8 @@ const MainNavbar: React.FC = () => {
                       href: '/courses/overview',
                     },
                     {
-                      name: 'Intro to AI',
-                      href: '/courses/intro-to-ai',
+                      name: 'Intro to Machine Learning',
+                      href: '/courses/intro-to-machine-learning',
                     },
                     {
                       name: 'Intro to Python',
