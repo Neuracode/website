@@ -67,7 +67,7 @@ const Overview: React.FC = () => {
 
   function CourseCards() {
     return (
-      <Row lg={3} md={2} xs={2} className='g-5 justify-content-center'>
+      <Row lg={3} md={2} xs={1} className='g-5 justify-content-center'>
         {courses.map((course: ICourse, index) => (
           <Col key={index}>
             <Link href={course.href} passHref={true}>
