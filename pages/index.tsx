@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Card } from 'react-bootstrap';
 import Image from 'next/image';
 
 const Home: NextPage = () => {
@@ -106,7 +106,7 @@ const Home: NextPage = () => {
                             </button>
                         </Link>
                     </div>
-                    <div className="d-flex align-items-center justify-content-center">
+                    <div className='d-flex align-items-center justify-content-center'>
                         <Image
                             src='artificial_intelligence.svg'
                             alt='artificial intelligence'
@@ -114,6 +114,91 @@ const Home: NextPage = () => {
                             height='450'
                         />
                     </div>
+                </section>
+                <section className={styles.sectionContainer2}>
+                    <Link href='/courses/overview' passHref={true}>
+                        <Card
+                            style={{ width: '18rem' }}
+                            className={styles.infoCard}
+                        >
+                            <Card.Img
+                                variant='top'
+                                src='https://img.icons8.com/ios/1000/000000/education.png'
+                                className={styles.smallIcon}
+                            />
+                            <Card.Body>
+                                <Card.Title>Learn Machine Learning</Card.Title>
+                                <Card.Text>
+                                    With our sophisticated curriculum, you will
+                                    easily progress through our courses with a
+                                    firm grasp of the knowledge.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Link>
+                    <Link href='/join/overview' passHref={true}>
+                        <Card
+                            style={{ width: '18rem' }}
+                            className={styles.infoCard}
+                        >
+                            <Card.Img
+                                variant='top'
+                                src='https://img.icons8.com/ios-filled/1000/000000/leadership.png'
+                                className={styles.smallIcon}
+                            />
+                            <Card.Body>
+                                <Card.Title>Enjoyable Internships</Card.Title>
+                                <Card.Text>
+                                    Through our selective internship program,
+                                    you will gain leadership experience along
+                                    with team experience.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Link>
+
+                    <Link href='/events/hackathon' passHref={true}>
+                        <Card
+                            style={{ width: '18rem' }}
+                            className={styles.infoCard}
+                        >
+                            <Card.Img
+                                variant='top'
+                                src='https://img.icons8.com/ios-filled/1000/000000/laptop-coding.png'
+                                className={styles.smallIcon}
+                            />
+                            <Card.Body>
+                                <Card.Title>Competitive Hackathons</Card.Title>
+                                <Card.Text>
+                                    Using the machine learning skills you
+                                    obtained from our courses or prior
+                                    knowledge, create a cool project and earn
+                                    rewards.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Link>
+
+                    <Link href='/blog' passHref={true}>
+                        <Card
+                            style={{ width: '18rem' }}
+                            className={styles.infoCard}
+                        >
+                            <Card.Img
+                                variant='top'
+                                src='https://img.icons8.com/ios-filled/1000/000000/robot.png'
+                                className={styles.smallIcon}
+                            />
+                            <Card.Body>
+                                <Card.Title>Project Blog</Card.Title>
+                                <Card.Text>
+                                    Further improve your ML skills by reading
+                                    through our blogs on a variety of machine
+                                    learning projects.{' '}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Link>
                 </section>
             </Container>
         </div>

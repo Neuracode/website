@@ -36,7 +36,7 @@
 }
 
 .sectionContainer div {
-  flex: 1 1 320px;
+    flex: 1 1 320px;
 }
 
 .description {
@@ -45,12 +45,33 @@
     font-weight: 300;
 }
 
+.sectionContainer2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.infoCard {
+    border-radius: 8%;
+    transition: 0.5s;
+}
 
+.infoCard:hover {
+    border-color: #75cdff;
+    cursor: pointer;
+}
 
-
-
-
+.smallIcon {
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 60px;
+    height: 60px;
+    background-color: #bde5fc;
+    padding: 10px;
+    border-radius: 20%;
+}
 
 /* From uiverse.io by @gagan-gv */
 /* View Courses Button */
