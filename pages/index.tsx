@@ -108,7 +108,7 @@ const Home: NextPage = () => {
                     </div>
                     <div className='d-flex align-items-center justify-content-center'>
                         <Image
-                            src='artificial_intelligence.svg'
+                            src='/artificial_intelligence.svg'
                             alt='artificial intelligence'
                             width='550'
                             height='450'
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
                     <Link href='/courses/overview' passHref={true}>
                         <Card
                             style={{ width: '18rem' }}
-                            className={styles.infoCard}
+                            className={`${styles.infoCard} mt-4 mb-5`}
                         >
                             <Card.Img
                                 variant='top'
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
                     <Link href='/join/overview' passHref={true}>
                         <Card
                             style={{ width: '18rem' }}
-                            className={styles.infoCard}
+                            className={`${styles.infoCard} mt-4 mb-5`}
                         >
                             <Card.Img
                                 variant='top'
@@ -160,7 +160,7 @@ const Home: NextPage = () => {
                     <Link href='/events/hackathon' passHref={true}>
                         <Card
                             style={{ width: '18rem' }}
-                            className={styles.infoCard}
+                            className={`${styles.infoCard} mt-4 mb-5`}
                         >
                             <Card.Img
                                 variant='top'
@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                     <Link href='/blog' passHref={true}>
                         <Card
                             style={{ width: '18rem' }}
-                            className={styles.infoCard}
+                            className={`${styles.infoCard} mt-4 mb-5`}
                         >
                             <Card.Img
                                 variant='top'
