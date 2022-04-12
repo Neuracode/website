@@ -1,39 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .container {
-  padding: 0 2rem;
+    padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
 }
 
 .title {
-  line-height: 1.15;
-  font-size: 4.5rem;
-  font-family: 'Roboto', sans-serif;
-}
-
-.title,
-.description {
-  text-align: center;
-  margin: 0.5rem;
+    line-height: 1.15;
+    font-size: 4.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #363636;
 }
 
 .getStartedBtn {
-  margin: 2rem;
-  background-color: #ff6b6b;
-  color: white;
-  border-radius: 0.5rem;
-  padding: 1rem 2rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-  border: none;
-  cursor: pointer;
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionContainer div {
+  flex: 1 1 320px;
+}
+
+.description {
+    color: #4d4d4d;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* From uiverse.io by @gagan-gv */
+/* View Courses Button */
+.btn {
+    display: block;
+    padding: 0.7em 1em;
+    background: transparent;
+    outline: none;
+    border: 0;
+    color: #d4af37;
+    letter-spacing: 0.1em;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.cube {
+    position: relative;
+    transition: all 0.5s;
+}
+
+.cube .bgTop {
+    position: absolute;
+    height: 10px;
+    background: #d4af37;
+    bottom: 100%;
+    left: 5px;
+    right: -5px;
+    transform: skew(-45deg, 0);
+    margin: 0;
+    transition: all 0.4s;
+}
+
+.cube .bgTop .bgInner {
+    bottom: 0;
+}
+
+.cube .bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: #d4af37;
+    transition: all 0.4s;
+}
+
+.cube .bgRight {
+    position: absolute;
+    background: #d4af37;
+    top: -5px;
+    z-index: 0;
+    bottom: 5px;
+    width: 10px;
+    left: 100%;
+    transform: skew(0, -45deg);
+    transition: all 0.4s;
+}
+
+.cube .bgRight .bgInner {
+    left: 0;
+}
+
+.cube .bgInner {
+    background: #28282d;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+}
+
+.cube .btnText {
+    position: relative;
+    transition: all 0.4s;
+}
+
+.cube:hover .bgInner {
+    background: #d4af37;
+    transition: all 0.4s;
+}
+
+.cube:hover .btnText {
+    color: #28282d;
+    transition: all 0.4s;
+}
+
+.cube:hover .bgRight,
+.cube:hover .bg,
+.cube:hover .bgTop {
+    background: #28282d;
+}
+
+.cube:active {
+    z-index: 9999;
+    animation: bounce 0.1s linear;
+}
+
+@keyframes bounce {
+    50% {
+        transform: scale(0.9);
+    }
 }
