@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     name='keywords'
-                    content='neuracode, machine learning, high school, coding, computer science, computer science, intro to machine learning, intro to python, intermediate python, intro to scikit-learn, intro to keras, intro to tensorflow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks'
+                    content='neuracode, nonprofit, non-profit, 501(c)(3), 501 c 3, 501c3, neura code, educate, education, low-income, low income, underrepresented students, student led, student-led, machine learning, high school, programming, coding, computer science, cs, intro to machine learning, intro to python, intermediate python, intro to scikit-learn, intro to keras, intro to tensorflow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks, azam ahmed, united states, neuracode global, new jersey, nj, neuracode.org, neural, ann, cnn, rnn, artificial neural network, convolutional neural network, recurrent neural network, nn, supervised learning, unsupervised learning, reinforcement learning, regression, classification, decision trees, random forests, gan, generative, generative adversarial networks, deep learning, azam, ahmed, azam ahmed president'
                 />
                 <meta name='robots' content='index, follow' />
                 <meta
