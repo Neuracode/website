@@ -7,13 +7,24 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function MyApp({ Component, pageProps }: AppProps) {
+    interface loaderProps {
+        src: string;
+    }
+    const customLoader = ({ src }: loaderProps) => {
+        return `https://img.icons8.com/ios/1000/000000/${src}`;
+    };
+
     return (
         <>
             <MainNavbar />
             <Component {...pageProps} />
             <footer>
                 <Container className='w-100'>
-                    <p>We&apos;re on a mission to democratize machine learning! Support the mission by donating or applying for an internship.</p>
+                    <p>
+                        We&apos;re on a mission to democratize machine learning!
+                        Support the mission by donating or applying for an
+                        internship.
+                    </p>
                     <hr />
                     <p>
                         <span>
@@ -29,6 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 passHref={true}
                             >
                                 <Image
+                                    loader={customLoader}
                                     src='https://img.icons8.com/ios/1000/000000/mail.png'
                                     width='30'
                                     height='30'
@@ -41,6 +53,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 passHref={true}
                             >
                                 <Image
+                                    loader={customLoader}
                                     src='https://img.icons8.com/ios/1000/000000/discord-logo--v1.png'
                                     width='30'
                                     height='30'
@@ -53,6 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 passHref={true}
                             >
                                 <Image
+                                    loader={customLoader}
                                     src='https://img.icons8.com/ios/1000/000000/instagram-new--v1.png'
                                     width='30'
                                     height='30'
