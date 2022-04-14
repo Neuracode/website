@@ -157,6 +157,32 @@ const MainNavbar: React.FC = () => {
               </Nav.Link>
               <Nav.Link>
                 <Dropdown
+                  name='Blog'
+                  options={[
+                    {
+                      name: 'Latest',
+                      href: '/blog/latest',
+                    },
+                    {
+                      name: 'Authors',
+                      href: '/blog/authors',
+                    },
+                  ]}
+                />
+              </Nav.Link>
+              <Nav.Link>
+                <Dropdown
+                  name='Events'
+                  options={[
+                    {
+                      name: 'Hackathon',
+                      href: '/events/hackathon',
+                    },
+                  ]}
+                />
+              </Nav.Link>
+              <Nav.Link>
+                <Dropdown
                   name='Join'
                   options={[
                     {

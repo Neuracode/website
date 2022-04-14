@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import { Button, Container, Card } from 'react-bootstrap';
 import Image from 'next/image';
+import ThreeDButton from '../components/ThreeDButton';
 
 const Home: NextPage = () => {
     return (
@@ -87,22 +88,8 @@ const Home: NextPage = () => {
                         </h5>
 
                         <Link href='/courses/overview' passHref={true}>
-                            <button
-                                type='button'
-                                className={`${styles.btn} ${styles.cube} mt-4`}
-                            >
-                                <div className={styles.bgTop}>
-                                    <div className={styles.bgInner}></div>
-                                </div>
-                                <div className={styles.bgRight}>
-                                    <div className={styles.bgInner}></div>
-                                </div>
-                                <div className={styles.bg}>
-                                    <div className={styles.bgInner}></div>
-                                </div>
-                                <div className={styles.btnText}>
-                                    View Courses
-                                </div>
+                            <button>
+                                <ThreeDButton text='View Courses' />
                             </button>
                         </Link>
                     </div>

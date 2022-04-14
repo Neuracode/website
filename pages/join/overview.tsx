@@ -2,21 +2,18 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import PositionCard from '../../components/PositionCard';
 import styles from '../../styles/Join.module.css';
+import ThreeDButton from '../../components/ThreeDButton';
 
 const Overview: React.FC = () => {
   return (
     <>
       <Container>
         <h1>Join us!</h1>
-        <h3 className={styles.topText}>
-          We are looking for people who are interested in AI and want to spread
-          their knowledge to the world
-        </h3>
         <div className='mt-5 text-center'>
           <a href='https://forms.gle/7dYev7Agaj36qsHe8'>
-            <Button variant='outline-danger' size='lg'>
-              Apply Now!
-            </Button>
+            <button>
+              <ThreeDButton text="Apply Now!" />
+            </button>
           </a>
         </div>
         <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>

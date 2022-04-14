@@ -13,6 +13,17 @@
   margin-bottom: 40px;
 }
 
+.teamMemberName {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.teamMemberTitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
 .teamMemberImage {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;

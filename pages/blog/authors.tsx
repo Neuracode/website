@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-const hackathon: React.FC = ({}) => {
+const authors: React.FC = () => {
     return (
         <Container>
-            <h1>Hackathon</h1>
+            <h1>Blog Authors</h1>
         </Container>
     );
 };
 
-export default hackathon;
+export default authors;

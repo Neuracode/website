@@ -28,7 +28,9 @@ const TeamCard: React.FC<ITeamCard> = ({
         <Card.Img variant='top' src={`/team/${image}`} className={styles.teamMemberImage} />
         <Card.Body>
           <Card.Title>
-            {name} ~ {title}
+            <span className={styles.teamMemberName}>{name}</span>
+            <br />
+            <small className={styles.teamMemberTitle}>{title}</small>
           </Card.Title>
           <Card.Text>
             {description}
