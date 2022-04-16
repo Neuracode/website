@@ -70,6 +70,27 @@ const Home: NextPage = () => {
                 <meta name='url' content='https://neuracode.org' />
                 <meta name='identifier-URL' content='https://neuracode.org' />
                 <meta name='coverage' content='Worldwide' />
+
+                <meta property='og:title' content='Neuracode' />
+                <meta
+                    property='og:description'
+                    content='Neuracode is a nonprofit organization that educates students around the world on the topic of machine learning. Neuracode is on a mission to make sure that all students have the opportunity to learn about machine learning, including low-income or underrepresented groups. Neuracode helps students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. Neuracode is primarily looking for students who are in middle school or high school. The website is Neuracode.org.'
+                />
+                <meta property='og:image' content='https://neuracode.org/team/azam.jpg' />
+                <meta property='og:url' content='https://neuracode.org' />
+                <meta property='og:type' content='website' />
+
+                <meta name='twitter:card' content='summary' />
+                <meta name='twitter:site' content='neuracode' />
+                <meta name='twitter:title' content='Neuracode' />
+                <meta
+                    name='twitter:description'
+                    content='Neuracode is a nonprofit organization that educates students around the world on the topic of machine learning. Neuracode is on a mission to make sure that all students have the opportunity to learn about machine learning, including low-income or underrepresented groups. Neuracode helps students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. Neuracode is primarily looking for students who are in middle school or high school. The website is Neuracode.org.'
+                />
+                <meta name='twitter:image' content='https://neuracode.org/team/azam.jpg' />
+                <meta name='twitter:url' content='https://neuracode.org' />
+
+                <meta name='theme-color' content='#ffffff' />
             </Head>
 
             <Container className={styles.main}>
