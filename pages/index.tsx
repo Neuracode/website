@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                 <meta name='title' content='Neuracode' />
                 <meta
                     name='description'
-                    content='Neuracode is a nonprofit organization that educates students around the world on the topic of machine learning. We are on a mission to make sure that all students have the opportunity to learn about machine learning, including underrepresented groups. We help students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. We are primarily looking for students who are in elementary school, middle school, or high school.'
+                    content='Neuracode is a nonprofit organization that educates students around the world on the topic of machine learning. Neuracode is on a mission to make sure that all students have the opportunity to learn about machine learning, including low-income or underrepresented groups. Neuracode helps students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. Neuracode is primarily looking for students who are in middle school or high school. The website is Neuracode.org.'
                 />
                 <meta
                     name='keywords'
