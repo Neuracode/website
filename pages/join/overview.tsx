@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import PositionCard from '../../components/PositionCard';
-import styles from '../../styles/Join.module.css';
+// import styles from '../../styles/Join.module.css';
 import ThreeDButton from '../../components/ThreeDButton';
 
 const Overview: React.FC = () => {
@@ -10,7 +10,7 @@ const Overview: React.FC = () => {
       <Container>
         <h1>Join us!</h1>
         <div className='mt-5 text-center'>
-          <a href='https://forms.gle/7dYev7Agaj36qsHe8'>
+          <a href='https://forms.gle/7dYev7Agaj36qsHe8' target="_blank" rel="noreferrer" className="text-decoration-none">
             <button>
               <ThreeDButton text="Apply Now!" />
             </button>

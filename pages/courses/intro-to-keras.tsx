@@ -1,30 +1,31 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
+import CourseHeader from '../../components/CourseHeader';
 
 const IntroToKeras: React.FC = () => {
-  return (
-    <>
-      <Container>
-        <h1 className={styles.title}>Intro to Keras</h1>
-        <main>
-          <h3>Concepts covered</h3>
-          <ListGroup variant='flush'>
-            <ListGroup.Item>What is Keras?</ListGroup.Item>
-            <ListGroup.Item>Multilayer Perceptron &#40;MLP&#41; overview</ListGroup.Item>
-            <ListGroup.Item>Sequential API</ListGroup.Item>
-            <ListGroup.Item>Functional API</ListGroup.Item>
-            <ListGroup.Item>Subclassing API</ListGroup.Item>
-            <ListGroup.Item>Tuning Hyperparameters</ListGroup.Item>
-            <ListGroup.Item>Vanishing/Exploding Gradient</ListGroup.Item>
-            <ListGroup.Item>Pretrained layers</ListGroup.Item>
-            <ListGroup.Item>Optimizers</ListGroup.Item>
-            <ListGroup.Item>Regularization</ListGroup.Item>
-          </ListGroup>
-        </main>
-      </Container>
-    </>
-  );
+    const curriculumList = [
+        'What is Keras?',
+        'Multilayer Perceptron (MLP) overview',
+        'Sequential API',
+        'Functional API',
+        'Subclassing API',
+        'Tuning Hyperparameters',
+        'Vanishing/Exploding Gradient',
+        'Pretrained layers',
+        'Optimizers',
+        'Regularization',
+    ];
+
+    return (
+        <>
+            <CourseHeader
+                name='Intro to Keras'
+                curriculumList={curriculumList}
+                about='Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with Tensorflow.'
+            />
+        </>
+    );
 };
 
 export default IntroToKeras;
