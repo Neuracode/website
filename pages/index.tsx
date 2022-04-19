@@ -99,11 +99,7 @@ const Home: NextPage = () => {
                 <meta name='theme-color' content='#ffffff' />
 
                 {/*eslint-disable-next-line @next/next/no-sync-scripts*/}
-                <script
-                    id='mcjs'
-                    type='text/javascript'
-                    src='../scripts/mailchimp.js'
-                ></script>
+                
             </Head>
 
             <Container className={styles.main}>

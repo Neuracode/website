@@ -5,7 +5,7 @@ const nextConfig = {
         domains: ['img.icons8.com'],
         loader: 'akamai',
         path: '/',
-    },
+    }
 };
 
 module.exports = nextConfig;
