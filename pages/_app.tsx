@@ -5,7 +5,6 @@ import MainNavbar from '../components/MainNavbar';
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
-import Script from 'next/script';
 
 function MyApp({ Component, pageProps }: AppProps) {
     interface loaderProps {
@@ -17,11 +16,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     return (
         <>
-            <Script
-                id='mcjs'
-                type='text/javascript'
-                src='/mailchimp.js'
-            ></Script>
             <MainNavbar />
             <Component {...pageProps} />
             <footer>
