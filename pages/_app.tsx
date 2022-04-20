@@ -62,7 +62,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 />
                             </Link>
                             <Link
-                                href='https://instagram.com/neuracode_global'
+                                href='https://instagram.com/neuracode_'
                                 passHref={true}
                             >
                                 <Image
