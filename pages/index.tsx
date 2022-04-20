@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     property='og:image'
-                    content='https://neuracode.org/team/azam.jpg'
+                    content='https://neuracode.org/android-chrome-192x192.png'
                 />
                 <meta property='og:url' content='https://neuracode.org' />
                 <meta property='og:type' content='website' />
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     name='twitter:image'
-                    content='https://neuracode.org/team/azam.jpg'
+                    content='https://neuracode.org/android-chrome-192x192.png'
                 />
                 <meta name='twitter:url' content='https://neuracode.org' />
 
