@@ -22,7 +22,7 @@ a {
 
 #navbar {
     background-color: transparent !important;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -53,16 +53,25 @@ h1 {
 
 footer {
     padding: 2rem 0;
-    background-color: #f7f7f7;
+    background-color: #000000;
+    color: white;
 }
 
-.footerIcon {
-    background-color: #bde5fc;
-    border-radius: 20%;
-    transition: 0.4s;
+.footerCategory {
+    font-weight: 900;
 }
 
-.footerIcon:hover {
-    cursor: pointer;
-    background-color: #94d8ff;
+.footerLink {
+    font-weight: 100;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+.socialBtnContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
 }

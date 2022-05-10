@@ -118,12 +118,14 @@ const Home: NextPage = () => {
                         </h5>
 
                         <Link href='/courses/overview' passHref={true}>
+                            <div className={styles.coursesBtnWrapper}>
                             <button>
-                                <ThreeDButton text='View Courses' />
+                                <ThreeDButton text='View Courses'/>
                             </button>
+                            </div>
                         </Link>
                     </div>
-                    <div className='d-flex align-items-center justify-content-center'>
+                    <div className={`d-flex align-items-center justify-content-center ${styles.aiImage}`}>
                         <Image
                             src='/artificial_intelligence.svg'
                             alt='artificial intelligence'
@@ -196,7 +198,7 @@ const Home: NextPage = () => {
                         </Card>
                     </Link>
 
-                    <Link href='/blog' passHref={true}>
+                    <Link href='/blog/latest' passHref={true}>
                         <Card
                             style={{ width: '18rem' }}
                             className={`${styles.infoCard} mt-4 mb-5`}

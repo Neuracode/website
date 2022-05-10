@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900;100&display=swap');
 
 .container {
     padding: 0 2rem;
@@ -8,26 +8,15 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-top: 8rem;
+    margin-top: 6rem;
     align-items: center;
 }
 
 .title {
     line-height: 1.15;
-    font-size: 4.5rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 900 !important;
     color: #363636;
-}
-
-.getStartedBtn {
-    background-color: #ff6b6b;
-    color: white;
-    border-radius: 0.5rem;
-    padding: 1rem 2rem;
-    font-size: 1.5rem;
-    font-weight: 800;
-    border: none;
-    cursor: pointer;
 }
 
 .sectionContainer {
@@ -75,4 +64,28 @@
     background-color: #bde5fc;
     padding: 10px;
     border-radius: 20%;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        margin-top: 1.5rem;
+    }
+
+    .title {
+        font-size: 2.5rem !important;
+        text-align: center;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .coursesBtnWrapper {
+        text-align: center;
+    }
+
+    .aiImage {
+        display: none !important;
+    }
 }
