@@ -132,9 +132,9 @@ const Home: NextPage = () => {
                                 data-aos-once='true'
                                 data-aos-delay='200'
                             >
-                                <button>
+                                <div className={styles.viewCoursesBtn}>
                                     <ThreeDButton text='View Courses' />
-                                </button>
+                                </div>
                             </div>
                         </Link>
                     </div>
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses/overview' passHref={true}>
-                        <div data-aos='slide-right' data-aos-once='true'>
+                        <div data-aos='zoom-in-right' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -232,7 +232,7 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/blog/latest' passHref={true}>
-                        <div data-aos='slide-left' data-aos-once='true'>
+                        <div data-aos='zoom-in-left' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -264,12 +264,12 @@ const Home: NextPage = () => {
                             alt='learning'
                             width='550'
                             height='450'
-                            data-aos='slide-right'
+                            data-aos='zoom-in-right'
                             data-aos-once='true'
                         />
                         <div
                             style={{ fontSize: '1.25rem' }}
-                            data-aos='slide-left'
+                            data-aos='zoom-in-left'
                             data-aos-once='true'
                         >
                             <p>✓ Rigorous Curriculum</p>
@@ -297,7 +297,7 @@ const Home: NextPage = () => {
                     <div className='d-flex flex-row justify-content-around align-items-center flex-wrap'>
                         <div
                             style={{ fontSize: '1.25rem' }}
-                            data-aos='slide-right'
+                            data-aos='zoom-in-right'
                             data-aos-once='true'
                         >
                             <p>✓ Leadership/Tutoring Experience</p>
@@ -320,7 +320,7 @@ const Home: NextPage = () => {
                             alt='teaching'
                             width='550'
                             height='450'
-                            data-aos='slide-left'
+                            data-aos='zoom-in-left'
                             data-aos-once='true'
                         />
                     </div>

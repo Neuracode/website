@@ -11,9 +11,9 @@ const Overview: React.FC = () => {
         <h1>Join us!</h1>
         <div className='mt-5 text-center'>
           <a href='https://forms.gle/7dYev7Agaj36qsHe8' target="_blank" rel="noreferrer" className="text-decoration-none">
-            <button>
+            <div>
               <ThreeDButton text="Apply Now!" />
-            </button>
+            </div>
           </a>
         </div>
         <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>

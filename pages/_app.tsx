@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Team Members
+                                                Our Team
                                             </p>
                                         </Link>
                                         <Link href='/blog/latest' passHref>
