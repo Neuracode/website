@@ -11,7 +11,7 @@ const Overview: React.FC = () => {
         <h1>Join us!</h1>
         <div className='mt-5 text-center'>
           <a href='https://forms.gle/7dYev7Agaj36qsHe8' target="_blank" rel="noreferrer" className="text-decoration-none">
-            <div>
+            <div className='w-100 d-flex align-items-center justify-content-center'>
               <ThreeDButton text="Apply Now!" />
             </div>
           </a>

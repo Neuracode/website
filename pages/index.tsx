@@ -330,7 +330,7 @@ const Home: NextPage = () => {
                         Frequently Asked Questions
                     </h2>
                     <div
-                        className='mt-5 mb-5'
+                        className='mt-4 mb-5'
                         data-aos='flip-up'
                         data-aos-once='true'
                     >

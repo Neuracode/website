@@ -79,7 +79,7 @@ const Overview: React.FC = () => {
 
     function CourseCards() {
         return (
-            <Row lg={3} md={2} xs={1} className='g-5 justify-content-center'>
+            <Row lg={3} md={2} xs={1} className='gy-5'>
                 {courses.map((course: ICourse, index) => (
                     <Col key={index}>
                         <Link href={course.href} passHref={true}>
@@ -99,7 +99,7 @@ const Overview: React.FC = () => {
                                         {course.description}
                                         <br />
                                         <br />
-                                        <b>Prerequisites:</b>{' '}
+                                        <b>Prerequisites:</b>
                                         {course.prerequisites.join(', ') ||
                                             'None'}
                                     </Card.Text>
