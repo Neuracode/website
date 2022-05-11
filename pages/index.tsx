@@ -179,7 +179,6 @@ const Home: NextPage = () => {
                     <Link href='/join/overview' passHref={true}>
                         <div
                             data-aos='flip-up'
-                            data-aos-delay='500'
                             data-aos-once='true'
                         >
                             <Card
@@ -206,7 +205,6 @@ const Home: NextPage = () => {
                     <Link href='/events/hackathon' passHref={true}>
                         <div
                             data-aos='flip-down'
-                            data-aos-delay='500'
                             data-aos-once='true'
                         >
                             <Card
