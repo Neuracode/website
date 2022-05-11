@@ -25,9 +25,9 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
                         rel='noreferrer'
                         className='text-decoration-none'
                     >
-                        <button className='w-100 d-flex align-items-center justify-content-center'>
+                        <div className='w-100 d-flex align-items-center justify-content-center'>
                             <ThreeDButton text='Enroll Now!' />
-                        </button>
+                        </div>
                     </a>
                 </div>
             </div>

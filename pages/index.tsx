@@ -104,13 +104,18 @@ const Home: NextPage = () => {
             <Container className={styles.main}>
                 <section className={styles.sectionContainer}>
                     <div>
-                        <h1 className={styles.title} data-aos='flip-up'>
+                        <h1
+                            className={styles.title}
+                            data-aos='flip-up'
+                            data-aos-once='true'
+                        >
                             Machine learning is for everyone!
                         </h1>
 
                         <h5
                             className={styles.description}
                             data-aos='slide-right'
+                            data-aos-once='true'
                             data-aos-delay='100'
                         >
                             Neuracode is a nonprofit organization that is on a
@@ -124,6 +129,7 @@ const Home: NextPage = () => {
                             <div
                                 className={styles.coursesBtnWrapper}
                                 data-aos='slide-right'
+                                data-aos-once='true'
                                 data-aos-delay='200'
                             >
                                 <button>
@@ -135,6 +141,7 @@ const Home: NextPage = () => {
                     <div
                         className={`d-flex align-items-center justify-content-center ${styles.aiImage}`}
                         data-aos='zoom-in-right'
+                        data-aos-once='true'
                     >
                         <Image
                             src='/illustrations/artificial_intelligence.svg'
@@ -146,7 +153,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses/overview' passHref={true}>
-                        <div data-aos='slide-right'>
+                        <div data-aos='slide-right' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -170,7 +177,11 @@ const Home: NextPage = () => {
                         </div>
                     </Link>
                     <Link href='/join/overview' passHref={true}>
-                        <div data-aos='flip-up' data-aos-delay='500'>
+                        <div
+                            data-aos='flip-up'
+                            data-aos-delay='500'
+                            data-aos-once='true'
+                        >
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -193,7 +204,11 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/events/hackathon' passHref={true}>
-                        <div data-aos='flip-down' data-aos-delay='500'>
+                        <div
+                            data-aos='flip-down'
+                            data-aos-delay='500'
+                            data-aos-once='true'
+                        >
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -219,7 +234,7 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/blog/latest' passHref={true}>
-                        <div data-aos='slide-left'>
+                        <div data-aos='slide-left' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -245,15 +260,20 @@ const Home: NextPage = () => {
                     <h2 className={styles.sectionTitle}>
                         Register for Classes
                     </h2>
-                    <div className='d-flex flex-row justify-content-around align-items-center'>
+                    <div className='d-flex flex-row justify-content-around align-items-center flex-wrap'>
                         <Image
                             src='/illustrations/learning.svg'
                             alt='learning'
                             width='550'
                             height='450'
-                            data-aos="slide-right"
+                            data-aos='slide-right'
+                            data-aos-once='true'
                         />
-                        <div style={{ fontSize: '1.25rem' }} data-aos="slide-left">
+                        <div
+                            style={{ fontSize: '1.25rem' }}
+                            data-aos='slide-left'
+                            data-aos-once='true'
+                        >
                             <p>✓ Rigorous Curriculum</p>
                             <p>✓ Plethora of Resources</p>
                             <p>✓ Online: Learn Anywhere</p>
@@ -267,15 +287,21 @@ const Home: NextPage = () => {
                                 rel='noreferrer'
                                 className='text-decoration-none'
                             >
-                                <ThreeDButton text='Enroll Now!' />
+                                <div className='w-100 d-flex align-items-center justify-content-center'>
+                                    <ThreeDButton text='Enroll Now!' />
+                                </div>
                             </a>
                         </div>
                     </div>
                 </section>
                 <section className={`${styles.sectionContainer4} mt-5 w-75`}>
                     <h2 className={styles.sectionTitle}>Join the Mission</h2>
-                    <div className='d-flex flex-row justify-content-around align-items-center'>
-                        <div style={{ fontSize: '1.25rem' }} data-aos="slide-right">
+                    <div className='d-flex flex-row justify-content-around align-items-center flex-wrap'>
+                        <div
+                            style={{ fontSize: '1.25rem' }}
+                            data-aos='slide-right'
+                            data-aos-once='true'
+                        >
                             <p>✓ Leadership/Tutoring Experience</p>
                             <p>✓ Volunteer Hours</p>
                             <p>✓ Work with a team</p>
@@ -286,9 +312,9 @@ const Home: NextPage = () => {
                                 rel='noreferrer'
                                 className='text-decoration-none'
                             >
-                                <button>
+                                <div className='w-100 d-flex align-items-center justify-content-center'>
                                     <ThreeDButton text='Apply Now!' />
-                                </button>
+                                </div>
                             </a>
                         </div>
                         <Image
@@ -296,7 +322,8 @@ const Home: NextPage = () => {
                             alt='teaching'
                             width='550'
                             height='450'
-                            data-aos="slide-left"
+                            data-aos='slide-left'
+                            data-aos-once='true'
                         />
                     </div>
                 </section>
@@ -304,7 +331,11 @@ const Home: NextPage = () => {
                     <h2 className={styles.sectionTitle}>
                         Frequently Asked Questions
                     </h2>
-                    <div className='mt-5 mb-5' data-aos="flip-up">
+                    <div
+                        className='mt-5 mb-5'
+                        data-aos='flip-up'
+                        data-aos-once='true'
+                    >
                         <Accordion>
                             <Accordion.Item eventKey='0'>
                                 <Accordion.Header>
