@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
-import { Button, Container, Card } from 'react-bootstrap';
+import { Container, Card, Accordion } from 'react-bootstrap';
 import Image from 'next/image';
 import ThreeDButton from '../components/ThreeDButton';
 
@@ -99,17 +99,20 @@ const Home: NextPage = () => {
                 <meta name='theme-color' content='#ffffff' />
 
                 {/*eslint-disable-next-line @next/next/no-sync-scripts*/}
-                
             </Head>
 
             <Container className={styles.main}>
                 <section className={styles.sectionContainer}>
                     <div>
-                        <h1 className={styles.title}>
+                        <h1 className={styles.title} data-aos='flip-up'>
                             Machine learning is for everyone!
                         </h1>
 
-                        <h5 className={styles.description}>
+                        <h5
+                            className={styles.description}
+                            data-aos='slide-right'
+                            data-aos-delay='100'
+                        >
                             Neuracode is a nonprofit organization that is on a
                             mission to provide everyone an equal opportunity to
                             learn machine learning. We support students from a
@@ -118,16 +121,23 @@ const Home: NextPage = () => {
                         </h5>
 
                         <Link href='/courses/overview' passHref={true}>
-                            <div className={styles.coursesBtnWrapper}>
-                            <button>
-                                <ThreeDButton text='View Courses'/>
-                            </button>
+                            <div
+                                className={styles.coursesBtnWrapper}
+                                data-aos='slide-right'
+                                data-aos-delay='200'
+                            >
+                                <button>
+                                    <ThreeDButton text='View Courses' />
+                                </button>
                             </div>
                         </Link>
                     </div>
-                    <div className={`d-flex align-items-center justify-content-center ${styles.aiImage}`}>
+                    <div
+                        className={`d-flex align-items-center justify-content-center ${styles.aiImage}`}
+                        data-aos='zoom-in-right'
+                    >
                         <Image
-                            src='/artificial_intelligence.svg'
+                            src='/illustrations/artificial_intelligence.svg'
                             alt='artificial intelligence'
                             width='550'
                             height='450'
@@ -136,88 +146,210 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses/overview' passHref={true}>
-                        <Card
-                            style={{ width: '18rem' }}
-                            className={`${styles.infoCard} mt-4 mb-5`}
-                        >
-                            <Card.Img
-                                variant='top'
-                                src='https://img.icons8.com/ios/1000/000000/education.png'
-                                className={styles.smallIcon}
-                            />
-                            <Card.Body>
-                                <Card.Title>Learn Machine Learning</Card.Title>
-                                <Card.Text>
-                                    With our sophisticated curriculum, you will
-                                    easily progress through our courses with a
-                                    firm grasp of the knowledge.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div data-aos='slide-right'>
+                            <Card
+                                style={{ width: '18rem' }}
+                                className={`${styles.infoCard} mt-4 mb-5`}
+                            >
+                                <Card.Img
+                                    variant='top'
+                                    src='https://img.icons8.com/ios/1000/000000/education.png'
+                                    className={styles.smallIcon}
+                                />
+                                <Card.Body>
+                                    <Card.Title>
+                                        Learn Machine Learning
+                                    </Card.Title>
+                                    <Card.Text>
+                                        With our sophisticated curriculum, you
+                                        will easily progress through our courses
+                                        with a firm grasp of the knowledge.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
                     </Link>
                     <Link href='/join/overview' passHref={true}>
-                        <Card
-                            style={{ width: '18rem' }}
-                            className={`${styles.infoCard} mt-4 mb-5`}
-                        >
-                            <Card.Img
-                                variant='top'
-                                src='https://img.icons8.com/ios-filled/1000/000000/leadership.png'
-                                className={styles.smallIcon}
-                            />
-                            <Card.Body>
-                                <Card.Title>Enjoyable Internships</Card.Title>
-                                <Card.Text>
-                                    Through our selective internship program,
-                                    you will gain leadership experience along
-                                    with team experience.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div data-aos='flip-up' data-aos-delay='500'>
+                            <Card
+                                style={{ width: '18rem' }}
+                                className={`${styles.infoCard} mt-4 mb-5`}
+                            >
+                                <Card.Img
+                                    variant='top'
+                                    src='https://img.icons8.com/ios-filled/1000/000000/leadership.png'
+                                    className={styles.smallIcon}
+                                />
+                                <Card.Body>
+                                    <Card.Title>Internships</Card.Title>
+                                    <Card.Text>
+                                        Through our selective internship
+                                        program, you will gain leadership
+                                        experience along with team experience.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
                     </Link>
 
                     <Link href='/events/hackathon' passHref={true}>
-                        <Card
-                            style={{ width: '18rem' }}
-                            className={`${styles.infoCard} mt-4 mb-5`}
-                        >
-                            <Card.Img
-                                variant='top'
-                                src='https://img.icons8.com/ios-filled/1000/000000/laptop-coding.png'
-                                className={styles.smallIcon}
-                            />
-                            <Card.Body>
-                                <Card.Title>Competitive Hackathons</Card.Title>
-                                <Card.Text>
-                                    Using the machine learning skills you
-                                    obtained from our courses or prior
-                                    knowledge, create a cool project and earn
-                                    rewards.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div data-aos='flip-down' data-aos-delay='500'>
+                            <Card
+                                style={{ width: '18rem' }}
+                                className={`${styles.infoCard} mt-4 mb-5`}
+                            >
+                                <Card.Img
+                                    variant='top'
+                                    src='https://img.icons8.com/ios-filled/1000/000000/laptop-coding.png'
+                                    className={styles.smallIcon}
+                                />
+                                <Card.Body>
+                                    <Card.Title>
+                                        Competitive Hackathons
+                                    </Card.Title>
+                                    <Card.Text>
+                                        Using the machine learning skills you
+                                        obtained from our courses or prior
+                                        knowledge, create a cool project and
+                                        earn rewards.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
                     </Link>
 
                     <Link href='/blog/latest' passHref={true}>
-                        <Card
-                            style={{ width: '18rem' }}
-                            className={`${styles.infoCard} mt-4 mb-5`}
-                        >
-                            <Card.Img
-                                variant='top'
-                                src='https://img.icons8.com/ios-filled/1000/000000/robot.png'
-                                className={styles.smallIcon}
-                            />
-                            <Card.Body>
-                                <Card.Title>Project Blog</Card.Title>
-                                <Card.Text>
-                                    Further improve your ML skills by reading
-                                    through our blogs on a variety of machine
-                                    learning projects.{' '}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                        <div data-aos='slide-left'>
+                            <Card
+                                style={{ width: '18rem' }}
+                                className={`${styles.infoCard} mt-4 mb-5`}
+                            >
+                                <Card.Img
+                                    variant='top'
+                                    src='https://img.icons8.com/ios-filled/1000/000000/robot.png'
+                                    className={styles.smallIcon}
+                                />
+                                <Card.Body>
+                                    <Card.Title>Project Blog</Card.Title>
+                                    <Card.Text>
+                                        Further improve your ML skills by
+                                        reading through our blogs on a variety
+                                        of machine learning projects.{' '}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
                     </Link>
+                </section>
+                <section className={`${styles.sectionContainer3} mt-5 w-75`}>
+                    <h2 className={styles.sectionTitle}>
+                        Register for Classes
+                    </h2>
+                    <div className='d-flex flex-row justify-content-around align-items-center'>
+                        <Image
+                            src='/illustrations/learning.svg'
+                            alt='learning'
+                            width='550'
+                            height='450'
+                            data-aos="slide-right"
+                        />
+                        <div style={{ fontSize: '1.25rem' }} data-aos="slide-left">
+                            <p>✓ Rigorous Curriculum</p>
+                            <p>✓ Plethora of Resources</p>
+                            <p>✓ Online: Learn Anywhere</p>
+                            <p>✓ Six Courses: Beginner to Advanced</p>
+                            <p>✓ Knowledgeable Tutors</p>
+                            <p>✓ Discord Community Support</p>
+
+                            <a
+                                href='https://forms.gle/y4jfEVaoNM2HrzRe8'
+                                target='_blank'
+                                rel='noreferrer'
+                                className='text-decoration-none'
+                            >
+                                <ThreeDButton text='Enroll Now!' />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section className={`${styles.sectionContainer4} mt-5 w-75`}>
+                    <h2 className={styles.sectionTitle}>Join the Mission</h2>
+                    <div className='d-flex flex-row justify-content-around align-items-center'>
+                        <div style={{ fontSize: '1.25rem' }} data-aos="slide-right">
+                            <p>✓ Leadership/Tutoring Experience</p>
+                            <p>✓ Volunteer Hours</p>
+                            <p>✓ Work with a team</p>
+
+                            <a
+                                href='https://forms.gle/7dYev7Agaj36qsHe8'
+                                target='_blank'
+                                rel='noreferrer'
+                                className='text-decoration-none'
+                            >
+                                <button>
+                                    <ThreeDButton text='Apply Now!' />
+                                </button>
+                            </a>
+                        </div>
+                        <Image
+                            src='/illustrations/teaching.svg'
+                            alt='teaching'
+                            width='550'
+                            height='450'
+                            data-aos="slide-left"
+                        />
+                    </div>
+                </section>
+                <section className={`${styles.sectionContainer5} mt-5 w-75`}>
+                    <h2 className={styles.sectionTitle}>
+                        Frequently Asked Questions
+                    </h2>
+                    <div className='mt-5 mb-5' data-aos="flip-up">
+                        <Accordion>
+                            <Accordion.Item eventKey='0'>
+                                <Accordion.Header>
+                                    Are all courses free?
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                    Yes! All courses are free. Our mission is to
+                                    help students all around the world and
+                                    expose them to the field machine learning.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey='1'>
+                                <Accordion.Header>
+                                    Is Neuracode a non-profit?
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                    Yes, we are a non-profit and a completely
+                                    student-run organization.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey='2'>
+                                <Accordion.Header>
+                                    Will interns or tutors earn volunteer hours?
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                    Yes, tutors will earn the number of
+                                    volunteer hours they stay each class and an
+                                    additional volunteer hour for getting used
+                                    to the new system. Every presentation
+                                    created by a tutor will earn a 4 volunteer
+                                    hours.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey='3'>
+                                <Accordion.Header>
+                                    How will I attend the course?
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                    Classes will take place online over Zoom and
+                                    the link to the meeting will be sent to you
+                                    via email when you sign up for the course.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
+                    </div>
                 </section>
             </Container>
         </div>

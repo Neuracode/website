@@ -5,14 +5,16 @@ import MainNavbar from '../components/MainNavbar';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }: AppProps) {
-    interface loaderProps {
-        src: string;
-    }
-    const customLoader = ({ src }: loaderProps) => {
-        return `https://img.icons8.com/ios/1000/000000/${src}`;
-    };
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+        });
+    }, []);
 
     return (
         <>
@@ -186,14 +188,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 className='footerLink'
                                             >
                                                 Contact Us
-                                            </p>
-                                        </Link>
-                                        <Link href='/about/faq' passHref>
-                                            <p
-                                                role='button'
-                                                className='footerLink'
-                                            >
-                                                FAQ
                                             </p>
                                         </Link>
                                     </div>
