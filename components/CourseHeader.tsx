@@ -18,7 +18,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
         <>
             <div className={styles.courseHeader}>
                 <div>
-                    <h1>{name}</h1>
+                    <h1 className={styles.title}>{name}</h1>
                     <a
                         href='https://forms.gle/y4jfEVaoNM2HrzRe8'
                         target='_blank'
