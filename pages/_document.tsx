@@ -11,6 +11,10 @@ export default class MyDocument extends Document {
                         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                     />
                     <script
+                        async
+                        dangerouslySetInnerHTML={{ __html: process.env.SUMO_CODE as string }}
+                    ></script>
+                    <script
                         dangerouslySetInnerHTML={{
                             __html: `
                             window.dataLayer = window.dataLayer || [];
