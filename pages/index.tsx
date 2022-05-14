@@ -160,7 +160,7 @@ const Home: NextPage = () => {
                             >
                                 <Card.Img
                                     variant='top'
-                                    src='https://img.icons8.com/ios/1000/000000/education.png'
+                                    src='/home_icons/education.png'
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>
@@ -187,7 +187,7 @@ const Home: NextPage = () => {
                             >
                                 <Card.Img
                                     variant='top'
-                                    src='https://img.icons8.com/ios-filled/1000/000000/leadership.png'
+                                    src='/home_icons/leadership.png'
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>
@@ -213,7 +213,7 @@ const Home: NextPage = () => {
                             >
                                 <Card.Img
                                     variant='top'
-                                    src='https://img.icons8.com/ios-filled/1000/000000/laptop-coding.png'
+                                    src='/home_icons/coding.png'
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>
@@ -239,7 +239,7 @@ const Home: NextPage = () => {
                             >
                                 <Card.Img
                                     variant='top'
-                                    src='https://img.icons8.com/ios-filled/1000/000000/robot.png'
+                                    src='/home_icons/robot.png'
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>

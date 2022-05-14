@@ -18,7 +18,7 @@ const Overview: React.FC = () => {
             name: 'Intro to Machine Learning',
             description:
                 'Learn the basics of machine learning and theoretical knowledge on the topic. This course is meant as a primer for the other courses, which all rely on the concepts taught in this course.',
-            image: 'https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/1000/000000/external-neural-network-networking-smashingstocks-outline-color-smashing-stocks.png',
+            image: '/course_icons/neural-network.png',
             href: '/courses/intro-to-machine-learning',
             prerequisites: [],
         },
@@ -26,7 +26,7 @@ const Overview: React.FC = () => {
             name: 'Intro to Python',
             description:
                 'Learn to use the general-purpose programming knowledge, which has a huge machine learning community to support it. Python is the most popular language for machine learning and this teaches you the basics you need for the other courses, which all require Python.',
-            image: 'https://img.icons8.com/color/480/000000/python--v2.png',
+            image: '/course_icons/python.png',
             href: '/courses/intro-to-python',
             prerequisites: [],
         },
@@ -34,7 +34,7 @@ const Overview: React.FC = () => {
             name: 'Intermediate Python',
             description:
                 'After the basics, intermediate Python is the next step in the machine learning journey. This course teaches you the more advanced concepts, which you will continue to use in other courses and your machine learning journey in general.',
-            image: 'https://img.icons8.com/color/480/000000/python--v2.png',
+            image: '/course_icons/python.png',
             href: '/courses/intermediate-python',
             prerequisites: ['Basic Python'],
         },
@@ -54,7 +54,7 @@ const Overview: React.FC = () => {
             name: 'Intro to Keras',
             description:
                 'Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with Tensorflow.',
-            image: '/keras_icon.png',
+            image: '/course_icons/keras_icon.png',
             href: '/courses/intro-to-keras',
             prerequisites: [
                 'Basic Python',
@@ -66,7 +66,7 @@ const Overview: React.FC = () => {
             name: 'Intro to Tensorflow',
             description:
                 'Learn how to use Tensorflow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.',
-            image: 'https://img.icons8.com/color/480/000000/tensorflow.png',
+            image: '/course_icons/tensorflow.png',
             href: '/courses/intro-to-tensorflow',
             prerequisites: [
                 'Basic Python',
@@ -115,51 +115,44 @@ const Overview: React.FC = () => {
     const whyUsList = [
         {
             name: 'Virtual Lessons',
-            logo: 'https://img.icons8.com/ios-filled/1000/000000/zoom.png',
+            logo: '/course_icons/zoom.png',
         },
         {
             name: 'Large Discord Community',
-            logo: 'https://img.icons8.com/glyph-neue/1000/000000/crowd.png',
+            logo: '/course_icons/crowd.png',
         },
         {
             name: 'Exercises and Solutions',
-            logo: 'https://img.icons8.com/ios/1000/000000/list--v1.png',
+            logo: '/course_icons/list.png',
         },
         {
             name: 'Project-based learning',
-            logo: 'https://img.icons8.com/ios-filled/1000/000000/task.png',
+            logo: '/course_icons/tasks.png',
         },
         {
             name: 'Hackathons: Apply your knowledge',
-            logo: 'https://img.icons8.com/ios/1000/000000/code.png',
+            logo: '/course_icons/code.png',
         },
         {
             name: '5:1 student-to-tutor ratio',
-            logo: 'https://img.icons8.com/ios/1000/000000/teacher.png',
+            logo: '/course_icons/teacher.png',
         },
     ];
 
     const gainList = [
         {
             name: 'Learn core technologies',
-            logo: 'https://img.icons8.com/ios-filled/1000/000000/code.png',
+            logo: '/course_icons/code.png',
         },
         {
             name: 'Create your own projects',
-            logo: 'https://img.icons8.com/ios-filled/1000/000000/task.png',
+            logo: '/course_icons/tasks.png',
         },
         {
             name: 'Ahead of the game',
-            logo: 'https://img.icons8.com/ios/1000/000000/rocket--v1.png',
+            logo: '/course_icons/rocket.png',
         },
     ];
-
-    interface loaderProps {
-        src: string;
-    }
-    const customLoader = ({ src }: loaderProps) => {
-        return `https://img.icons8.com/ios/1000/000000/${src}`;
-    };
 
     return (
         <>
@@ -181,7 +174,6 @@ const Overview: React.FC = () => {
                                         className={styles.whyUsOrGainItem}
                                     >
                                         <Image
-                                            loader={customLoader}
                                             src={item.logo}
                                             width={40}
                                             height={40}
@@ -214,7 +206,6 @@ const Overview: React.FC = () => {
                                         className={styles.whyUsOrGainItem}
                                     >
                                         <Image
-                                            loader={customLoader}
                                             src={item.logo}
                                             width={40}
                                             height={40}
