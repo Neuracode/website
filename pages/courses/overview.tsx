@@ -47,7 +47,7 @@ const Overview: React.FC = () => {
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
-                'AI Concepts',
+                'ML Concepts',
             ],
         },
         {
@@ -59,7 +59,7 @@ const Overview: React.FC = () => {
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
-                'AI Concepts',
+                'ML Concepts',
             ],
         },
         {
@@ -71,7 +71,7 @@ const Overview: React.FC = () => {
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
-                'AI Concepts',
+                'ML Concepts',
                 'Keras',
             ],
         },
@@ -99,7 +99,7 @@ const Overview: React.FC = () => {
                                         {course.description}
                                         <br />
                                         <br />
-                                        <b>Prerequisites:</b>
+                                        <b>Prerequisites: </b>
                                         {course.prerequisites.join(', ') ||
                                             'None'}
                                     </Card.Text>

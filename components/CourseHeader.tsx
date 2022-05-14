@@ -7,12 +7,24 @@ interface CourseHeaderProps {
     name: string;
     about: string;
     curriculumList: string[];
+    startDate: string;
+    endDate: string;
+    dayAndTime: string;
+    timeCommitment: number;
+    recommendedGrades: string;
+    prerequisites: string[];
 }
 
 const CourseHeader: React.FC<CourseHeaderProps> = ({
     name,
     curriculumList,
-    about
+    about,
+    startDate,
+    endDate,
+    dayAndTime,
+    timeCommitment,
+    recommendedGrades,
+    prerequisites
 }) => {
     return (
         <>
@@ -32,13 +44,23 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
                 </div>
             </div>
             <Container>
-                <section>
+                <section className='mb-4'>
                     <h2 style={{ fontWeight: 800 }}>
-                        Why should I take <span>{name}</span>
+                        What will I learn in this course
                     </h2>
                     <p>{about}</p>
                 </section>
-                <section>
+                <section className='mb-4'>
+                    <h2 style={{ fontWeight: 800 }}>
+                        Information
+                    </h2>
+                    <p><b>Date:</b> {startDate} to {endDate} (Summer)</p>
+                    <p><b>When:</b> {dayAndTime}</p>
+                    <p><b>Time Commitment:</b> {timeCommitment} hours per week</p>
+                    <p><b>Recommended Grades: </b> {recommendedGrades}</p>
+                    <p><b>Prerequisites: </b> {prerequisites.join(', ') || 'None'}</p>
+                </section>
+                <section className='mb-5'>
                     <h2 style={{ fontWeight: 800 }}>Course Curriculum</h2>
                     <ListGroup variant='flush'>
                         {curriculumList.map((item, index) => (

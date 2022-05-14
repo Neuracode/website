@@ -23,6 +23,12 @@ const IntroToKeras: React.FC = () => {
                 name='Intro to Keras'
                 curriculumList={curriculumList}
                 about='Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with Tensorflow.'
+                startDate='June 30th'
+                endDate='August 30th'
+                dayAndTime='Friday, 3:00PM - 5:00PM + Saturday, 3:00PM - 5:00PM'
+                timeCommitment={4}
+                recommendedGrades='8 - 12'
+                prerequisites={['Basic Python', 'Intermediate Python', 'ML Concepts']}
             />
         </>
     );

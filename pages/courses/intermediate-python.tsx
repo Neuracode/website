@@ -31,6 +31,12 @@ const IntermediatePython: React.FC = () => {
                 name='Intermediate Python'
                 curriculumList={curriculumList}
                 about='After the basics, intermediate Python is the next step in the machine learning journey. This course teaches you the more advanced concepts, which you will continue to use in other courses and your machine learning journey in general.'
+                startDate='June 30th'
+                endDate='August 30th'
+                dayAndTime='Friday, 3:00PM - 4:30PM + Saturday, 3:00PM - 4:30PM'
+                timeCommitment={3}
+                recommendedGrades='8 - 10'
+                prerequisites={['Basic Python']}
             />
         </>
     );

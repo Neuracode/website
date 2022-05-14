@@ -53,6 +53,12 @@ const IntroToScikitLearn: React.FC = () => {
                 name='Intro to Scikit-Learn'
                 curriculumList={curriculumList}
                 about='Learn how to use Scikit-Learn, a machine learning library for Python that includes a lot of useful machine learning algorithms and functions. It is not too complex and is a great way to get started with machine learning.'
+                startDate='June 30th'
+                endDate='August 30th'
+                dayAndTime='Friday, 3:00PM - 5:00PM + Saturday, 3:00PM - 5:00PM'
+                timeCommitment={4}
+                recommendedGrades='8 - 12'
+                prerequisites={['Basic Python', 'Intermediate Python', 'ML Concepts']}
             />
         </>
     );
