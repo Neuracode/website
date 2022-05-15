@@ -28,7 +28,7 @@ const MainNavbar: React.FC = () => {
             return (
                 <Link href={options.href} passHref={true}>
                     <Menu.Item onClick={() => setExpanded(false)}>
-                        {({ active }) => (
+                        {({ active }: any) => (
                             <button
                                 className={`${
                                     active
@@ -155,6 +155,10 @@ const MainNavbar: React.FC = () => {
                                         {
                                             name: 'Privacy Policy',
                                             href: 'https://docs.google.com/document/d/1YkSyThzuvsnHqJiHTcniDk6tLdCiuWs_jMC8bAZwbPQ/edit?usp=sharing',
+                                        },
+                                        {
+                                            name: 'Rules',
+                                            href: 'https://azamahmed.notion.site/Neuracode-Rules-c09a5a5e8b1a4344a9600e29646a1610',
                                         },
                                     ]}
                                 />
