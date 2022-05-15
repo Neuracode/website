@@ -28,7 +28,7 @@ const IntroToTensorflow: React.FC = () => {
     return (
         <>
             <CourseHeader
-                name='Intro to Tensorflow'
+                name='Intermediate Tensorflow'
                 curriculumList={curriculumList}
                 about='Learn how to use Tensorflow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.'
                 startDate='June 30th'
@@ -36,7 +36,12 @@ const IntroToTensorflow: React.FC = () => {
                 dayAndTime='Friday, 3:00PM - 5:30PM + Saturday, 3:00PM - 5:30PM'
                 timeCommitment={5}
                 recommendedGrades='9 - 12'
-                prerequisites={['Basic Python', 'Intermediate Python', 'ML Concepts', 'Keras']}
+                prerequisites={[
+                    'Basic Python',
+                    'Intermediate Python',
+                    'ML Concepts',
+                    'Keras',
+                ]}
             />
         </>
     );

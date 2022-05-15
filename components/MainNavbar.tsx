@@ -122,16 +122,16 @@ const MainNavbar: React.FC = () => {
                                             href: '/courses/intermediate-python',
                                         },
                                         {
-                                            name: 'Intro to Scikit-Learn',
-                                            href: '/courses/intro-to-scikit-learn',
+                                            name: 'Intermediate Scikit-Learn',
+                                            href: '/courses/intermediate-scikit-learn',
                                         },
                                         {
-                                            name: 'Intro to Keras',
-                                            href: '/courses/intro-to-keras',
+                                            name: 'Intermediate Keras',
+                                            href: '/courses/intermediate-keras',
                                         },
                                         {
-                                            name: 'Intro to Tensorflow',
-                                            href: '/courses/intro-to-tensorflow',
+                                            name: 'Intermediate Tensorflow',
+                                            href: '/courses/intermediate-tensorflow',
                                         },
                                     ]}
                                 />

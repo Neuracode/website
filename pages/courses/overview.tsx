@@ -39,11 +39,11 @@ const Overview: React.FC = () => {
             prerequisites: ['Basic Python'],
         },
         {
-            name: 'Intro to Scikit-Learn',
+            name: 'Intermediate Scikit-Learn',
             description:
                 'Learn how to use Scikit-Learn, a machine learning library for Python that includes a lot of useful machine learning algorithms and functions. It is not too complex and is a great way to get started with machine learning.',
             image: 'https://avatars2.githubusercontent.com/u/365630?v=3&s=400',
-            href: '/courses/intro-to-scikit-learn',
+            href: '/courses/intermediate-scikit-learn',
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
@@ -51,11 +51,11 @@ const Overview: React.FC = () => {
             ],
         },
         {
-            name: 'Intro to Keras',
+            name: 'Intermediate Keras',
             description:
                 'Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with Tensorflow.',
             image: '/course_icons/keras_icon.png',
-            href: '/courses/intro-to-keras',
+            href: '/courses/intermediate-keras',
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
@@ -63,11 +63,11 @@ const Overview: React.FC = () => {
             ],
         },
         {
-            name: 'Intro to Tensorflow',
+            name: 'Intermediate Tensorflow',
             description:
                 'Learn how to use Tensorflow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.',
             image: '/course_icons/tensorflow.png',
-            href: '/courses/intro-to-tensorflow',
+            href: '/courses/intermediate-tensorflow',
             prerequisites: [
                 'Basic Python',
                 'Intermediate Python',
