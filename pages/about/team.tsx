@@ -51,7 +51,6 @@ const Team: React.FC = () => {
                         title='Tutor: Intro to ML + Python'
                         image='arnav_podichetty.jpeg'
                         description='High school sophomore interested in developing coding skills and teaching youth through innovative techniques'
-                        linkedin='https://www.linkedin.com/in/arnav-p/'
                     />
                 </div>
             </Container>
