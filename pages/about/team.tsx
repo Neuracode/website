@@ -38,7 +38,22 @@ const Team: React.FC = () => {
                         description='High school student interested in robotics and teaching students about coding'
                     />
                 </div>
-                <h3 className={styles.topText}>Interns</h3>
+                <h3 className={styles.topText}>Tutors</h3>
+                <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
+                    <TeamCard
+                        name='Jaren Chu'
+                        title='Tutor: Intro to ML + Python'
+                        image='jaren_chu.jpeg'
+                        description='High school sophomore interested in artificial intelligence and programming techniques'
+                    />
+                    <TeamCard
+                        name='Arnav Podichetty'
+                        title='Tutor: Intro to ML + Python'
+                        image='arnav_podichetty.jpeg'
+                        description='High school sophomore interested in developing coding skills and teaching youth through innovative techniques'
+                        linkedin='https://www.linkedin.com/in/arnav-p/'
+                    />
+                </div>
             </Container>
         </>
     );
