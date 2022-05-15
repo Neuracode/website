@@ -29,6 +29,13 @@ const Team: React.FC = () => {
                         image='jaiman_pandya.jpeg'
                         description='Student researcher in machine learning with a passion for computational biology'
                         linkedin='https://www.linkedin.com/in/jaiman-pandya-825350234'
+                        github='https://github.com/Jaiman-Pandya'
+                    />
+                    <TeamCard
+                        name='Annabelle Deng'
+                        title='Director of Finances'
+                        image='annabelle_deng.jpeg'
+                        description='High school student interested in robotics and teaching students about coding'
                     />
                 </div>
                 <h3 className={styles.topText}>Interns</h3>
