@@ -167,10 +167,6 @@ const MainNavbar: React.FC = () => {
                                             name: 'Latest',
                                             href: '/blog/latest-blogs',
                                         },
-                                        {
-                                            name: 'Authors',
-                                            href: '/blog/authors',
-                                        },
                                     ]}
                                 />
                             </Nav.Link>
