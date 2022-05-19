@@ -8,13 +8,14 @@ import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 import * as ga from '../lib/ga';
 
 function MyApp({ Component, pageProps }: AppProps) {
     const router = useRouter();
+    const { asPath } = useRouter();
 
     useEffect(() => {
         const handleRouteChange = (url: string) => {
@@ -39,15 +40,24 @@ function MyApp({ Component, pageProps }: AppProps) {
 
     return (
         <>
+            {asPath === '/' ? (
+                <div className='banner'>
+                    <div>
+                        Do you want to learn machine learning?{' '}
+                        <Link href='/courses/overview' passHref>
+                            <b className='text-decoration-underline cursor-pointer'>
+                                Sign up
+                            </b>
+                        </Link>{' '}
+                        for any course by June 28th!
+                    </div>
+                </div>
+            ) : null}
+
             <MainNavbar />
             <Component {...pageProps} />
             <footer>
                 <Container className='w-100'>
-                    {/* <p>
-                        We&apos;re on a mission to democratize machine learning!
-                        Support the mission by donating or applying for an
-                        internship.
-                    </p> */}
                     <div>
                         <Row>
                             <Col>
@@ -84,12 +94,15 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 Latest Blogs
                                             </p>
                                         </Link>
-                                        <Link href='/events/hackathon' passHref>
+                                        <Link
+                                            href='/events/neurahacks'
+                                            passHref
+                                        >
                                             <p
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Hackathon (Coming Soon)
+                                                Neurahacks (Coming Soon)
                                             </p>
                                         </Link>
                                         <Link
@@ -222,11 +235,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <hr />
                     <p>
                         <div className='d-flex flex-row justify-content-between'>
-                        <span>
-                            Copyright &copy; {new Date().getFullYear()}{' '}
-                            Neuracode. All rights reserved.
-                        </span>
-                        <span>EIN: 88-1756778</span>
+                            <span>
+                                Copyright &copy; {new Date().getFullYear()}{' '}
+                                Neuracode. All rights reserved.
+                            </span>
+                            <span>EIN: 88-1756778</span>
                         </div>
                     </p>
                 </Container>

@@ -82,6 +82,7 @@ const MainNavbar: React.FC = () => {
                 id='navbar'
                 expand='lg'
                 expanded={expanded}
+                sticky='top'
             >
                 <Container>
                     <Link href='/' passHref={true}>
@@ -175,8 +176,8 @@ const MainNavbar: React.FC = () => {
                                     name='Events'
                                     options={[
                                         {
-                                            name: 'Hackathon',
-                                            href: '/events/hackathon',
+                                            name: 'Neurahacks',
+                                            href: '/events/neurahacks',
                                         },
                                     ]}
                                 />

@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                 />
                 <meta
                     name='keywords'
-                    content='neuracode, nonprofit, non-profit, 501(c)(3), 501 c 3, 501c3, neura code, educate, education, low-income, low income, underrepresented students, student led, student-led, machine learning, high school, programming, coding, computer science, cs, intro to machine learning, intro to python, intermediate python, Intermediate Scikit-Learn, Intermediate Keras, Intermediate Tensorflow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks, azam ahmed, united states, neuracode global, new jersey, nj, neuracode.org, neural, ann, cnn, rnn, artificial neural network, convolutional neural network, recurrent neural network, nn, supervised learning, unsupervised learning, reinforcement learning, regression, classification, decision trees, random forests, gan, generative, generative adversarial networks, deep learning, azam, ahmed, azam ahmed president'
+                    content='neuracode, nonprofit, non-profit, 501(c)(3), 501 c 3, 501c3, neura code, educate, education, low-income, low income, underrepresented students, student led, student-led, machine learning, high school, programming, coding, computer science, cs, intro to machine learning, intro to python, intermediate python, Intermediate Scikit-Learn, Intermediate Keras, Intermediate Tensorflow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks, azam ahmed, united states, neuracode global, new jersey, nj, neuracode.org, neural, ann, cnn, rnn, artificial neural network, convolutional neural network, recurrent neural network, nn, supervised learning, unsupervised learning, reinforcement learning, regression, classification, decision trees, random forests, gan, generative, generative adversarial networks, deep learning, azam, ahmed, azam ahmed president, machine learning classes, machine learning tutoring, coding classes, programming classes'
                 />
                 <meta name='robots' content='index, follow' />
                 <meta
@@ -339,24 +339,23 @@ const Home: NextPage = () => {
                             </Accordion.Item>
                             <Accordion.Item eventKey='1'>
                                 <Accordion.Header>
-                                    Is Neuracode a non-profit?
+                                    Is Neuracode a nonprofit?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Yes, we are a non-profit and a completely
-                                    student-run organization.
+                                    Yes, we are a student-run 501(c)(3) nonprofit organization.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey='2'>
                                 <Accordion.Header>
-                                    Will interns or tutors earn volunteer hours?
+                                    Will volunteers earn volunteer hours?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Yes, tutors will earn the number of
+                                    Yes. Tutors will earn the number of
                                     volunteer hours they stay each class and an
                                     additional volunteer hour for getting used
                                     to the new system. Every presentation
-                                    created by a tutor will earn a 4 volunteer
-                                    hours.
+                                    created by a tutor will earn 4 volunteer
+                                    hours. The number of volunteer hours earned by students in other positions will be calculated based on the position they are in.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey='3'>
@@ -364,7 +363,7 @@ const Home: NextPage = () => {
                                     How will I attend the course?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Classes will take place online over Zoom and
+                                    Classes will take place online over Zoom, and
                                     the link to the meeting will be sent to you
                                     via email when you sign up for the course.
                                 </Accordion.Body>
