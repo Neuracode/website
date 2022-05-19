@@ -73,7 +73,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 Our Team
                                             </p>
                                         </Link>
-                                        <Link href='/blog/latest' passHref>
+                                        <Link
+                                            href='/blog/latest-blogs'
+                                            passHref
+                                        >
                                             <p
                                                 role='button'
                                                 className='footerLink'

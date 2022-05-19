@@ -1,1 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.blogPreviewCard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    transition: 0.4s;
+}
+
+.blogPreviewTitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogPreviewDescription {
+    color: #828282;
+}
+
+.blogPreviewCard:hover {
+    cursor: pointer;
+    border: 1px solid #c6c6c6;
+}
+
+.blogPreviewImage {
+    margin-right: 1rem;
+}
+
+.blogLayout {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .blogLayout {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2.5rem !important;
+    }
+}

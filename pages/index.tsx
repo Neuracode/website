@@ -225,7 +225,7 @@ const Home: NextPage = () => {
                         </div>
                     </Link>
 
-                    <Link href='/blog/latest' passHref={true}>
+                    <Link href='/blog/latest-blogs' passHref={true}>
                         <div data-aos='zoom-in-left' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}

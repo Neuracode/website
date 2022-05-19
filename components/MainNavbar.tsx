@@ -169,7 +169,7 @@ const MainNavbar: React.FC = () => {
                                     options={[
                                         {
                                             name: 'Latest',
-                                            href: '/blog/latest',
+                                            href: '/blog/latest-blogs',
                                         },
                                         {
                                             name: 'Authors',
