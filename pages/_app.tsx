@@ -221,10 +221,13 @@ function MyApp({ Component, pageProps }: AppProps) {
                     </div>
                     <hr />
                     <p>
+                        <div className='d-flex flex-row justify-content-between'>
                         <span>
                             Copyright &copy; {new Date().getFullYear()}{' '}
                             Neuracode. All rights reserved.
                         </span>
+                        <span>EIN: 88-1756778</span>
+                        </div>
                     </p>
                 </Container>
             </footer>

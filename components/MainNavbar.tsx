@@ -149,15 +149,11 @@ const MainNavbar: React.FC = () => {
                                             href: 'https://discord.gg/N2dC3nNA7n',
                                         },
                                         {
-                                            name: 'Donate',
-                                            href: '/about/donate',
-                                        },
-                                        {
                                             name: 'Privacy Policy',
                                             href: 'https://docs.google.com/document/d/1YkSyThzuvsnHqJiHTcniDk6tLdCiuWs_jMC8bAZwbPQ/edit?usp=sharing',
                                         },
                                         {
-                                            name: 'Rules',
+                                            name: 'Neuracode Guidelines',
                                             href: 'https://azamahmed.notion.site/Neuracode-Rules-c09a5a5e8b1a4344a9600e29646a1610',
                                         },
                                     ]}
