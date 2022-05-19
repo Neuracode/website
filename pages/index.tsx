@@ -188,11 +188,9 @@ const Home: NextPage = () => {
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>
-                                    <Card.Title>Internships</Card.Title>
+                                    <Card.Title>Volunteer Opportunity</Card.Title>
                                     <Card.Text>
-                                        Through our selective internship
-                                        program, you will gain leadership
-                                        experience along with team experience.
+                                        By volunteering for Neuracode, you will gain tutoring or leadership experience, and you will earn volunteer hours.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
