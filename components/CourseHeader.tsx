@@ -55,7 +55,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
                         Information
                     </h2>
                     <p><b>Date:</b> {startDate} to {endDate} (Summer)</p>
-                    <p><b>When:</b> {dayAndTime}</p>
+                    <p><b>When:</b> {dayAndTime} (EST/EDT)</p>
                     <p><b>Time Commitment:</b> {timeCommitment} hours per week</p>
                     <p><b>Recommended Grades: </b> {recommendedGrades}</p>
                     <p><b>Prerequisites: </b> {prerequisites.join(', ') || 'None'}</p>

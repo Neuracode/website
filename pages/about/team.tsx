@@ -12,7 +12,7 @@ const Team: React.FC = () => {
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     <TeamCard
                         name='Azam Ahmed'
-                        title='Founder + President'
+                        title='Founder + Chief Executive Officer'
                         image='azam.jpg'
                         description='High school student who loves to code and delve deeper
             into the field of machine learning.'
@@ -20,32 +20,33 @@ const Team: React.FC = () => {
                         github='https://github.com/azam999'
                         website='https://azamahmed.tech'
                     />
-                </div>
-                <h3 className={styles.topText}>Directors</h3>
-                <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     <TeamCard
                         name='Jaiman Pandya'
-                        title='Director of Outreach'
+                        title='Chief Operating Officer'
                         image='jaiman_pandya.jpeg'
                         description='Student researcher in machine learning with a passion for computational biology'
                         linkedin='https://www.linkedin.com/in/jaiman-pandya-825350234'
                         github='https://github.com/Jaiman-Pandya'
                     />
+                </div>
+                <h3 className={styles.topText}>Directors</h3>
+                <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
+                    
                     <TeamCard
                         name='Annabelle Deng'
-                        title='Director of Finances'
+                        title='Director of Public Relations and Marketing'
                         image='annabelle_deng.jpeg'
                         description='High school student interested in robotics and teaching students about coding'
+                    />
+                    <TeamCard
+                        name='Jaren Chu'
+                        title='Director of Tutoring'
+                        image='jaren_chu.jpeg'
+                        description='High school sophomore interested in artificial intelligence and programming techniques'
                     />
                 </div>
                 <h3 className={styles.topText}>Tutors</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
-                    <TeamCard
-                        name='Jaren Chu'
-                        title='Tutor: Intro to ML + Python'
-                        image='jaren_chu.jpeg'
-                        description='High school sophomore interested in artificial intelligence and programming techniques'
-                    />
                     <TeamCard
                         name='Arnav Podichetty'
                         title='Tutor: Intro to ML + Python'
@@ -57,6 +58,13 @@ const Team: React.FC = () => {
                         title='Tutor: Intro to ML + Python'
                         image='abubakr_elmallah.jpeg'
                         description='High school student interested in computer science and strengthening coding skills in youth'
+                    />
+                    
+                    <TeamCard
+                        name='Sanvi Srinivas'
+                        title='Tutor: Intro to ML'
+                        image='sanvi_srinivas.jpeg'
+                        description='High school student interested in spreading and delving into artificial intelligence.'
                     />
                 </div>
             </Container>
