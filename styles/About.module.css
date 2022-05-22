@@ -1,30 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 .topText {
-  font-weight: bold;
-  font-size: 2.5rem;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .teamMemberCard {
-  width: 18rem;
-  border-radius: 20px;
-  margin-bottom: 40px;
+    width: 18rem;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.teamMemberBackground {
+    /* background-color: red; */
+    /* height: 150px; */
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+
+.teamMemberImageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute; 
+  top: 30px;
+}
+
+.teamMemberImage {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white !important;
 }
 
 .teamMemberName {
   font-size: 1.8rem;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  margin-top: 3.5rem;
 }
 
 .teamMemberTitle {
   font-size: 1.2rem;
   font-weight: 300;
+  text-align: center;
 }
 
-.teamMemberImage {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+.teamMemberDescription {
+    text-align: center;
 }

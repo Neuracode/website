@@ -14,8 +14,7 @@ const Team: React.FC = () => {
                         name='Azam Ahmed'
                         title='Founder + President + Chief Executive Officer'
                         image='azam.jpg'
-                        description='High school student who loves to code and delve deeper
-            into the field of machine learning.'
+                        description='High school student who loves to code and delve deeper into the field of machine learning'
                         linkedin='https://www.linkedin.com/in/azam-ahmed'
                         github='https://github.com/azam999'
                         website='https://azamahmed.tech'
@@ -62,13 +61,13 @@ const Team: React.FC = () => {
                         name='Sanvi Srinivas'
                         title='Tutor: Intro to ML'
                         image='sanvi_srinivas.jpeg'
-                        description='High school student interested in spreading and delving into artificial intelligence.'
+                        description='High school student interested in spreading and delving into artificial intelligence'
                     />
                     <TeamCard
                         name='Aditi Athreyas'
                         title='Public Relations + Discord Moderator'
                         image='aditi_athreyas.jpeg'
-                        description='High school student who loves to work with robotics and spends time designing robots.'
+                        description='High school student who loves to work with robotics and spends time designing robots'
                     />
                     <TeamCard
                         name='Ryan Zwatchska'
