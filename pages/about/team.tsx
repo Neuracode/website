@@ -12,7 +12,7 @@ const Team: React.FC = () => {
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     <TeamCard
                         name='Azam Ahmed'
-                        title='Founder + Chief Executive Officer'
+                        title='Founder + President + Chief Executive Officer'
                         image='azam.jpg'
                         description='High school student who loves to code and delve deeper
             into the field of machine learning.'
@@ -22,7 +22,7 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Jaiman Pandya'
-                        title='Chief Operating Officer'
+                        title='Vice President + Chief Operating Officer'
                         image='jaiman_pandya.jpeg'
                         description='Student researcher in machine learning with a passion for computational biology'
                         linkedin='https://www.linkedin.com/in/jaiman-pandya-825350234'
@@ -31,7 +31,6 @@ const Team: React.FC = () => {
                 </div>
                 <h3 className={styles.topText}>Directors</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
-                    
                     <TeamCard
                         name='Annabelle Deng'
                         title='Director of Public Relations and Marketing'
@@ -45,7 +44,7 @@ const Team: React.FC = () => {
                         description='High school sophomore interested in artificial intelligence and programming techniques'
                     />
                 </div>
-                <h3 className={styles.topText}>Tutors</h3>
+                <h3 className={styles.topText}>Volunteers</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     <TeamCard
                         name='Arnav Podichetty'
@@ -55,16 +54,33 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Abubakr Elmallah'
-                        title='Tutor: Intro to ML + Python'
+                        title='Tutor: Intro to ML + Python + Discord Moderator'
                         image='abubakr_elmallah.jpeg'
                         description='High school student interested in computer science and strengthening coding skills in youth'
                     />
-                    
                     <TeamCard
                         name='Sanvi Srinivas'
                         title='Tutor: Intro to ML'
                         image='sanvi_srinivas.jpeg'
                         description='High school student interested in spreading and delving into artificial intelligence.'
+                    />
+                    <TeamCard
+                        name='Aditi Athreyas'
+                        title='Public Relations + Discord Moderator'
+                        image='aditi_athreyas.jpeg'
+                        description='High school student who loves to work with robotics and spends time designing robots.'
+                    />
+                    <TeamCard
+                        name='Ryan Zwatchska'
+                        title='Tutor: Intro to ML'
+                        image='ryan_zwatchska.jpeg'
+                        description='High school student interested in teaching and learning more about the nature of artificial intelligence'
+                    />
+                    <TeamCard
+                        name='Reza Razavi'
+                        title='Recruiter + Public Relations + Events Organizer'
+                        image='reza_razavi.jpeg'
+                        description='Currently a high school student with a passion for machine learning and computational neuroscience'
                     />
                 </div>
             </Container>
