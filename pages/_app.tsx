@@ -102,7 +102,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Neurahacks (Coming Soon)
+                                                NeuraHacks
                                             </p>
                                         </Link>
                                         <Link
@@ -113,7 +113,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Internship Applications
+                                                Volunteer Application
                                             </p>
                                         </Link>
                                     </div>

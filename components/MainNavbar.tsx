@@ -176,7 +176,7 @@ const MainNavbar: React.FC = () => {
                                     name='Events'
                                     options={[
                                         {
-                                            name: 'Neurahacks',
+                                            name: 'NeuraHacks',
                                             href: '/events/neurahacks',
                                         },
                                     ]}
