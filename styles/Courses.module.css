@@ -100,3 +100,20 @@
 .whyUsOrGainItemName {
     margin-left: 1rem;
 }
+
+.courseSet {
+    border-radius: 14px;
+}
+
+.courseSet div div h2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.courseSet div p {
+    font-weight: 300;
+}
+
+.courseSet:hover {
+    cursor: pointer;
+}

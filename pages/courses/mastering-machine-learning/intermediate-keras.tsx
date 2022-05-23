@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
-import CourseHeader from '../../components/CourseHeader';
+import CourseHeader from '../../../components/CourseHeader';
 
-const IntroToKeras: React.FC = () => {
+const IntermediateKeras: React.FC = () => {
     const curriculumList = [
         'What is Keras?',
         'Multilayer Perceptron (MLP) overview',
@@ -38,4 +38,4 @@ const IntroToKeras: React.FC = () => {
     );
 };
 
-export default IntroToKeras;
+export default IntermediateKeras;

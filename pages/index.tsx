@@ -125,7 +125,7 @@ const Home: NextPage = () => {
                             underrepresented students.
                         </h5>
 
-                        <Link href='/courses/overview' passHref={true}>
+                        <Link href='/courses' passHref={true}>
                             <div
                                 className={styles.coursesBtnWrapper}
                                 data-aos='slide-right'
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                     </div>
                 </section>
                 <section className={styles.sectionContainer2}>
-                    <Link href='/courses/overview' passHref={true}>
+                    <Link href='/courses' passHref={true}>
                         <div data-aos='zoom-in-right' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}

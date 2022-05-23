@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
-import CourseHeader from '../../components/CourseHeader';
+import CourseHeader from '../../../components/CourseHeader';
 
-const IntroToTensorflow: React.FC = () => {
+const IntermediateTensorflow: React.FC = () => {
     const curriculumList = [
         'What is Tensorflow?',
         'Tensors',
@@ -47,4 +47,4 @@ const IntroToTensorflow: React.FC = () => {
     );
 };
 
-export default IntroToTensorflow;
+export default IntermediateTensorflow;

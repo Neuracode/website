@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
-import CourseHeader from '../../components/CourseHeader';
+import CourseHeader from '../../../components/CourseHeader';
 
-const IntroToMachineLearning: React.FC = () => {
+const BlockCodingWithScratch: React.FC = () => {
     const curriculumList = [
         'What is machine learning?',
         'Why use machine learning?',
@@ -16,18 +16,18 @@ const IntroToMachineLearning: React.FC = () => {
     return (
         <>
             <CourseHeader
-                name='Intro to Machine Learning'
+                name='Block Coding with Scratch'
                 curriculumList={curriculumList}
-                about='Learn the basics of machine learning and theoretical knowledge on the topic. This course is meant as a primer for the other courses, which all rely on the concepts taught in this course.'
+                about='If you are completely new to coding, this course is for you. This course is meant to teach you the basics of coding, and will help you get started with the rest of the courses. It is based on drag-and-drop programming, which is great for young learners.'
                 startDate='June 30th'
                 endDate='July 30th'
                 dayAndTime='Friday, 3:00PM - 4:30PM + Saturday, 3:00PM - 4:30PM'
                 timeCommitment={3}
-                recommendedGrades='6 - 10'
+                recommendedGrades='2-6'
                 prerequisites={[]}
             />
         </>
     );
 };
 
-export default IntroToMachineLearning;
+export default BlockCodingWithScratch;

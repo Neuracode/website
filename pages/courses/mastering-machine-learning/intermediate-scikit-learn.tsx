@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
-import CourseHeader from '../../components/CourseHeader';
+import CourseHeader from '../../../components/CourseHeader';
 
-const IntroToScikitLearn: React.FC = () => {
+const IntermediateScikitLearn: React.FC = () => {
     const curriculumList = [
         'What is Scikit-Learn?',
         'Classification overview',
@@ -68,4 +68,4 @@ const IntroToScikitLearn: React.FC = () => {
     );
 };
 
-export default IntroToScikitLearn;
+export default IntermediateScikitLearn;

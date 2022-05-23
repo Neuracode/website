@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, ListGroup } from 'react-bootstrap';
-import styles from '../../styles/Courses.module.css';
-import CourseHeader from '../../components/CourseHeader';
+import styles from '../../../styles/Courses.module.css';
+import CourseHeader from '../../../components/CourseHeader';
 
 const IntermediatePython: React.FC = () => {
     const curriculumList = [

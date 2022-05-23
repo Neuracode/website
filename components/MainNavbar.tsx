@@ -108,31 +108,15 @@ const MainNavbar: React.FC = () => {
                                     options={[
                                         {
                                             name: 'Overview',
-                                            href: '/courses/overview',
+                                            href: '/courses',
                                         },
                                         {
-                                            name: 'Intro to Machine Learning',
-                                            href: '/courses/intro-to-machine-learning',
+                                            name: 'Intro to Programming',
+                                            href: '/courses/intro-to-programming',
                                         },
                                         {
-                                            name: 'Intro to Python',
-                                            href: '/courses/intro-to-python',
-                                        },
-                                        {
-                                            name: 'Intermediate Python',
-                                            href: '/courses/intermediate-python',
-                                        },
-                                        {
-                                            name: 'Intermediate Scikit-Learn',
-                                            href: '/courses/intermediate-scikit-learn',
-                                        },
-                                        {
-                                            name: 'Intermediate Keras',
-                                            href: '/courses/intermediate-keras',
-                                        },
-                                        {
-                                            name: 'Intermediate Tensorflow',
-                                            href: '/courses/intermediate-tensorflow',
+                                            name: 'Mastering Machine Learning',
+                                            href: '/courses/mastering-machine-learning',
                                         },
                                     ]}
                                 />

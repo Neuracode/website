@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <div className='banner'>
                     <div>
                         Do you want to learn machine learning?{' '}
-                        <Link href='/courses/overview' passHref>
+                        <Link href='/courses' passHref>
                             <b className='text-decoration-underline cursor-pointer'>
                                 Sign up
                             </b>
@@ -67,7 +67,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                     </b>
                                     <hr />
                                     <div>
-                                        <Link href='/courses/overview' passHref>
+                                        <Link href='/courses' passHref>
                                             <p
                                                 role='button'
                                                 className='footerLink'
