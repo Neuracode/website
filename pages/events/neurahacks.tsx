@@ -17,7 +17,7 @@ const neurahacks: React.FC = ({}) => {
                 <h1 className={styles.hackathonTitle}>NeuraHacks</h1>
                 <h2>August 30th | Virtual</h2>
                 <a
-                    href='https://forms.gle/7dYev7Agaj36qsHe8'
+                    href='https://forms.gle/mXpvqKYMnPSCV8n79'
                     target='_blank'
                     rel='noreferrer'
                     className='text-decoration-none'
