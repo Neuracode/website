@@ -5,12 +5,11 @@ import CourseHeader from '../../../components/CourseHeader';
 
 const BlockCodingWithScratch: React.FC = () => {
     const curriculumList = [
-        'What is machine learning?',
-        'Why use machine learning?',
-        'Different types of machine learning',
-        'Common machine learning algorithms',
-        'Testing and validating algorithms',
-        'Neural networks and different types of neural networks',
+        'Introduction',
+        'Animations with sprites',
+        'Stories',
+        'Games',
+        'More projects'
     ];
 
     return (
