@@ -317,7 +317,7 @@ const Home: NextPage = () => {
                         />
                     </div>
                 </section>
-                <section className={`${styles.sectionContainer5} mt-5 w-75`}>
+                <section className={`${styles.sectionContainer5} mt-5`}>
                     <h2 className={styles.sectionTitle}>
                         Frequently Asked Questions
                     </h2>

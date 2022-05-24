@@ -12,7 +12,7 @@ interface ICourseSetCard {
 
 const CourseSetCard: React.FC<ICourseSetCard> = ({ href, name, description, image }) => {
     return (
-        <Row lg={3} md={2} xs={1} className='gy-5'>
+        <Row lg={3} md={2} xs={1} className='gy-5 mb-5'>
 
                 <Col>
                     <Link href={href} passHref={true}>
