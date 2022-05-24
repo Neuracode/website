@@ -11,13 +11,6 @@ export default class MyDocument extends Document {
                         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
                     />
                     <script
-                        async
-                        dangerouslySetInnerHTML={{
-                            __html: `
-                            (function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='${process.env.SUMO_SITE_ID}';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');
-                        `}}
-                    ></script>
-                    <script
                         dangerouslySetInnerHTML={{
                             __html: `
                             window.dataLayer = window.dataLayer || [];
