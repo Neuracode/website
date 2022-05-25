@@ -84,6 +84,7 @@ const MasteringMachineLearning: React.FC = () => {
                     <CourseCards courses={courses} />
                 </main>
             </Container>
+            <div style={{height: '3rem'}}></div>
         </>
     );
 };

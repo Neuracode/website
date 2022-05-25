@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses' passHref={true}>
-                        <div data-aos='zoom-in-right' data-aos-once='true'>
+                        <div data-aos='flip-down' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -197,7 +197,7 @@ const Home: NextPage = () => {
                         </div>
                     </Link>
 
-                    <Link href='/events/hackathon' passHref={true}>
+                    <Link href='/events/neurahacks' passHref={true}>
                         <div data-aos='flip-down' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
@@ -224,7 +224,7 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/blog/latest-blogs' passHref={true}>
-                        <div data-aos='zoom-in-left' data-aos-once='true'>
+                        <div data-aos='flip-up' data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -264,12 +264,12 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-left'
                             data-aos-once='true'
                         >
-                            <p>✓ Rigorous Curriculum</p>
-                            <p>✓ Plethora of Resources</p>
-                            <p>✓ Online: Learn Anywhere</p>
-                            <p>✓ Six Courses: Beginner to Advanced</p>
-                            <p>✓ Knowledgeable Tutors</p>
-                            <p>✓ Discord Community Support</p>
+                            <p><span className={styles.check}>✓</span> Rigorous Curriculum</p>
+                            <p><span className={styles.check}>✓</span> Plethora of Resources</p>
+                            <p><span className={styles.check}>✓</span> Virtual: Learn Anywhere</p>
+                            <p><span className={styles.check}>✓</span> Beginner to Advanced</p>
+                            <p><span className={styles.check}>✓</span> Knowledgeable Tutors</p>
+                            <p><span className={styles.check}>✓</span> Discord Community Support</p>
 
                             <a
                                 href='https://forms.gle/y4jfEVaoNM2HrzRe8'
@@ -292,9 +292,11 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-right'
                             data-aos-once='true'
                         >
-                            <p>✓ Leadership/Tutoring Experience</p>
-                            <p>✓ Volunteer Hours</p>
-                            <p>✓ Work with a team</p>
+                            <p><span className={styles.check}>✓</span> Tutoring or Leadership Experience</p>
+                            <p><span className={styles.check}>✓</span> Community Service Hours</p>
+                            <p><span className={styles.check}>✓</span> Earn President&apos;s Volunteer Service Award</p>
+                            <p><span className={styles.check}>✓</span> Tutors gain knowledge through teaching</p>
+                            <p><span className={styles.check}>✓</span> Fun environment</p>
 
                             <a
                                 href='https://forms.gle/7dYev7Agaj36qsHe8'

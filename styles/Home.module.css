@@ -78,6 +78,10 @@
     border-radius: 20%;
 }
 
+.check {
+    color: green;
+}
+
 @media (max-width: 768px) {
     .main {
         margin-top: 1.5rem;

@@ -21,15 +21,18 @@ const IntroToProgramming: React.FC = ({}) => {
             href: '/courses/intro-to-programming/block-coding-with-scratch',
             prerequisites: [],
         },
-    ]
+    ];
 
     return (
-        <Container className='mb-5'>
-            <h1 className={styles.title}>Intro to Programming</h1>
-            <main className='mt-5'>
-                <CourseCards courses={courses} />
-            </main>
-        </Container>
+        <>
+            <Container className='mb-5'>
+                <h1 className={styles.title}>Intro to Programming</h1>
+                <main className='mt-5'>
+                    <CourseCards courses={courses} />
+                </main>
+            </Container>
+            <div style={{ height: '3rem' }}></div>
+        </>
     );
 };
 
