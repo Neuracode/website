@@ -93,6 +93,12 @@ const Team: React.FC = () => {
                         image='bertrand_lee.jpeg'
                         description='High school student interested in learning and teaching topics about machine learning and python.'
                     />
+                    <TeamCard
+                        name='Michael Ilie'
+                        title='Tutor: Intro to Python + Intermediate Python'
+                        image='michael_ilie.jpeg'
+                        description='Junior entrepreneur, computer engineer, and high school student.'
+                    />
                 </div>
             </Container>
         </>
