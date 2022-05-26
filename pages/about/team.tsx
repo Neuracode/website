@@ -21,7 +21,7 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Jaiman Pandya'
-                        title='Vice President + Chief Operating Officer'
+                        title='Founder + Vice President + Chief Operating Officer'
                         image='jaiman_pandya.jpeg'
                         description='Student researcher in machine learning with a passion for computational biology'
                         linkedin='https://www.linkedin.com/in/jaiman-pandya-825350234'
