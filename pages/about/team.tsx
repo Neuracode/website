@@ -77,7 +77,7 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Reza Razavi'
-                        title='Recruiter + Public Relations + Events Organizer'
+                        title='Recruiter + Public Relations + Tutor: Intro to Python + ML'
                         image='reza_razavi.jpeg'
                         description='Currently a high school student with a passion for machine learning and computational neuroscience'
                     />
@@ -95,7 +95,7 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Michael Ilie'
-                        title='Tutor: Intro to Python + Intermediate Python'
+                        title='Curriculum Creator + Tutor: Intermediate Python + Intermediate Tensorflow'
                         image='michael_ilie.jpeg'
                         description='Junior entrepreneur, computer engineer, and high school student'
                     />
@@ -104,6 +104,12 @@ const Team: React.FC = () => {
                         title='Curriculum Creator + Discord Moderator'
                         image='kevin_hwang.jpeg'
                         description='High school student interested and involved in machine learning and robotics.'
+                    />
+                    <TeamCard
+                        name='Sai Challagundla'
+                        title='Discord Moderator + Tutor: Intro to Python'
+                        image='sai_challagundla.jpeg'
+                        description='High school student who is interested in fintech and machine learning'
                     />
                 </div>
             </Container>
