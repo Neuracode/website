@@ -12,7 +12,7 @@ const Team: React.FC = () => {
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     <TeamCard
                         name='Azam Ahmed'
-                        title='Founder + President + Chief Executive Officer'
+                        title='Founder + Chief Executive Officer'
                         image='azam.jpg'
                         description='High school student who loves to code and delve deeper into the field of machine learning'
                         linkedin='https://www.linkedin.com/in/azam-ahmed'
@@ -21,7 +21,7 @@ const Team: React.FC = () => {
                     />
                     <TeamCard
                         name='Jaiman Pandya'
-                        title='Founder + Vice President + Chief Operating Officer'
+                        title='Founder + Chief Operating Officer'
                         image='jaiman_pandya.jpeg'
                         description='Student researcher in machine learning with a passion for computational biology'
                         linkedin='https://www.linkedin.com/in/jaiman-pandya-825350234'
