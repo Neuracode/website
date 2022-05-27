@@ -29,10 +29,12 @@ jobs:
     - run: npm ci
     - run: npm run build
       env:
-          NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
+          GOOGLE_ANALYTICS: ${{ secrets.GOOGLE_ANALYTICS }}
+          GOOGLE_ADS: ${{ secrets.GOOGLE_ADS }}
     - run: npm run export
       env:
-          NEXT_PUBLIC_GOOGLE_ANALYTICS: ${{ secrets.NEXT_PUBLIC_GOOGLE_ANALYTICS }}
+          GOOGLE_ANALYTICS: ${{ secrets.GOOGLE_ANALYTICS }}
+          GOOGLE_ADS: ${{ secrets.GOOGLE_ADS }}
     - name: Remove Jekyll
       run: touch ./out/.nojekyll
     - name: Deploy 🚀
