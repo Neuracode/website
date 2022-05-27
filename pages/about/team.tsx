@@ -46,20 +46,20 @@ const Team: React.FC = () => {
         },
         {
             name: 'Jaren Chu',
-            title: 'Director of Tutoring',
+            title: 'Co-director of Tutoring',
             image: 'jaren_chu.jpeg',
             description:
                 'High school sophomore interested in artificial intelligence and programming techniques',
         },
-    ];
-
-    const volunteers: ITeamCard[] = [
         {
             name: 'Arnav Podichetty',
-            title: 'Tutor: Intro to ML + Python',
+            title: 'Co-director of Tutoring',
             image: 'arnav_podichetty.jpeg',
             description: 'High school sophomore interested in developing coding skills and teaching youth through innovative techniques'
         },
+    ];
+
+    const volunteers: ITeamCard[] = [
         {
             name: 'Abubakr Elmallah',
             title: 'Tutor: Intro to ML + Python + Discord Moderator',
@@ -131,6 +131,12 @@ const Team: React.FC = () => {
             title: 'Tutor: Intro to Python + Intermediate Python',
             image: 'adit_pakala.jpeg',
             description: 'High school student passionate about computer science and entrepreneurship'
+        },
+        {
+            name: 'Teerthraj Parmar',
+            title: 'Tutor: Intermediate Python + Intro to Python + ML',
+            image: 'teerthraj_parmar.jpeg',
+            description: 'High school student interested in teaching kids ML and python'
         }
     ]
 
