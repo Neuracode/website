@@ -39,10 +39,17 @@ const Team: React.FC = () => {
     const directors: ITeamCard[] = [
         {
             name: 'Annabelle Deng',
-            title: 'Director of Public Relations and Marketing',
+            title: 'Co-director of Public Relations and Marketing',
             image: 'annabelle_deng.jpeg',
             description:
                 'High school student interested in robotics and teaching students about coding',
+        },
+        {
+            name: 'Arca Baran',
+            title: 'Co-director of Public Relations and Marketing',
+            image: 'arca_baran.jpeg',
+            description:
+                'HTHS Class of 2023 student interested in spreading and communicating about technology to all',
         },
         {
             name: 'Jaren Chu',
