@@ -44,11 +44,18 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <div className='banner'>
                     <div>
                         Do you want to learn machine learning?{' '}
-                        <Link href='/courses' passHref>
-                            <b className='text-decoration-underline cursor-pointer'>
+                        <a
+                            href='https://forms.gle/dgVfptFyZ5GyDHG58'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                        >
+                            <b
+                                className='text-decoration-underline cursor-pointer'
+                                style={{ color: 'white' }}
+                            >
                                 Sign up
                             </b>
-                        </Link>{' '}
+                        </a>{' '}
                         for any course by June 28th!
                     </div>
                 </div>
