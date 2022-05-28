@@ -157,7 +157,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses' passHref={true}>
-                        <div data-aos='flip-down' data-aos-once='true'>
+                        <div data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -181,7 +181,7 @@ const Home: NextPage = () => {
                         </div>
                     </Link>
                     <Link href='/join/overview' passHref={true}>
-                        <div data-aos='flip-up' data-aos-once='true'>
+                        <div data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/events/neurahacks' passHref={true}>
-                        <div data-aos='flip-down' data-aos-once='true'>
+                        <div data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}
@@ -228,7 +228,7 @@ const Home: NextPage = () => {
                     </Link>
 
                     <Link href='/blog/latest-blogs' passHref={true}>
-                        <div data-aos='flip-up' data-aos-once='true'>
+                        <div data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
                                 className={`${styles.infoCard} mt-4 mb-5`}

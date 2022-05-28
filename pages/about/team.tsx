@@ -64,6 +64,12 @@ const Team: React.FC = () => {
             image: 'arnav_podichetty.jpeg',
             description: 'High school sophomore interested in developing coding skills and teaching youth through innovative techniques'
         },
+        {
+            name: 'Eddie Tang',
+            title: 'Director of Python Curriculum',
+            image: 'eddie_tang.jpeg',
+            description: 'High school freshman interested in teaching python and integrating different features into various discord bots'
+        },
     ];
 
     const volunteers: ITeamCard[] = [
