@@ -38,6 +38,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         });
     }, []);
 
+    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+
     return (
         <>
             {asPath === '/' ? (
@@ -45,9 +47,10 @@ function MyApp({ Component, pageProps }: AppProps) {
                     <div>
                         Do you want to learn machine learning?{' '}
                         <a
-                            href='https://forms.gle/dgVfptFyZ5GyDHG58'
+                            href={formUrl}
                             target='_blank'
                             rel='noopener noreferrer'
+                            onClick={() => ga.gtag_report_conversion(formUrl)}
                         >
                             <b
                                 className='text-decoration-underline cursor-pointer'

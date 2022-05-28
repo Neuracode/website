@@ -5,8 +5,12 @@ import styles from '../styles/Home.module.css';
 import { Container, Card, Accordion } from 'react-bootstrap';
 import Image from 'next/image';
 import ThreeDButton from '../components/ThreeDButton';
+import * as ga from '../lib/ga';
 
 const Home: NextPage = () => {
+
+    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+
     return (
         <div className={styles.container}>
             <Head>
@@ -272,10 +276,11 @@ const Home: NextPage = () => {
                             <p><span className={styles.check}>✓</span> Discord Community Support</p>
 
                             <a
-                                href='https://forms.gle/y4jfEVaoNM2HrzRe8'
+                                href={formUrl}
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
+                                onClick={() => ga.gtag_report_conversion(formUrl)}
                             >
                                 <div className='w-100 d-flex align-items-center justify-content-center'>
                                     <ThreeDButton text='Enroll Now!' />

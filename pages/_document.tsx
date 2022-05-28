@@ -19,16 +19,8 @@ export default class MyDocument extends Document {
                             gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
                             page_path: window.location.pathname,
                             });
+                            gtag('config', '${process.env.GOOGLE_ADS}');
                         `,
-                        }}
-                    />
-                    <script
-                        async
-                        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ADS}`}
-                    />
-                    <script
-                        dangerouslySetInnerHTML={{
-                            __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '${process.env.GOOGLE_ADS}');`,
                         }}
                     />
                 </Head>
