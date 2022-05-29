@@ -150,6 +150,12 @@ const Team: React.FC = () => {
             title: 'Tutor: Intermediate Python + Intro to Python + ML',
             image: 'teerthraj_parmar.jpeg',
             description: 'High school student interested in teaching kids ML and python'
+        },
+        {
+            name: 'Justin Baltazar',
+            title: 'Full-Stack Developer + Curriculum Creator',
+            image: 'justin_baltazar.jpeg',
+            description: 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning'
         }
     ]
 
