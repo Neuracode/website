@@ -74,12 +74,6 @@ const Team: React.FC = () => {
 
     const volunteers: ITeamCard[] = [
         {
-            name: 'Abubakr Elmallah',
-            title: 'Tutor: Intro to ML + Python + Discord Moderator',
-            image: 'abubakr_elmallah.jpeg',
-            description: 'High school student interested in computer science and strengthening coding skills in youth',
-        },
-        {
             name: 'Sanvi Srinivas',
             title: 'Tutor: Intro to ML',
             image: 'sanvi_srinivas.jpeg',
@@ -156,6 +150,12 @@ const Team: React.FC = () => {
             title: 'Full-Stack Developer + Curriculum Creator',
             image: 'justin_baltazar.jpeg',
             description: 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning'
+        },
+        {
+            name: 'Risha Dinesh',
+            title: 'Recruiter + Marketing + Discord Moderator',
+            image: 'risha_dinesh.jpeg',
+            description: 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community'
         }
     ]
 
