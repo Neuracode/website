@@ -146,16 +146,25 @@ const Team: React.FC = () => {
             description: 'High school student interested in teaching kids ML and python'
         },
         {
+            name: 'Risha Dinesh',
+            title: 'Recruiter + Marketing + Discord Moderator',
+            image: 'risha_dinesh.jpeg',
+            description: 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community'
+        }
+    ]
+
+    const collegeVolunteers: ITeamCard[] = [
+        {
             name: 'Justin Baltazar',
             title: 'Full-Stack Developer + Curriculum Creator',
             image: 'justin_baltazar.jpeg',
             description: 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning'
         },
         {
-            name: 'Risha Dinesh',
-            title: 'Recruiter + Marketing + Discord Moderator',
-            image: 'risha_dinesh.jpeg',
-            description: 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community'
+            name: 'Hafiz Hassan',
+            title: 'Curriculum Creator',
+            image: 'hafiz_hassan.jpeg',
+            description: 'Surgical Data Scientist at UCL currently pursuing a career in bioinformatics and researching semi-supervised learning models to solve real-world problems'
         }
     ]
 
@@ -193,6 +202,18 @@ const Team: React.FC = () => {
                 <h3 className={styles.topText}>Volunteers</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                 {volunteers.map((member) => (
+                        <TeamCard
+                            key={member.name}
+                            name={member.name}
+                            title={member.title}
+                            image={member.image}
+                            description={member.description}
+                        />
+                    ))}
+                </div>
+                <h3 className={styles.topText}>College Volunteers</h3>
+                <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
+                {collegeVolunteers.map((member) => (
                         <TeamCard
                             key={member.name}
                             name={member.name}
