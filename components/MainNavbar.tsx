@@ -118,6 +118,10 @@ const MainNavbar: React.FC = () => {
                                             name: 'Mastering Machine Learning',
                                             href: '/courses/mastering-machine-learning',
                                         },
+                                        {
+                                            name: 'Java Data Structures',
+                                            href: '/courses/java-data-structures',
+                                        },
                                     ]}
                                 />
                             </Nav.Link>
@@ -172,7 +176,7 @@ const MainNavbar: React.FC = () => {
                                     options={[
                                         {
                                             name: 'Overview',
-                                            href: '/join/overview',
+                                            href: '/join',
                                         },
                                         {
                                             name: 'Apply',

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
 import CourseHeader from '../../../components/CourseHeader';
+import Head from 'next/head';
 
-const IntermediateTensorflow: React.FC = () => {
+const IntermediateTensorFlow: React.FC = () => {
     const curriculumList = [
-        'What is Tensorflow?',
+        'What is TensorFlow?',
         'Tensors',
         'Variables',
         'Model customization',
-        'Tensorflow functions and graphs',
+        'TensorFlow functions and graphs',
         'Loading and preprocessing data overview',
         'Data API',
         'TFRecord Format',
@@ -27,13 +27,16 @@ const IntermediateTensorflow: React.FC = () => {
 
     return (
         <>
+            <Head>
+                <title>Intermediate TensorFlow</title>
+            </Head>
             <CourseHeader
-                name='Intermediate Tensorflow'
+                name='Intermediate TensorFlow'
                 curriculumList={curriculumList}
-                about='Learn how to use Tensorflow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.'
+                about='Learn how to use TensorFlow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.'
                 startDate='June 30th'
                 endDate='August 30th'
-                dayAndTime='Friday, 3:00PM - 5:30PM + Saturday, 3:00PM - 5:30PM'
+                dayAndTime='Saturday, 5:00PM - 6:30PM + Sunday, 5:00PM - 6:30PM'
                 timeCommitment={5}
                 recommendedGrades='9 - 12'
                 prerequisites={[
@@ -47,4 +50,4 @@ const IntermediateTensorflow: React.FC = () => {
     );
 };
 
-export default IntermediateTensorflow;
+export default IntermediateTensorFlow;

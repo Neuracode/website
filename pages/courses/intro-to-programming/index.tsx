@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styles from '../../../styles/Courses.module.css';
 import CourseCards from '../../../components/CourseCards';
+import Head from 'next/head';
+
 
 const IntroToProgramming: React.FC = ({}) => {
     interface ICourse {
@@ -25,6 +27,9 @@ const IntroToProgramming: React.FC = ({}) => {
 
     return (
         <>
+            <Head>
+                <title>Intro to Programming</title>
+            </Head>
             <Container className='mb-5'>
                 <h1 className={styles.title}>Intro to Programming</h1>
                 <main className='mt-5'>

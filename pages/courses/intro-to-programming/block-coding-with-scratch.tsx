@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, ListGroup } from 'react-bootstrap';
 import styles from '../../styles/Courses.module.css';
 import CourseHeader from '../../../components/CourseHeader';
+import Head from 'next/head';
 
 const BlockCodingWithScratch: React.FC = () => {
     const curriculumList = [
@@ -14,6 +14,9 @@ const BlockCodingWithScratch: React.FC = () => {
 
     return (
         <>
+            <Head>
+                <title>Block Coding with Scratch</title>
+            </Head>
             <CourseHeader
                 name='Block Coding with Scratch'
                 curriculumList={curriculumList}

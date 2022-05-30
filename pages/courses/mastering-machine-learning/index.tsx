@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import styles from '../../../styles/Courses.module.css';
 import CourseCards from '../../../components/CourseCards';
+import Head from 'next/head';
 
 const MasteringMachineLearning: React.FC = () => {
     interface ICourse {
@@ -52,7 +53,7 @@ const MasteringMachineLearning: React.FC = () => {
         {
             name: 'Intermediate Keras',
             description:
-                'Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with Tensorflow.',
+                'Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with TensorFlow.',
             image: '/course_icons/keras_icon.png',
             href: '/courses/mastering-machine-learning/intermediate-keras',
             prerequisites: [
@@ -62,9 +63,9 @@ const MasteringMachineLearning: React.FC = () => {
             ],
         },
         {
-            name: 'Intermediate Tensorflow',
+            name: 'Intermediate TensorFlow',
             description:
-                'Learn how to use Tensorflow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.',
+                'Learn how to use TensorFlow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.',
             image: '/course_icons/tensorflow.png',
             href: '/courses/mastering-machine-learning/intermediate-tensorflow',
             prerequisites: [
@@ -78,13 +79,16 @@ const MasteringMachineLearning: React.FC = () => {
 
     return (
         <>
+            <Head>
+                <title>Mastering Machine Learning</title>
+            </Head>
             <Container className='mb-5'>
                 <h1 className={styles.title}>Mastering Machine Learning</h1>
                 <main className='mt-5'>
                     <CourseCards courses={courses} />
                 </main>
             </Container>
-            <div style={{height: '3rem'}}></div>
+            <div style={{ height: '3rem' }}></div>
         </>
     );
 };

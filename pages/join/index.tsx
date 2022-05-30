@@ -1,12 +1,16 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import PositionCard from '../../components/PositionCard';
-// import styles from '../../styles/Join.module.css';
+import styles from '../../styles/Join.module.css';
 import ThreeDButton from '../../components/ThreeDButton';
+import Head from 'next/head';
 
 const Overview: React.FC = () => {
     return (
         <>
+            <Head>
+                <title>Join Us</title>
+            </Head>
             <Container>
                 <h1>Join us!</h1>
                 <div className='mt-5 text-center'>
@@ -43,8 +47,8 @@ const Overview: React.FC = () => {
                         description='Keras tutors will be required to have knowledge of Keras and AI concepts.'
                     />
                     <PositionCard
-                        title='Tutor: Intermediate Tensorflow'
-                        description='Tensorflow tutors will be required to have knowledge of Tensorflow and AI concepts.'
+                        title='Tutor: Intermediate TensorFlow'
+                        description='TensorFlow tutors will be required to have knowledge of TensorFlow and AI concepts.'
                     />
                     <PositionCard
                         title='Frontend Developer'

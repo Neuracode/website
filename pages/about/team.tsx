@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styles from '../../styles/About.module.css';
 import TeamCard from '../../components/TeamCard';
+import Head from 'next/head';
 
 const Team: React.FC = () => {
     interface ITeamCard {
@@ -39,14 +40,14 @@ const Team: React.FC = () => {
     const directors: ITeamCard[] = [
         {
             name: 'Annabelle Deng',
-            title: 'Co-director of Public Relations and Marketing',
+            title: 'Co-director of Marketing',
             image: 'annabelle_deng.jpeg',
             description:
                 'High school student interested in robotics and teaching students about coding',
         },
         {
             name: 'Arca Baran',
-            title: 'Co-director of Public Relations and Marketing',
+            title: 'Co-director of Marketing',
             image: 'arca_baran.jpeg',
             description:
                 'HTHS Class of 2023 student interested in spreading and communicating about technology to all',
@@ -62,13 +63,22 @@ const Team: React.FC = () => {
             name: 'Arnav Podichetty',
             title: 'Co-director of Tutoring',
             image: 'arnav_podichetty.jpeg',
-            description: 'High school sophomore interested in developing coding skills and teaching youth through innovative techniques'
+            description:
+                'High school sophomore interested in developing coding skills and teaching youth through innovative techniques',
         },
         {
             name: 'Eddie Tang',
             title: 'Director of Python Curriculum',
             image: 'eddie_tang.jpeg',
-            description: 'High school freshman interested in teaching python and integrating different features into various discord bots'
+            description:
+                'High school freshman interested in teaching python and integrating different features into various discord bots',
+        },
+        {
+            name: 'Sean Noh',
+            title: 'Director of Java, Data Structures, and Growth',
+            image: 'sean_noh.jpeg',
+            description:
+                'Computer science student that enjoys sharing knowledge and creating projects',
         },
     ];
 
@@ -77,99 +87,117 @@ const Team: React.FC = () => {
             name: 'Sanvi Srinivas',
             title: 'Tutor: Intro to ML',
             image: 'sanvi_srinivas.jpeg',
-            description: 'High school student interested in spreading and delving into artificial intelligence'
+            description:
+                'High school student interested in spreading and delving into artificial intelligence',
         },
         {
             name: 'Aditi Athreyas',
-            title: 'Public Relations + Discord Moderator',
+            title: 'Marketing + Discord Moderator',
             image: 'aditi_athreyas.jpeg',
-            description: 'High school student who loves to work with robotics and spends time designing robots',
+            description:
+                'High school student who loves to work with robotics and spends time designing robots',
         },
         {
             name: 'Ryan Zwatchska',
             title: 'Tutor: Intro to ML',
             image: 'ryan_zwatchska.jpeg',
-            description: 'High school student interested in teaching and learning more about the nature of artificial intelligence'
+            description:
+                'High school student interested in teaching and learning more about the nature of artificial intelligence',
         },
         {
             name: 'Reza Razavi',
-            title: 'Recruiter + Public Relations + Tutor: Intro to Python + ML',
+            title: 'Recruiter + Marketing + Tutor: Intro to Python + ML',
             image: 'reza_razavi.jpeg',
-            description: 'Currently a high school student with a passion for machine learning and computational neuroscience'
+            description:
+                'Currently a high school student with a passion for machine learning and computational neuroscience',
         },
         {
             name: 'Prabhas Gade',
             title: 'Tutor: Intro to ML',
             image: 'prabhas_gade.jpeg',
-            description: 'High School student who has a passion for computer programming, robotics, and AI'
+            description:
+                'High School student who has a passion for computer programming, robotics, and AI',
         },
         {
             name: 'Bertrand Lee',
             title: 'Tutor: Intro to ML + Python',
             image: 'bertrand_lee.jpeg',
-            description: 'High school student interested in learning and teaching topics about machine learning and python'
+            description:
+                'High school student interested in learning and teaching topics about machine learning and python',
         },
         {
             name: 'Michael Ilie',
-            title: 'Curriculum Creator + Tutor: Intermediate Python + Intermediate Tensorflow',
+            title: 'Curriculum Creator + Tutor: Intermediate Python + Intermediate TensorFlow',
             image: 'michael_ilie.jpeg',
-            description: 'Junior entrepreneur, computer engineer, and high school student'
+            description:
+                'Junior entrepreneur, computer engineer, and high school student',
         },
         {
             name: 'Kevin Hwang',
             title: 'Curriculum Creator + Discord Moderator',
             image: 'kevin_hwang.jpeg',
-            description: 'High school student interested and involved in machine learning and robotics.'
+            description:
+                'High school student interested and involved in machine learning and robotics.',
         },
         {
             name: 'Sai Challagundla',
             title: 'Discord Moderator + Tutor: Intro to Python',
             image: 'sai_challagundla.jpeg',
-            description: 'High school student who is interested in fintech and machine learning'
+            description:
+                'High school student who is interested in fintech and machine learning',
         },
         {
             name: 'Vibhuv Sharma',
             title: 'Tutor: Intro to Python + ML',
             image: 'no_picture.jpg',
-            description: 'Motivated student and programmer with a passion for Machine Learning and the future of technology'
+            description:
+                'Motivated student and programmer with a passion for Machine Learning and the future of technology',
         },
         {
             name: 'Adit Pakala',
             title: 'Tutor: Intro to Python + Intermediate Python',
             image: 'adit_pakala.jpeg',
-            description: 'High school student passionate about computer science and entrepreneurship'
+            description:
+                'High school student passionate about computer science and entrepreneurship',
         },
         {
             name: 'Teerthraj Parmar',
             title: 'Tutor: Intermediate Python + Intro to Python + ML',
             image: 'teerthraj_parmar.jpeg',
-            description: 'High school student interested in teaching kids ML and python'
+            description:
+                'High school student interested in teaching kids ML and python',
         },
         {
             name: 'Risha Dinesh',
             title: 'Recruiter + Marketing + Discord Moderator',
             image: 'risha_dinesh.jpeg',
-            description: 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community'
-        }
-    ]
+            description:
+                'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community',
+        },
+    ];
 
     const collegeVolunteers: ITeamCard[] = [
         {
             name: 'Justin Baltazar',
             title: 'Full-Stack Developer + Curriculum Creator',
             image: 'justin_baltazar.jpeg',
-            description: 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning'
+            description:
+                'A Computer Science and Math double major with experience in software engineering, web development, and machine learning',
         },
         {
             name: 'Hafiz Hassan',
             title: 'Curriculum Creator',
             image: 'hafiz_hassan.jpeg',
-            description: 'Surgical Data Scientist at UCL currently pursuing a career in bioinformatics and researching semi-supervised learning models to solve real-world problems'
-        }
-    ]
+            description:
+                'Surgical Data Scientist at UCL currently pursuing a career in bioinformatics and researching semi-supervised learning models to solve real-world problems',
+        },
+    ];
 
     return (
         <>
+            <Head>
+                <title>Team | Neuracode</title>
+            </Head>
             <Container>
                 <h1 className={styles.title}>Team</h1>
                 <h3 className={styles.topText}>Executive Board</h3>
@@ -201,7 +229,7 @@ const Team: React.FC = () => {
                 </div>
                 <h3 className={styles.topText}>Volunteers</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
-                {volunteers.map((member) => (
+                    {volunteers.map((member) => (
                         <TeamCard
                             key={member.name}
                             name={member.name}
@@ -213,7 +241,7 @@ const Team: React.FC = () => {
                 </div>
                 <h3 className={styles.topText}>College Volunteers</h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
-                {collegeVolunteers.map((member) => (
+                    {collegeVolunteers.map((member) => (
                         <TeamCard
                             key={member.name}
                             name={member.name}

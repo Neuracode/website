@@ -20,7 +20,7 @@ const CourseSetCard: React.FC<ICourseSetCard> = ({ href, name, description, imag
                             <div className={styles.courseImgWrapper}>
                                 <Card.Img
                                     variant='top'
-                                    src={image}
+                                    src={`/course_icons/${image}`}
                                     className={styles.courseImg}
                                 />
                             </div>

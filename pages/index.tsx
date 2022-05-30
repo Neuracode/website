@@ -8,7 +8,6 @@ import ThreeDButton from '../components/ThreeDButton';
 import * as ga from '../lib/ga';
 
 const Home: NextPage = () => {
-
     const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
 
     return (
@@ -45,11 +44,11 @@ const Home: NextPage = () => {
                 <meta name='title' content='Neuracode' />
                 <meta
                     name='description'
-                    content='Neuracode is a 501(c)(3) student-run nonprofit organization that educates students around the world on the topic of machine learning. Neuracode is on a mission to make sure that all students have the opportunity to learn about machine learning, including low-income or underrepresented groups. Neuracode helps students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. Neuracode is primarily looking for students who are in middle school or high school. The website is Neuracode.org. We provide free coding courses on machine learning and artificial intelligence for students of all ages through elementary school, middle school, or high school. Additionally, we provide free tutoring for students with Scratch, Python, Scikit-Learn, Keras, Tensorflow, and more (Java, JavaScript, C++). Students can be in any grade, including first grade, second grade, third grade, fourth grade, fifth grade, sixth grade, seventh grade, eighth grade, ninth grade, tenth grade, eleventh grade, or twelfth grade. We offer free machine learning classes and free artificial intelligence classes that take place over Zoom. These AI Classes are taught by high school students who volunteer in the summer, allowing Neuracode to run classes from June to August. Our tutors are able to teach courses such as Block Coding with Scratch, Intro to Machine Learning, Intro to Python, Intermediate Python, Intermediate Keras, and Intermediate Tensorflow.'
+                    content='Neuracode is a 501(c)(3) student-run nonprofit organization that educates students around the world on the topic of machine learning. Neuracode is on a mission to make sure that all students have the opportunity to learn about machine learning, including low-income or underrepresented groups. Neuracode helps students of all backgrounds learn about machine learning, and we are always looking for new students to join our team. Neuracode is primarily looking for students who are in middle school or high school. The website is Neuracode.org. We provide free coding courses on machine learning and artificial intelligence for students of all ages through elementary school, middle school, or high school. Additionally, we provide free tutoring for students with Scratch, Python, Scikit-Learn, Keras, TensorFlow, and more (Java, JavaScript, C++). Students can be in any grade, including first grade, second grade, third grade, fourth grade, fifth grade, sixth grade, seventh grade, eighth grade, ninth grade, tenth grade, eleventh grade, or twelfth grade. We offer free machine learning classes and free artificial intelligence classes that take place over Zoom. These AI Classes are taught by high school students who volunteer in the summer, allowing Neuracode to run classes from June to August. Our tutors are able to teach courses such as Block Coding with Scratch, Intro to Machine Learning, Intro to Python, Intermediate Python, Intermediate Keras, and Intermediate TensorFlow.'
                 />
                 <meta
                     name='keywords'
-                    content='neuracode, nonprofit, non-profit, 501(c)(3), 501 c 3, 501c3, neura code, educate, education, low-income, low income, underrepresented students, student led, student-led, machine learning, high school, programming, coding, computer science, cs, intro to machine learning, intro to python, intermediate python, Intermediate Scikit-Learn, Intermediate Keras, Intermediate Tensorflow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks, azam ahmed, united states, neuracode global, new jersey, nj, neuracode.org, neural, ann, cnn, rnn, artificial neural network, convolutional neural network, recurrent neural network, nn, supervised learning, unsupervised learning, reinforcement learning, regression, classification, decision trees, random forests, gan, generative, generative adversarial networks, deep learning, azam, ahmed, azam ahmed president, machine learning classes, machine learning tutoring, coding classes, programming classes'
+                    content='neuracode, nonprofit, non-profit, 501(c)(3), 501 c 3, 501c3, neura code, educate, education, low-income, low income, underrepresented students, student led, student-led, machine learning, high school, programming, coding, computer science, cs, intro to machine learning, intro to python, intermediate python, Intermediate Scikit-Learn, Intermediate Keras, Intermediate TensorFlow, scikit-learn, keras, tensorflow, GitHub, LinkedIn, Discord, Email, python, ai, ml, ai enthusiast, artificial intelligence, neural networks, azam ahmed, united states, neuracode global, new jersey, nj, neuracode.org, neural, ann, cnn, rnn, artificial neural network, convolutional neural network, recurrent neural network, nn, supervised learning, unsupervised learning, reinforcement learning, regression, classification, decision trees, random forests, gan, generative, generative adversarial networks, deep learning, azam, ahmed, azam ahmed president, machine learning classes, machine learning tutoring, coding classes, programming classes'
                 />
                 <meta name='robots' content='index, follow' />
                 <meta
@@ -180,7 +179,7 @@ const Home: NextPage = () => {
                             </Card>
                         </div>
                     </Link>
-                    <Link href='/join/overview' passHref={true}>
+                    <Link href='/join' passHref={true}>
                         <div data-aos-once='true'>
                             <Card
                                 style={{ width: '18rem' }}
@@ -192,9 +191,13 @@ const Home: NextPage = () => {
                                     className={styles.smallIcon}
                                 />
                                 <Card.Body>
-                                    <Card.Title>Volunteer Opportunity</Card.Title>
+                                    <Card.Title>
+                                        Volunteer Opportunity
+                                    </Card.Title>
                                     <Card.Text>
-                                        By volunteering for Neuracode, you will gain tutoring or leadership experience, and you will earn volunteer hours.
+                                        By volunteering for Neuracode, you will
+                                        gain tutoring or leadership experience,
+                                        and you will earn volunteer hours.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -268,19 +271,39 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-left'
                             data-aos-once='true'
                         >
-                            <p><span className={styles.check}>✓</span> Rigorous Curriculum</p>
-                            <p><span className={styles.check}>✓</span> Plethora of Resources</p>
-                            <p><span className={styles.check}>✓</span> Virtual: Learn Anywhere</p>
-                            <p><span className={styles.check}>✓</span> Beginner to Advanced</p>
-                            <p><span className={styles.check}>✓</span> Knowledgeable Tutors</p>
-                            <p><span className={styles.check}>✓</span> Discord Community Support</p>
+                            <p>
+                                <span className={styles.check}>✓</span> Rigorous
+                                Curriculum
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Plethora
+                                of Resources
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Virtual:
+                                Learn Anywhere
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Beginner
+                                to Advanced
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span>{' '}
+                                Knowledgeable Tutors
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Discord
+                                Community Support
+                            </p>
 
                             <a
                                 href={formUrl}
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
-                                onClick={() => ga.gtag_report_conversion(formUrl)}
+                                onClick={() =>
+                                    ga.gtag_report_conversion(formUrl)
+                                }
                             >
                                 <div className='w-100 d-flex align-items-center justify-content-center'>
                                     <ThreeDButton text='Enroll Now!' />
@@ -297,11 +320,26 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-right'
                             data-aos-once='true'
                         >
-                            <p><span className={styles.check}>✓</span> Tutoring or Leadership Experience</p>
-                            <p><span className={styles.check}>✓</span> Community Service Hours</p>
-                            <p><span className={styles.check}>✓</span> Earn President&apos;s Volunteer Service Award</p>
-                            <p><span className={styles.check}>✓</span> Tutors gain knowledge through teaching</p>
-                            <p><span className={styles.check}>✓</span> Fun environment</p>
+                            <p>
+                                <span className={styles.check}>✓</span> Tutoring
+                                or Leadership Experience
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span>{' '}
+                                Community Service Hours
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Earn
+                                President&apos;s Volunteer Service Award
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Tutors
+                                gain knowledge through teaching
+                            </p>
+                            <p>
+                                <span className={styles.check}>✓</span> Fun
+                                environment
+                            </p>
 
                             <a
                                 href='https://forms.gle/7dYev7Agaj36qsHe8'
@@ -349,7 +387,8 @@ const Home: NextPage = () => {
                                     Is Neuracode a nonprofit?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Yes, we are a student-run 501(c)(3) nonprofit organization.
+                                    Yes, we are a student-run 501(c)(3)
+                                    nonprofit organization.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey='2'>
@@ -362,7 +401,10 @@ const Home: NextPage = () => {
                                     additional volunteer hour for getting used
                                     to the new system. Every presentation
                                     created by a tutor will earn 4 volunteer
-                                    hours. The number of volunteer hours earned by students in other positions will be calculated based on the position they are in.
+                                    hours. The number of volunteer hours earned
+                                    by students in other positions will be
+                                    calculated based on the position they are
+                                    in.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey='3'>
@@ -370,9 +412,10 @@ const Home: NextPage = () => {
                                     How will I attend the course?
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Classes will take place online over Zoom, and
-                                    the link to the meeting will be sent to you
-                                    via email when you sign up for the course.
+                                    Classes will take place online over Zoom,
+                                    and the link to the meeting will be sent to
+                                    you via email when you sign up for the
+                                    course.
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
