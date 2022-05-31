@@ -5,6 +5,14 @@
     font-size: 2.5rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin-top: 5rem;
+}
+
+.topTextSpan {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
 }
 
 .teamMemberCard {
@@ -47,4 +55,10 @@
 
 .teamMemberDescription {
     text-align: center;
+}
+
+@media (max-width: 768px) {
+  .collegeVolunteers {
+    font-size: 2rem;
+  }
 }

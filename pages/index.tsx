@@ -301,9 +301,6 @@ const Home: NextPage = () => {
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
-                                onClick={() =>
-                                    ga.gtag_report_conversion(formUrl)
-                                }
                             >
                                 <div className='w-100 d-flex align-items-center justify-content-center'>
                                     <ThreeDButton text='Enroll Now!' />
@@ -362,6 +359,14 @@ const Home: NextPage = () => {
                         />
                     </div>
                 </section>
+                <section className={'mt-5 w-75'}>
+                    <h2 className={styles.sectionTitle}>Join the Discord</h2>
+                    <div className='d-flex flex-row justify-content-around align-items-center flex-wrap'>
+                        
+                    <iframe src="https://discord.com/widget?id=941049795949264969&theme=dark" width="350" height="500" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                </section>
+                
                 <section className={`${styles.sectionContainer5} mt-5`}>
                     <h2 className={styles.sectionTitle}>
                         Frequently Asked Questions

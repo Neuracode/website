@@ -39,7 +39,6 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
                         target='_blank'
                         rel='noreferrer'
                         className='text-decoration-none'
-                        onClick={() => ga.gtag_report_conversion(formUrl)}
                     >
                         <div className='w-100 d-flex align-items-center justify-content-center'>
                             <ThreeDButton text='Enroll Now!' />

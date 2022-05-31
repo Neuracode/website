@@ -51,7 +51,15 @@ const Overview: React.FC = () => {
                         description='TensorFlow tutors will be required to have knowledge of TensorFlow and AI concepts.'
                     />
                     <PositionCard
-                        title='Frontend Developer'
+                        title='Tutor: Block Coding with Scratch'
+                        description='Scratch tutors will be required to have knowledge of the scratch interface, programming concepts, and the blocks available in scratch.'
+                    />
+                    <PositionCard
+                        title='Tutor: Java Data Structures'
+                        description='Java Data Structures tutors will be required to have knowledge of the Java programming language and data structures in the curriculum.'
+                    />
+                    <PositionCard
+                        title='Frontend (UI/UX) Developer'
                         description='Frontend developers will be required to have knowledge of and experience with both Next.js and CSS.'
                     />
                     <PositionCard

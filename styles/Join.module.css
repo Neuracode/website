@@ -8,11 +8,11 @@
 }
 
 .positionCard {
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 18rem;
-    height: 22rem;
-    border-radius: 20px;
     margin-bottom: 40px;
     border-radius: 10px;
     background: #ffffff;
@@ -20,9 +20,16 @@
     border: 0;
 }
 
+.colorBar {
+    height: 0.5rem;
+    width: 100%;
+    background: linear-gradient(to left, #d9332e, #d9672e);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .positionCardBody {
-    display: table-cell;
-    vertical-align: middle;
+    padding: 1rem !important;
 }
 
 .positionImage {

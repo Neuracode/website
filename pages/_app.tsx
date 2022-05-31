@@ -50,7 +50,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                             href={formUrl}
                             target='_blank'
                             rel='noopener noreferrer'
-                            onClick={() => ga.gtag_report_conversion(formUrl)}
                         >
                             <b
                                 className='text-decoration-underline cursor-pointer'

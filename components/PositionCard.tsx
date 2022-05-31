@@ -14,6 +14,7 @@ const PositionCard: React.FC<IPositionCard> = ({
   return (
     <>
       <Card className={styles.positionCard}>
+        <span className={styles.colorBar}></span>
         <Card.Body className={styles.positionCardBody}>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{description}</Card.Text>

@@ -200,7 +200,9 @@ const Team: React.FC = () => {
             </Head>
             <Container>
                 <h1 className={styles.title}>Team</h1>
-                <h3 className={styles.topText}>Executive Board</h3>
+                <h3 className={styles.topText}>
+                    <span className={styles.topTextSpan}>Executive Board</span>
+                </h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     {executiveBoard.map((member) => (
                         <TeamCard
@@ -215,7 +217,10 @@ const Team: React.FC = () => {
                         />
                     ))}
                 </div>
-                <h3 className={styles.topText}>Directors</h3>
+                <hr />
+                <h3 className={styles.topText}>
+                    <span className={styles.topTextSpan}>Directors</span>
+                </h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     {directors.map((member) => (
                         <TeamCard
@@ -227,7 +232,10 @@ const Team: React.FC = () => {
                         />
                     ))}
                 </div>
-                <h3 className={styles.topText}>Volunteers</h3>
+                <hr />
+                <h3 className={styles.topText}>
+                    <span className={styles.topTextSpan}>Volunteers</span>
+                </h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     {volunteers.map((member) => (
                         <TeamCard
@@ -239,7 +247,12 @@ const Team: React.FC = () => {
                         />
                     ))}
                 </div>
-                <h3 className={styles.topText}>College Volunteers</h3>
+                <hr />
+                <h3 className={styles.topText}>
+                    <span className={`${styles.topTextSpan} ${styles.collegeVolunteers}`}>
+                        College Volunteers
+                    </span>
+                </h3>
                 <div className='mt-5 mb-5 d-flex flex-row flex-wrap justify-content-around'>
                     {collegeVolunteers.map((member) => (
                         <TeamCard
