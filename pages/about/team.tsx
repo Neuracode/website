@@ -174,6 +174,13 @@ const Team: React.FC = () => {
             description:
                 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community',
         },
+        {
+            name: 'Ekam Ghai',
+            title: 'Tutor: Intro to ML + Python + Intermediate Python + Curriculum Creator',
+            image: 'ekam_ghai.jpeg',
+            description:
+                'I\'m a flutter-fire-flask developer who loves robotics and is a 1st place hackathon winner.',
+        },
     ];
 
     const collegeVolunteers: ITeamCard[] = [
