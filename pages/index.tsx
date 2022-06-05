@@ -271,30 +271,21 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-left'
                             data-aos-once='true'
                         >
-                            <p>
-                                <span className={styles.check}>✓</span> Rigorous
-                                Curriculum
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Plethora
-                                of Resources
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Virtual:
-                                Learn Anywhere
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Beginner
-                                to Advanced
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span>{' '}
+                            <div className={styles.infoBox}>
+                                Rigorous Curriculum
+                            </div>
+                            <div className={styles.infoBox}>
+                                Plethora of Resources
+                            </div>
+                            <div className={styles.infoBox}>
+                                Virtual: Learn Anywhere
+                            </div>
+                            <div className={styles.infoBox}>
+                                Beginner to Advanced
+                            </div>
+                            <div className={styles.infoBox}>
                                 Knowledgeable Tutors
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Discord
-                                Community Support
-                            </p>
+                            </div>
 
                             <a
                                 href={formUrl}
@@ -317,27 +308,15 @@ const Home: NextPage = () => {
                             data-aos='zoom-in-right'
                             data-aos-once='true'
                         >
-                            <p>
-                                <span className={styles.check}>✓</span> Tutoring
-                                or Leadership Experience
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span>{' '}
-                                Community Service Hours
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Earn
-                                President&apos;s Volunteer Service Award
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Tutors
-                                gain knowledge through teaching
-                            </p>
-                            <p>
-                                <span className={styles.check}>✓</span> Fun
-                                environment
-                            </p>
-
+                            <div className={styles.infoBox}>
+                                Volunteer Hours
+                            </div>
+                            <div className={styles.infoBox}>
+                                Work with a Team
+                            </div>
+                            <div className={styles.infoBox}>
+                                Active Environment
+                            </div>
                             <a
                                 href='https://forms.gle/7dYev7Agaj36qsHe8'
                                 target='_blank'
@@ -359,14 +338,29 @@ const Home: NextPage = () => {
                         />
                     </div>
                 </section>
-                <section className={'mt-5 w-75'}>
-                    <h2 className={styles.sectionTitle}>Join the Discord</h2>
-                    <div className='d-flex flex-row justify-content-around align-items-center flex-wrap'>
-                        
-                    <iframe src="https://discord.com/widget?id=941049795949264969&theme=dark" width="350" height="500" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <section className={'mt-5 w-75 h-100'}>
+                    <div className='d-flex flex-row align-items-center justify-content-around flex-wrap'>
+                        <div className={styles.discordInformation}>
+                            <h2 className={styles.discordTitle}>
+                                Join Our Community
+                            </h2>
+                            <p className={styles.discordDescription}>
+                                Join our community of machine learning experts, coders, and students looking to learn more about machine learning.
+                                <br />
+                                <br />
+                                Whether you are beginner or an expert, you can create a lot of interesting projects, ranging from a simple chatbot to teaching a computer to play Mario.
+                            </p>
+                        </div>
+                        <iframe
+                            src='https://discord.com/widget?id=941049795949264969&theme=dark'
+                            width='350'
+                            height='500'
+                            frameBorder='0'
+                            sandbox='allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts'
+                        ></iframe>
                     </div>
                 </section>
-                
+
                 <section className={`${styles.sectionContainer5} mt-5`}>
                     <h2 className={styles.sectionTitle}>
                         Frequently Asked Questions

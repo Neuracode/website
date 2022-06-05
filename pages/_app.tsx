@@ -130,98 +130,6 @@ function MyApp({ Component, pageProps }: AppProps) {
                             </Col>
                             <Col md={{ offset: 1 }}>
                                 <div>
-                                    <b className='footerCategory'>SOCIAL</b>
-                                    <hr />
-                                    <div>
-                                        <a
-                                            href='https://discord.gg/N2dC3nNA7n'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                            className='text-decoration-none'
-                                        >
-                                            <Button
-                                                className='footerLink socialButton text-decoration-none w-100'
-                                                variant='outline-light'
-                                            >
-                                                <div className='socialBtnContent'>
-                                                    <Image
-                                                        src='/social_icons/discord-color.png'
-                                                        width='30'
-                                                        height='30'
-                                                        alt='discord'
-                                                        className='footerIcon'
-                                                    />
-                                                </div>
-                                            </Button>
-                                        </a>
-                                        <a
-                                            href='https://instagram.com/neuracode_'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                            className='text-decoration-none'
-                                        >
-                                            <Button
-                                                className='footerLink mt-3 text-decoration-none w-100'
-                                                variant='outline-light'
-                                            >
-                                                <div className='socialBtnContent'>
-                                                    <Image
-                                                        src='/social_icons/instagram-color.png'
-                                                        width='30'
-                                                        height='30'
-                                                        alt='instagram'
-                                                        className='footerIcon'
-                                                    />
-                                                </div>
-                                            </Button>
-                                        </a>
-                                        <a
-                                            href='https://twitter.com/neuracode'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                            className='text-decoration-none'
-                                        >
-                                            <Button
-                                                className='footerLink mt-3 text-decoration-none w-100'
-                                                variant='outline-light'
-                                            >
-                                                <div className='socialBtnContent'>
-                                                    <Image
-                                                        src='/social_icons/twitter-color.png'
-                                                        width='30'
-                                                        height='30'
-                                                        alt='twitter'
-                                                        className='footerIcon'
-                                                    />
-                                                </div>
-                                            </Button>
-                                        </a>
-                                        <a
-                                            href='https://www.linkedin.com/company/neuracode/'
-                                            target='_blank'
-                                            rel='noopener noreferrer'
-                                            className='text-decoration-none'
-                                        >
-                                            <Button
-                                                className='footerLink mt-3 text-decoration-none w-100'
-                                                variant='outline-light'
-                                            >
-                                                <div className='socialBtnContent'>
-                                                    <Image
-                                                        src='/social_icons/linkedin-color.png'
-                                                        width='30'
-                                                        height='30'
-                                                        alt='linkedin'
-                                                        className='footerIcon'
-                                                    />
-                                                </div>
-                                            </Button>
-                                        </a>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col md={{ offset: 1 }}>
-                                <div>
                                     <b className='footerCategory'>SUPPORT</b>
                                     <hr />
                                     <div>
@@ -233,7 +141,18 @@ function MyApp({ Component, pageProps }: AppProps) {
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Contact Us
+                                                Email Us
+                                            </p>
+                                        </Link>
+                                        <Link
+                                            href='tel:6092551853'
+                                            passHref
+                                        >
+                                            <p
+                                                role='button'
+                                                className='footerLink'
+                                            >
+                                                Call Us
                                             </p>
                                         </Link>
                                     </div>
@@ -248,7 +167,21 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 Copyright &copy; {new Date().getFullYear()}{' '}
                                 Neuracode. All rights reserved.
                             </span>
-                            <span>EIN: 88-1756778</span>
+                            <span>
+                                <a href="https://www.facebook.com/Neuracode-115543031164767/" target="_blank" rel="noreferrer noopener" className="me-3">
+                                    <Image src="/social_icons/facebook.png" alt="facebook" width={35} height={35} />
+                                </a>
+                                <a href="https://instagram.com/neuracode_" target="_blank" rel="noreferrer noopener" className="me-3">
+                                    <Image src="/social_icons/instagram.png" alt="instagram" width={35} height={35} />
+                                </a>
+                                <a href="https://www.linkedin.com/company/neuracode/" target="_blank" rel="noreferrer noopener" className="me-3">
+                                    <Image src="/social_icons/linkedin.png" alt="linkedin" width={35} height={35} />
+                                </a>
+                                <a href="https://twitter.com/neuracode" target="_blank" rel="noreferrer noopener">
+                                    <Image src="/social_icons/twitter.png" alt="twitter" width={35} height={35} />
+                                </a>
+                            </span>
+                            {/* <span>EIN: 88-1756778</span> */}
                         </div>
                     </p>
                 </Container>

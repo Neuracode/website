@@ -32,7 +32,6 @@ const TeamCard: React.FC<ITeamCard> = ({
                     height={150}
                     className={styles.teamMemberBackground}
                 ></Image>
-                {/* <Card.Img variant='top' src={`/team/${image}`} className={styles.teamMemberImage} /> */}
                 <div className={styles.teamMemberImageWrapper}>
                     <Image
                         src={`/team/${image}`}
