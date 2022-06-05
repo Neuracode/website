@@ -68,7 +68,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Eddie Tang',
-            title: 'Director of Python Curriculum',
+            title: 'Director of Python Curriculum + Discord Bot Developer',
             image: 'eddie_tang.jpeg',
             description:
                 'High school freshman interested in teaching python and integrating different features into various discord bots',
@@ -179,7 +179,42 @@ const Team: React.FC = () => {
             title: 'Tutor: Intro to ML + Python + Intermediate Python + Curriculum Creator',
             image: 'ekam_ghai.jpeg',
             description:
-                'I\'m a flutter-fire-flask developer who loves robotics and is a 1st place hackathon winner.',
+                'I\'m a flutter-fire-flask developer who loves robotics and is a 1st place hackathon winner',
+        },
+        {
+            name: 'Anthony Tang',
+            title: 'Tutor: Intro to Python + Java Data Structures',
+            image: 'anthony_tang.jpeg',
+            description:
+                'High school student passionate about computer science and spreading computer science to others',
+        },
+        {
+            name: 'Kristian Apostolov',
+            title: 'Full-Stack Developer + Discord Bot Developer',
+            image: 'kristian_apostolov.jpeg',
+            description:
+                'Helping others and tech are the two things that bring me the most dopamine',
+        },
+        {
+            name: 'Bhuvnesh Nagpal',
+            title: 'Discord Bot Developer + Tutor: Intro to Python + Intermediate Python + Intermediate Keras',
+            image: 'bhuvnesh_nagpal.jpeg',
+            description:
+                'I\'m a high school student from India with a passion for technology and machine learning',
+        },
+        {
+            name: 'David Antwi',
+            title: 'Tutor: Intro to ML + Python + Intermediate Python + Intermediate Scikit-Learn + Intermediate Keras + Intermediate TensorFlow',
+            image: 'david_antwi.jpeg',
+            description:
+                'I\'m passionate about machine learning, artificial intelligence, STEM and robotics',
+        },
+        {
+            name: 'Aditya Bilawar',
+            title: 'Tutor: Intro to ML + Intermediate Tensorflow + Java Data Structures',
+            image: 'aditya_bilawar.jpeg',
+            description:
+                'Student from West Windsor-Plainsboro High School South who is interested in AI/ML, CS, and tech startups',
         },
     ];
 
