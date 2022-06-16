@@ -40,28 +40,14 @@ const Team: React.FC = () => {
     const directors: ITeamCard[] = [
         {
             name: 'Annabelle Deng',
-            title: 'Co-director of Marketing',
+            title: 'Director of Marketing',
             image: 'annabelle_deng.jpeg',
             description:
                 'High school student interested in robotics and teaching students about coding',
         },
         {
-            name: 'Arca Baran',
-            title: 'Co-director of Marketing',
-            image: 'arca_baran.jpeg',
-            description:
-                'HTHS Class of 2023 student interested in spreading and communicating about technology to all',
-        },
-        {
-            name: 'Jaren Chu',
-            title: 'Co-director of Tutoring',
-            image: 'jaren_chu.jpeg',
-            description:
-                'High school sophomore interested in artificial intelligence and programming techniques',
-        },
-        {
             name: 'Arnav Podichetty',
-            title: 'Co-director of Tutoring',
+            title: 'Director of Tutoring',
             image: 'arnav_podichetty.jpeg',
             description:
                 'High school sophomore interested in developing coding skills and teaching youth through innovative techniques',
@@ -154,6 +140,13 @@ const Team: React.FC = () => {
                 'Motivated student and programmer with a passion for Machine Learning and the future of technology',
         },
         {
+            name: 'Vishnu Sharma',
+            title: 'Curriculum Creator + Tutor: Intro to Python + ML',
+            image: 'no_picture.jpg',
+            description:
+                'High school student interested in computer science, machine learning, and their applications',
+        },
+        {
             name: 'Adit Pakala',
             title: 'Tutor: Intro to Python + Intermediate Python',
             image: 'adit_pakala.jpeg',
@@ -216,19 +209,75 @@ const Team: React.FC = () => {
             description:
                 'Student from West Windsor-Plainsboro High School South who is interested in AI/ML, CS, and tech startups',
         },
+        {
+            name: 'Shreyaa Sanjay',
+            title: 'Recruiter + Public Relations + Events Organizer',
+            image: 'shreyaa_sanjay.jpeg',
+            description:
+                'High school student who loves sharing her interest in robotics and coding with others',
+        },
+        {
+            name: 'Vivik Nadig',
+            title: 'Frontend Developer',
+            image: 'vivik_nadig.png',
+            description:
+                'I love to volunteer and am passionate about CS',
+        },
+        {
+            name: 'David Ulloa',
+            title: 'Frontend Developer + Tutor: Intro to Python',
+            image: 'david_ulloa.jpeg',
+            description:
+                'Hello! My name is David and I\'m a passionate programmer. I hope to change the world around me by teaching computer science.',
+        },
+        {
+            name: 'Julia Huang',
+            title: 'Recruiter + Public Relations + Events Organizer',
+            image: 'julia_huang.jpeg',
+            description:
+                'High school student interested in problem solving and spending time on the Internet',
+        },
+        {
+            name: 'Ceiron Dushyanthan',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python + ML',
+            image: 'ceiron_dushyanthan.jpeg',
+            description:
+                'Sophomore at Bridgewater-Raritan High School that is interested in artificial intelligence and quantum computing',
+        },
+        {
+            name: 'Raghav Paratkar',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python + Java Data Structures',
+            image: 'raghav_paratkar.jpeg',
+            description:
+                'High school student with a passion for coding',
+        },
+        {
+            name: 'Shrey Shingala',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python + Intermediate Python',
+            image: 'shrey_shingala.jpeg',
+            description:
+                'High school student passionate about computer science and machine learning',
+        },
+        {
+            name: 'Hira Usman',
+            title: 'Tutor: Block Coding with Scratch + Recruiter + Public Relations + Events Organizer',
+            image: 'hira_usman.jpeg',
+            description:
+                'A high school freshman who enjoys Biomedical Sciences, App-Building, and volunteering!',
+        },
     ];
 
     const collegeVolunteers: ITeamCard[] = [
         {
             name: 'Justin Baltazar',
-            title: 'Full-Stack Developer + Curriculum Creator',
+            title: 'Full-Stack Developer',
             image: 'justin_baltazar.jpeg',
             description:
                 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning',
         },
         {
             name: 'Hafiz Hassan',
-            title: 'Curriculum Creator',
+            title: 'Video Creator',
             image: 'hafiz_hassan.jpeg',
             description:
                 'Surgical Data Scientist at UCL currently pursuing a career in bioinformatics and researching semi-supervised learning models to solve real-world problems',

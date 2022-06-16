@@ -32,11 +32,11 @@ const Overview: React.FC = () => {
                     />
                     <PositionCard
                         title='Tutor: Intro to Python'
-                        description='Intro to Python tutors will be required to have basic knowledge of the Python programming knowledge.'
+                        description='Intro to Python tutors will be required to have basic knowledge of the Python programming language.'
                     />
                     <PositionCard
                         title='Tutor: Intermediate Python'
-                        description='Intermediate Python tutors will be required to have advanced knowledge of the Python programming knowledge, including concepts like OOP, magic methods, and more.'
+                        description='Intermediate Python tutors will be required to have advanced knowledge of the Python programming language, including concepts like OOP, magic methods, and more.'
                     />
                     <PositionCard
                         title='Tutor: Intermediate Scikit-Learn'

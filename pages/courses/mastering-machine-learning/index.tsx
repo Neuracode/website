@@ -25,7 +25,7 @@ const MasteringMachineLearning: React.FC = () => {
         {
             name: 'Intro to Python',
             description:
-                'Learn to use the general-purpose programming knowledge, which has a huge machine learning community to support it. Python is the most popular language for machine learning and this teaches you the basics you need for the other courses, which all require Python.',
+                'Learn to use the general-purpose programming language, which has a huge machine learning community to support it. Python is the most popular language for machine learning and this teaches you the basics you need for the other courses, which all require Python.',
             image: '/course_icons/python.png',
             href: '/courses/mastering-machine-learning/intro-to-python',
             prerequisites: [],
