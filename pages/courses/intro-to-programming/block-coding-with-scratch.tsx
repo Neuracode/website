@@ -20,7 +20,7 @@ const BlockCodingWithScratch: React.FC = () => {
             <CourseHeader
                 name='Block Coding with Scratch'
                 curriculumList={curriculumList}
-                about='If you are completely new to coding, this course is for you. This course is meant to teach you the basics of coding, and will help you get started with the rest of the courses. It is based on drag-and-drop programming, which is great for young learners.'
+                about='This course was created for students who are looking for an introduction to coding and its fundamental concepts. By using Scratch for block coding students will explore fundamental computer science concepts such as conditionals, reusable functions, loops, and more! With knowledge of these concepts, students will be able to create a multitude of games, which involve stories, animations, music, and more.'
                 startDate='June 30th'
                 endDate='July 30th'
                 dayAndTime='Friday, 3:00PM - 4:30PM + Saturday, 3:00PM - 4:30PM'

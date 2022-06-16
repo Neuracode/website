@@ -33,7 +33,7 @@ const IntermediateTensorFlow: React.FC = () => {
             <CourseHeader
                 name='Intermediate TensorFlow'
                 curriculumList={curriculumList}
-                about='Learn how to use TensorFlow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.'
+                about='This course is meant for students who have already learned Intermediate Python, Intermediate Keras, and know basic machine learning concepts. TensorFlow is a machine learning library with a low-level API that is primarily used for deep learning along with Keras. With this library, students will have much more control over their machine learning models and will be able to create advanced projects.'
                 startDate='June 30th'
                 endDate='August 30th'
                 dayAndTime='Saturday, 5:00PM - 6:30PM + Sunday, 5:00PM - 6:30PM'

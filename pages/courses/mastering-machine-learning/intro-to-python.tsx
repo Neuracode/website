@@ -32,7 +32,7 @@ const IntroToPython: React.FC = () => {
             <CourseHeader
                 name='Intro to Python'
                 curriculumList={curriculumList}
-                about='Learn to use the general-purpose programming language, which has a huge machine learning community to support it. Python is the most popular language for machine learning and this teaches you the basics you need for the other courses, which all require Python.'
+                about='This course was created for students who are looking to learn more about Python or want to learn the language that will allow them to apply their machine learning knowledge. In this course, students will learn by code examples and analogies that teach them fundamental programming concepts, including variables, loops, lists, conditionals, and more! Students will apply their knowledge to create a variety of different projects.'
                 startDate='June 30th'
                 endDate='July 30th'
                 dayAndTime='Friday, 3:30PM - 5:00PM + Saturday, 3:30PM - 5:00PM'
