@@ -265,6 +265,48 @@ const Team: React.FC = () => {
             description:
                 'A high school freshman who enjoys Biomedical Sciences, App-Building, and volunteering!',
         },
+        {
+            name: 'Aryan Aneesh',
+            title: 'Events Organizer',
+            image: 'aryan_aneesh.jpeg',
+            description:
+                'Passionate programmer driven to explore the intersection between service and computer science',
+        },
+        {
+            name: 'Miyah Dones',
+            title: 'Discord Bot Developer + Discord Moderator + Tutor: Block Coding with Scratch',
+            image: 'no_picture.jpg',
+            description:
+                'High school student with a drive for computer science and always looking to help and have fun!',
+        },
+        {
+            name: 'Kirthan Murthy',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python',
+            image: 'kirthan_murthy.png',
+            description:
+                'I am a high school student who enjoys the fields of computer science and business',
+        },
+        {
+            name: 'Daniel Allen',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python',
+            image: 'daniel_allen.jpg',
+            description:
+                'High School Student interested in robotics and a passion mentoring',
+        },
+        {
+            name: 'Frank Chang',
+            title: 'Curriculum Creator',
+            image: 'frank_chang.jpg',
+            description:
+                'Student at Chantilly High School with a passion for technology that will impact the future',
+        },
+        {
+            name: 'Thomas Chia',
+            title: 'Curriculum Creator + Tutor: Intermediate Keras + Intermediate TensorFlow',
+            image: 'thomas_chia.png',
+            description:
+                'Rodman Scholar at the University of Virginia, ISEF 4th Place',
+        },
     ];
 
     const collegeVolunteers: ITeamCard[] = [
