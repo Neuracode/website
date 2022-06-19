@@ -136,7 +136,7 @@ const Home: NextPage = () => {
                                 data-aos-delay='200'
                             >
                                 <div className={styles.viewCoursesBtn}>
-                                    <ThreeDButton text='View Courses' />
+                                    <ThreeDButton text='View FREE Courses' />
                                 </div>
                             </div>
                         </Link>
@@ -294,6 +294,9 @@ const Home: NextPage = () => {
                             data-aos-once='true'
                         >
                             <div className={styles.infoBox}>
+                                FREE
+                            </div>
+                            <div className={styles.infoBox}>
                                 Rigorous Curriculum
                             </div>
                             <div className={styles.infoBox}>
@@ -304,9 +307,6 @@ const Home: NextPage = () => {
                             </div>
                             <div className={styles.infoBox}>
                                 Beginner to Advanced
-                            </div>
-                            <div className={styles.infoBox}>
-                                Knowledgeable Tutors
                             </div>
 
                             <a

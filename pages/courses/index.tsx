@@ -8,7 +8,7 @@ import Head from 'next/head';
 const Courses: React.FC = ({}) => {
     const whyUsList = [
         {
-            name: 'Virtual Lessons',
+            name: 'FREE Virtual Lessons',
             logo: '/course_icons/zoom.png',
         },
         {
