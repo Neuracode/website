@@ -154,6 +154,28 @@ const Home: NextPage = () => {
                         />
                     </div>
                 </section>
+                <section className={styles.statisticsSection}>
+                    <div>
+                        <div className={styles.statistic}>120+</div>
+                        <div className={styles.statisticText}>Students</div>
+                    </div>
+                    <div>
+                        <div className={styles.statistic}>40+</div>
+                        <div className={styles.statisticText}>Team Members</div>
+                    </div>
+                    <div>
+                        <div className={styles.statistic}>80K+</div>
+                        <div className={styles.statisticText}>Impressions</div>
+                    </div>
+                    <div>
+                        <div className={styles.statistic}>9</div>
+                        <div className={styles.statisticText}>Countries</div>
+                    </div>
+                    <div>
+                        <div className={styles.statistic}>8</div>
+                        <div className={styles.statisticText}>Courses</div>
+                    </div>
+                </section>
                 <section className={styles.sectionContainer2}>
                     <Link href='/courses' passHref={true}>
                         <div data-aos-once='true'>

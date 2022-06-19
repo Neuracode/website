@@ -61,7 +61,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Sean Noh',
-            title: 'Director of Java, Data Structures, and Growth',
+            title: 'Director of Java Data Structures',
             image: 'sean_noh.jpeg',
             description:
                 'Computer science student that enjoys sharing knowledge and creating projects',
