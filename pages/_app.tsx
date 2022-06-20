@@ -115,14 +115,14 @@ function MyApp({ Component, pageProps }: AppProps) {
                                             </p>
                                         </Link>
                                         <Link
-                                            href='https://forms.gle/7dYev7Agaj36qsHe8'
+                                            href='/about/volunteer'
                                             passHref
                                         >
                                             <p
                                                 role='button'
                                                 className='footerLink'
                                             >
-                                                Volunteer Application
+                                                Volunteer
                                             </p>
                                         </Link>
                                     </div>
