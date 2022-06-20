@@ -340,13 +340,13 @@ const Home: NextPage = () => {
                                 Active Environment
                             </div>
                             <a
-                                href='https://forms.gle/7dYev7Agaj36qsHe8'
+                                href='/about/volunteer'
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
                             >
                                 <div className='w-100 d-flex align-items-center justify-content-center'>
-                                    <ThreeDButton text='Apply Now!' />
+                                    <ThreeDButton text='Learn More' />
                                 </div>
                             </a>
                         </div>
