@@ -183,7 +183,7 @@ const Volunteer: React.FC = ({}) => {
                                 <Accordion.Body>
                                     The Neuracode team is here to help tutors and volunteers alike to the best of 
                                     their ability. New tutors will go through a training and onboarding process, giving them the tools and
-                                    the necessary knowledge needed to succeed the best they can at their roles. Don't hesistate to contact the
+                                    the necessary knowledge needed to succeed the best they can at their roles. Don&apos;t hesistate to contact the
                                     team members on Discord for any additional advice or tips needed along the way.
                                 </Accordion.Body>
                             </Accordion.Item>
