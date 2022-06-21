@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.statisticsSection}>
                     <div>
-                        <div className={styles.statistic}>120+</div>
+                        <div className={styles.statistic}>180+</div>
                         <div className={styles.statisticText}>Students</div>
                     </div>
                     <div>
