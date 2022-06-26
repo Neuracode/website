@@ -134,6 +134,10 @@ const MainNavbar: React.FC = () => {
                                             href: '/about/team',
                                         },
                                         {
+                                            name: 'Volunteer',
+                                            href: '/about/volunteer',
+                                        },
+                                        {
                                             name: 'Discord',
                                             href: 'https://discord.gg/N2dC3nNA7n',
                                         },
