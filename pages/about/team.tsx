@@ -50,7 +50,14 @@ const Team: React.FC = () => {
             title: 'Director of Tutoring',
             image: 'arnav_podichetty.jpeg',
             description:
-                'High school sophomore interested in developing coding skills and teaching youth through innovative techniques',
+                'High school student interested in developing coding skills and teaching youth through innovative techniques',
+        },
+        {
+            name: 'Jaren Chu',
+            title: 'Director of Tutoring',
+            image: 'jaren_chu.jpeg',
+            description:
+                'High school student interested in artificial intelligence and programming techniques',
         },
         {
             name: 'Eddie Tang',
@@ -306,6 +313,34 @@ const Team: React.FC = () => {
             image: 'thomas_chia.png',
             description:
                 'Rodman Scholar at the University of Virginia, ISEF 4th Place',
+        },
+        {
+            name: 'Pankhuri Goyal',
+            title: 'Tutor: Block Coding with Scratch + Intro to Python',
+            image: 'pankhuri_goyal.jpg',
+            description:
+                'High School student with a love for Computer Science and mentoring',
+        },
+        {
+            name: 'Aiden Jasul',
+            title: 'Tutor: Intro to Python + Intermediate Python',
+            image: 'aiden_jasul.jpg',
+            description:
+                'Student from Scotch Plains Fanwood High School determined to make an impact through computers and technology',
+        },
+        {
+            name: 'Raymond Xu',
+            title: 'Tutor: Intro to Python',
+            image: 'raymond_xu.jpg',
+            description:
+                'High school student interested in CS',
+        },
+        {
+            name: 'Chantal Pino',
+            title: 'Tutor: Intro to Python + Public Relations',
+            image: 'chantal_pino.png',
+            description:
+                'High school student interested in python, machine learning and hackathons',
         },
     ];
 

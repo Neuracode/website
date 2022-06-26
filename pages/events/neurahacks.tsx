@@ -20,7 +20,7 @@ const neurahacks: React.FC = ({}) => {
                         alt='NeuraHacks Logo'
                     />
                     <h1 className={styles.hackathonTitle}>NeuraHacks</h1>
-                    <h2>August 30th | Virtual</h2>
+                    <h2>August 27th - August 28th | Virtual</h2>
                     <a
                         href='https://forms.gle/mXpvqKYMnPSCV8n79'
                         target='_blank'

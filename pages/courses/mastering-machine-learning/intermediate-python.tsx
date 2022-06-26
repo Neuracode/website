@@ -35,8 +35,8 @@ const IntermediatePython: React.FC = () => {
                 name='Intermediate Python'
                 curriculumList={curriculumList}
                 about='This course was designed for students who already know the basics of Python but are looking to delve deeper into the language. Students will learn about Object-Oriented Programming and key features of the Python language that will teach them everything they need to know for the advanced courses. Students will create projects in order to solidify their understanding.'
-                startDate='June 30th'
-                endDate='August 30th'
+                startDate='July 1st'
+                endDate='August 26th'
                 dayAndTime='Friday, 5:00PM - 6:30PM + Saturday, 5:00PM - 6:30PM'
                 timeCommitment={3}
                 recommendedGrades='8 - 10'

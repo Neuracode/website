@@ -27,8 +27,8 @@ const IntermediateKeras: React.FC = () => {
                 name='Intermediate Keras'
                 curriculumList={curriculumList}
                 about='This course is meant for students who have already learned Intermediate Python and know basic machine learning concepts. By taking the course, students will learn more about machine learning and Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with TensorFlow. Students will also create multiple projects that involve that involve deep learning, such as prediction house prices.'
-                startDate='June 30th'
-                endDate='August 30th'
+                startDate='July 1st'
+                endDate='August 26th'
                 dayAndTime='Saturday, 3:30PM - 5:00PM + Sunday, 3:30PM - 5:00PM'
                 timeCommitment={4}
                 recommendedGrades='8 - 12'
