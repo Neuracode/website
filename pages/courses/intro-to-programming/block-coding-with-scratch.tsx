@@ -23,7 +23,7 @@ const BlockCodingWithScratch: React.FC = () => {
                 about='This course was created for students who are looking for an introduction to coding and its fundamental concepts. By using Scratch for block coding students will explore fundamental computer science concepts such as conditionals, reusable functions, loops, and more! With knowledge of these concepts, students will be able to create a multitude of games, which involve stories, animations, music, and more.'
                 startDate='July 1st'
                 endDate='July 30th'
-                dayAndTime='Friday, 3:00PM - 4:30PM + Saturday, 3:00PM - 4:30PM'
+                dayAndTime='Friday, 12:30PM - 2:00PM + Saturday, 12:30PM - 2:00PM'
                 timeCommitment={3}
                 recommendedGrades='2-6'
                 prerequisites={[]}
