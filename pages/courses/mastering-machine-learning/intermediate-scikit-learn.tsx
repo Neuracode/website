@@ -58,7 +58,7 @@ const IntermediateScikitLearn: React.FC = () => {
                 about='This course is meant for students who have already learned Intermediate Python and know basic machine learning concepts. By taking the course, students will learn more about machine learning and Scikit-Learn, a machine learning library for Python that includes a lot of useful machine learning algorithms and functions. Students will use this library along with a variety of different datasets to create machine learning projects.'
                 startDate='July 1st'
                 endDate='August 26th'
-                dayAndTime='Saturday, 2:00PM - 3:30PM + Sunday, 2:00PM - 3:30PM'
+                dayAndTime='Friday, 2:00PM - 3:30PM + Saturday, 2:00PM - 3:30PM'
                 timeCommitment={4}
                 recommendedGrades='8 - 12'
                 prerequisites={[
