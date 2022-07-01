@@ -353,13 +353,6 @@ const Team: React.FC = () => {
             description:
                 'A Computer Science and Math double major with experience in software engineering, web development, and machine learning',
         },
-        {
-            name: 'Hafiz Hassan',
-            title: 'Video Creator',
-            image: 'hafiz_hassan.jpeg',
-            description:
-                'Surgical Data Scientist at UCL currently pursuing a career in bioinformatics and researching semi-supervised learning models to solve real-world problems',
-        },
     ];
 
     return (
