@@ -127,13 +127,6 @@ const Team: React.FC = () => {
                 'Currently a high school student with a passion for machine learning and computational neuroscience',
         },
         {
-            name: 'Prabhas Gade',
-            title: 'Tutor: Intro to ML',
-            image: 'prabhas_gade.jpeg',
-            description:
-                'High School student who has a passion for computer programming, robotics, and AI',
-        },
-        {
             name: 'Bertrand Lee',
             title: 'Tutor: Intro to ML + Python',
             image: 'bertrand_lee.jpeg',
@@ -237,13 +230,6 @@ const Team: React.FC = () => {
             image: 'shreyaa_sanjay.jpeg',
             description:
                 'High school student who loves sharing her interest in robotics and coding with others',
-        },
-        {
-            name: 'Vivik Nadig',
-            title: 'Frontend Developer',
-            image: 'vivik_nadig.png',
-            description:
-                'I love to volunteer and am passionate about CS',
         },
         {
             name: 'David Ulloa',
