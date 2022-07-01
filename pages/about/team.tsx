@@ -35,6 +35,14 @@ const Team: React.FC = () => {
             linkedin: 'https://www.linkedin.com/in/jaiman-pandya-825350234',
             github: 'https://github.com/Jaiman-Pandya',
         },
+        {
+            name: 'Eddie Tang',
+            title: 'Chief Curriculum Officer',
+            image: 'eddie_tang.jpeg',
+            description:
+                'High school freshman interested in teaching python and integrating different features into various discord bots',
+            github: 'https://github.com/EDED2314',
+        },
     ];
 
     const directors: ITeamCard[] = [
@@ -60,18 +68,32 @@ const Team: React.FC = () => {
                 'High school student interested in artificial intelligence and programming techniques',
         },
         {
-            name: 'Eddie Tang',
-            title: 'Director of Python Curriculum + Discord Bot Developer',
-            image: 'eddie_tang.jpeg',
-            description:
-                'High school freshman interested in teaching python and integrating different features into various discord bots',
-        },
-        {
             name: 'Sean Noh',
             title: 'Director of Java Data Structures',
             image: 'sean_noh.jpeg',
             description:
                 'Computer science student that enjoys sharing knowledge and creating projects',
+        },
+        {
+            name: 'Kevin Hwang',
+            title: 'Director of Python Curriculum',
+            image: 'kevin_hwang.jpeg',
+            description:
+                'High school student interested and involved in machine learning and robotics.',
+        },
+        {
+            name: 'Frank Chang',
+            title: 'Director of Machine Learning Curriculum',
+            image: 'frank_chang.jpg',
+            description:
+                'Student at Chantilly High School with a passion for technology that will impact the future',
+        },
+        {
+            name: 'Raghav Paratkar',
+            title: 'Director of Scratch Curriculum',
+            image: 'raghav_paratkar.jpeg',
+            description:
+                'High school student with a passion for coding',
         },
     ];
 
@@ -124,13 +146,6 @@ const Team: React.FC = () => {
             image: 'michael_ilie.jpeg',
             description:
                 'Junior entrepreneur, computer engineer, and high school student',
-        },
-        {
-            name: 'Kevin Hwang',
-            title: 'Curriculum Creator + Discord Moderator',
-            image: 'kevin_hwang.jpeg',
-            description:
-                'High school student interested and involved in machine learning and robotics.',
         },
         {
             name: 'Sai Challagundla',
@@ -252,13 +267,6 @@ const Team: React.FC = () => {
                 'Sophomore at Bridgewater-Raritan High School that is interested in artificial intelligence and quantum computing',
         },
         {
-            name: 'Raghav Paratkar',
-            title: 'Tutor: Block Coding with Scratch + Intro to Python + Java Data Structures',
-            image: 'raghav_paratkar.jpeg',
-            description:
-                'High school student with a passion for coding',
-        },
-        {
             name: 'Shrey Shingala',
             title: 'Tutor: Block Coding with Scratch + Intro to Python + Intermediate Python',
             image: 'shrey_shingala.jpeg',
@@ -299,13 +307,6 @@ const Team: React.FC = () => {
             image: 'daniel_allen.jpg',
             description:
                 'High School Student interested in robotics and a passion mentoring',
-        },
-        {
-            name: 'Frank Chang',
-            title: 'Curriculum Creator',
-            image: 'frank_chang.jpg',
-            description:
-                'Student at Chantilly High School with a passion for technology that will impact the future',
         },
         {
             name: 'Thomas Chia',
