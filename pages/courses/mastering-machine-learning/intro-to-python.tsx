@@ -19,8 +19,7 @@ const IntroToPython: React.FC = () => {
         'Dictionaries',
         'Try/Except',
         'Files',
-        'Modules',
-        'Intro to classes and objects',
+        'Modules'
     ];
 
     return (
