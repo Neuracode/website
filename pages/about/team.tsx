@@ -89,6 +89,13 @@ const Team: React.FC = () => {
                 'Student at Chantilly High School with a passion for technology that will impact the future',
         },
         {
+            name: 'Vishnu Sharma',
+            title: 'Director of Machine Learning Curriculum',
+            image: 'no_picture.jpg',
+            description:
+                'High school student interested in computer science, machine learning, and their applications',
+        },
+        {
             name: 'Raghav Paratkar',
             title: 'Director of Scratch Curriculum',
             image: 'raghav_paratkar.jpeg',
@@ -153,13 +160,6 @@ const Team: React.FC = () => {
             image: 'no_picture.jpg',
             description:
                 'Motivated student and programmer with a passion for Machine Learning and the future of technology',
-        },
-        {
-            name: 'Vishnu Sharma',
-            title: 'Curriculum Creator + Tutor: Intro to Python + ML',
-            image: 'no_picture.jpg',
-            description:
-                'High school student interested in computer science, machine learning, and their applications',
         },
         {
             name: 'Adit Pakala',
