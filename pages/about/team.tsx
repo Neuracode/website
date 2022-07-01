@@ -183,13 +183,6 @@ const Team: React.FC = () => {
                 'Motivated high school student with interest in all aspects of Mathematics, Computer Science and a big passion for giving back to the community',
         },
         {
-            name: 'Ekam Ghai',
-            title: 'Tutor: Intro to ML + Python + Intermediate Python + Curriculum Creator',
-            image: 'ekam_ghai.jpeg',
-            description:
-                'I\'m a flutter-fire-flask developer who loves robotics and is a 1st place hackathon winner',
-        },
-        {
             name: 'Anthony Tang',
             title: 'Tutor: Intro to Python + Java Data Structures',
             image: 'anthony_tang.jpeg',
@@ -272,13 +265,6 @@ const Team: React.FC = () => {
             image: 'aryan_aneesh.jpeg',
             description:
                 'Passionate programmer driven to explore the intersection between service and computer science',
-        },
-        {
-            name: 'Miyah Dones',
-            title: 'Discord Bot Developer + Discord Moderator + Tutor: Block Coding with Scratch',
-            image: 'no_picture.jpg',
-            description:
-                'High school student with a drive for computer science and always looking to help and have fun!',
         },
         {
             name: 'Kirthan Murthy',
