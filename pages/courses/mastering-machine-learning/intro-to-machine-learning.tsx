@@ -8,10 +8,11 @@ const IntroToMachineLearning: React.FC = () => {
     const curriculumList = [
         'What is machine learning?',
         'Why use machine learning?',
-        'Different types of machine learning',
+        'Machine learning pipeline',
         'Common machine learning algorithms',
-        'Testing and validating algorithms',
-        'Neural networks and different types of neural networks',
+        'Preparing data for machine learning',
+        'Implementing regression',
+        'Understanding data trends'
     ];
 
     return (
