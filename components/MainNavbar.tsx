@@ -134,10 +134,6 @@ const MainNavbar: React.FC = () => {
                                             href: '/about/team',
                                         },
                                         {
-                                            name: 'Volunteer',
-                                            href: '/about/volunteer',
-                                        },
-                                        {
                                             name: 'Discord',
                                             href: 'https://discord.gg/N2dC3nNA7n',
                                         },
@@ -183,8 +179,12 @@ const MainNavbar: React.FC = () => {
                                             href: '/join',
                                         },
                                         {
-                                            name: 'Apply',
-                                            href: 'https://forms.gle/7dYev7Agaj36qsHe8',
+                                            name: 'Volunteer',
+                                            href: '/join/volunteer',
+                                        },
+                                        {
+                                            name: 'Chapter Information',
+                                            href: '/join/start-a-chapter',
                                         },
                                     ]}
                                 />

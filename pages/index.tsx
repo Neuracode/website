@@ -340,7 +340,7 @@ const Home: NextPage = () => {
                                 Active Environment
                             </div>
                             <a
-                                href='/about/volunteer'
+                                href='/join/volunteer'
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'

@@ -110,6 +110,24 @@ const Volunteer: React.FC = ({}) => {
                 <br/>
                 <section className={`${styles.sectionContainer5} mt-5`}>
                     <h2 className={styles.sectionTitle}>
+                    Already a Volunteer?
+                    </h2>
+                    <div className={'d-flex flex-row justify-content-around align-items-center flex-wrap'} id='test'>
+                        <h5 className={styles.description}>All newly accepted volunteers must undergo and complete training before volunteering begins.</h5>
+                    </div>
+                    <a
+                                href= 'https://canvas.instructure.com/register_from_website'
+                                target='_blank'
+                                rel='noreferrer'
+                                className='text-decoration-none'
+                            >
+                                <div className='w-100 d-flex align-items-center justify-content-center'>
+                                    <ThreeDButton text='Begin Training' />
+                                </div>
+                    </a>
+                </section>
+                <section className={`${styles.sectionContainer5} mt-5`}>
+                    <h2 className={styles.sectionTitle}>
                         Frequently Asked Questions
                     </h2>
                     <div
