@@ -115,7 +115,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                             </p>
                                         </Link>
                                         <Link
-                                            href='/about/volunteer'
+                                            href='/join/volunteer'
                                             passHref
                                         >
                                             <p

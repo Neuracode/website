@@ -323,7 +323,7 @@ const Team: React.FC = () => {
             title: 'Full-Stack Developer',
             image: 'justin_baltazar.jpeg',
             description:
-                'A Computer Science and Math double major with experience in software engineering, web development, and machine learning',
+                'A Computer Science and Mathematics double major at UMass Amherst with experience in software engineering and web development.',
         },
     ];
 
