@@ -26,7 +26,7 @@ const JavaDataStructures: React.FC = ({}) => {
                 about='If you have already learned the basics of Java and are looking to get farther into your computer science journey, then this is the course for you. This course will teach you all of the basic data structures in Java but requires you to have basic knowledge of Java, including knowledge of arrays, array lists, and how a class is structured.'
                 startDate='July 8th'
                 endDate='August 26th'
-                dayAndTime='Friday, 3:00PM - 4:30PM + Saturday, 3:00PM - 4:30PM'
+                dayAndTime='Saturday, 5:00PM - 6:30PM'
                 timeCommitment={3}
                 recommendedGrades='8-12'
                 prerequisites={['Java Basics']}
