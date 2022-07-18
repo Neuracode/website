@@ -34,6 +34,7 @@ const Team: React.FC = () => {
                 'Student researcher in machine learning with a passion for computational biology',
             linkedin: 'https://www.linkedin.com/in/jaiman-pandya-825350234',
             github: 'https://github.com/Jaiman-Pandya',
+            website: 'https://jaiman-pandya.github.io/Portfolio/', 
         },
         {
             name: 'Arnav Podichetty',
