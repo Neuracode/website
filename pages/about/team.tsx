@@ -37,7 +37,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Arnav Podichetty',
-            title: 'Supreme Leader Thanos',
+            title: 'Chief Tutoring Officer',
             image: 'arnav_podichetty.jpeg',
             description:
                 'High school student interested in developing coding skills and teaching youth through innovative techniques',
