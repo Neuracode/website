@@ -36,6 +36,13 @@ const Team: React.FC = () => {
             github: 'https://github.com/Jaiman-Pandya',
         },
         {
+            name: 'Arnav Podichetty',
+            title: 'Director of Tutoring',
+            image: 'arnav_podichetty.jpeg',
+            description:
+                'High school student interested in developing coding skills and teaching youth through innovative techniques',
+        },
+        {
             name: 'Eddie Tang',
             title: 'Chief Curriculum Officer',
             image: 'eddie_tang.jpeg',
@@ -52,13 +59,6 @@ const Team: React.FC = () => {
             image: 'annabelle_deng.jpeg',
             description:
                 'High school student interested in robotics and teaching students about coding',
-        },
-        {
-            name: 'Arnav Podichetty',
-            title: 'Director of Tutoring',
-            image: 'arnav_podichetty.jpeg',
-            description:
-                'High school student interested in developing coding skills and teaching youth through innovative techniques',
         },
         {
             name: 'Jaren Chu',
