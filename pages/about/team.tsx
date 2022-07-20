@@ -55,13 +55,6 @@ const Team: React.FC = () => {
 
     const directors: ITeamCard[] = [
         {
-            name: 'Annabelle Deng',
-            title: 'Director of Marketing',
-            image: 'annabelle_deng.jpeg',
-            description:
-                'High school student interested in robotics and teaching students about coding',
-        },
-        {
             name: 'Jaren Chu',
             title: 'Director of Tutoring',
             image: 'jaren_chu.jpeg',
