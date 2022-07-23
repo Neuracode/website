@@ -85,7 +85,7 @@ const Team: React.FC = () => {
         {
             name: 'Vishnu Sharma',
             title: 'Director of Machine Learning Curriculum',
-            image: 'no_picture.jpg',
+            image: 'vishnu_sharma.jpg',
             description:
                 'High school student interested in computer science, machine learning, and their applications',
         },
