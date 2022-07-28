@@ -187,6 +187,11 @@ const Team: React.FC = () => {
             title: 'Tutor: Intro to Python',
             image: 'raymond_xu.jpg',
         },
+        {
+            name: 'Ekam Ghai',
+            title: 'Curriculum Creator',
+            image: 'ekam_ghai.jpeg',
+        },
     ];
 
     const collegeVolunteers: ITeamCard[] = [
