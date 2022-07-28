@@ -7,7 +7,7 @@ interface ITeamCard {
     name: string;
     title: string;
     image: string;
-    description: string;
+    description?: string;
     linkedin?: string;
     website?: string;
     github?: string;
@@ -49,9 +49,11 @@ const TeamCard: React.FC<ITeamCard> = ({
                         <span className={styles.teamMemberTitle}>{title}</span>
                     </Card.Title>
                     <Card.Text>
-                        <p className={styles.teamMemberDescription}>
+                        {description ? (
+                            <p className={styles.teamMemberDescription}>
                             {description}
-                        </p>
+                            </p>
+                        ) : null}
                         <div className='mt-3 d-flex justify-content-around'>
                             {linkedin && (
                                 <a
