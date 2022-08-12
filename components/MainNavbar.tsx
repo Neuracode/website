@@ -171,15 +171,13 @@ const MainNavbar: React.FC = () => {
                                 />
                             </Nav.Link>
                             <Nav.Link>
-                                <Dropdown
-                                    name='Donate'
-                                    options={[
-                                        {
-                                            name: 'Donate',
-                                            href: '/donate',
-                                        },
-                                    ]}
-                                />
+                                <Link href='/donate'>
+                                    <button
+                                        className='inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75'
+                                    >
+                                        Donate 
+                                    </button>
+                                </Link>
                             </Nav.Link>
                             <Nav.Link>
                                 <Dropdown
