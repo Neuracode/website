@@ -115,6 +115,16 @@ function MyApp({ Component, pageProps }: AppProps) {
                                             </p>
                                         </Link>
                                         <Link
+                                            href='/donate'
+                                        >
+                                            <p
+                                                role='button'
+                                                className='footerLink'
+                                            >
+                                                Donate
+                                            </p>
+                                        </Link>
+                                        <Link
                                             href='/join/volunteer'
                                             passHref
                                         >

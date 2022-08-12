@@ -172,6 +172,17 @@ const MainNavbar: React.FC = () => {
                             </Nav.Link>
                             <Nav.Link>
                                 <Dropdown
+                                    name='Donate'
+                                    options={[
+                                        {
+                                            name: 'Donate',
+                                            href: '/donate',
+                                        },
+                                    ]}
+                                />
+                            </Nav.Link>
+                            <Nav.Link>
+                                <Dropdown
                                     name='Join'
                                     options={[
                                         {
