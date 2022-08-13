@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         });
     }, []);
 
-    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+    const formUrl = 'https://bit.ly/neuracode-programs';
 
     return (
         <>
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                                 Sign up
                             </b>
                         </a>{' '}
-                        for any course by June 28th!
+                        for any course by December 1st!
                     </div>
                 </div>
             ) : null}
