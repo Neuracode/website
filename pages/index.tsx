@@ -160,11 +160,11 @@ const Home: NextPage = () => {
                         <div className={styles.statisticText}>Students</div>
                     </div>
                     <div>
-                        <div className={styles.statistic}>40+</div>
+                        <div className={styles.statistic}>30+</div>
                         <div className={styles.statisticText}>Team Members</div>
                     </div>
                     <div>
-                        <div className={styles.statistic}>120K+</div>
+                        <div className={styles.statistic}>400K+</div>
                         <div className={styles.statisticText}>Impressions</div>
                     </div>
                     <div>
