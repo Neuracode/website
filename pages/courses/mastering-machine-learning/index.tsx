@@ -38,43 +38,6 @@ const MasteringMachineLearning: React.FC = () => {
             href: '/courses/mastering-machine-learning/intermediate-python',
             prerequisites: ['Basic Python'],
         },
-        {
-            name: 'Intermediate Scikit-Learn',
-            description:
-                'Learn how to use Scikit-Learn, a machine learning library for Python that includes a lot of useful machine learning algorithms and functions. It is not too complex and is a great way to get started with machine learning.',
-            image: 'https://avatars2.githubusercontent.com/u/365630?v=3&s=400',
-            href: '/courses/mastering-machine-learning/intermediate-scikit-learn',
-            prerequisites: [
-                'Basic Python',
-                'Intermediate Python',
-                'ML Concepts',
-            ],
-        },
-        {
-            name: 'Intermediate Keras',
-            description:
-                'Learn how to use Keras, a machine learning library for Python that is commonly used for artificial neural networks (ANNs) and deep learning. It is a high-level API that can be used along with TensorFlow.',
-            image: '/course_icons/keras_icon.png',
-            href: '/courses/mastering-machine-learning/intermediate-keras',
-            prerequisites: [
-                'Basic Python',
-                'Intermediate Python',
-                'ML Concepts',
-            ],
-        },
-        {
-            name: 'Intermediate TensorFlow',
-            description:
-                'Learn how to use TensorFlow, a machine learning library that is primarily used for deep learning. It is used along with Keras and it mainly features a low-level API.',
-            image: '/course_icons/tensorflow.png',
-            href: '/courses/mastering-machine-learning/intermediate-tensorflow',
-            prerequisites: [
-                'Basic Python',
-                'Intermediate Python',
-                'ML Concepts',
-                'Keras',
-            ],
-        },
     ];
 
     return (

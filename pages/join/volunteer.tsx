@@ -39,7 +39,7 @@ const Volunteer: React.FC = ({}) => {
                 <title>Volunteer</title>
                 <meta
                     name='description'
-                    content='Neuracode offers a variety of free courses on topic such as intro to programming, mastering machine learning, and Java data structures.'
+                    content='Volunteer at Neuracode. By volunteering at Neuracode, you will earn volunteer hours and gain experience at the same time. To volunteer at Neuracode, please sign up below. You can teach topics like Intro to Python, Intermediate Python, Scratch, Machine Learning, Computer Vision, Object Detection, and Natural Language Processing. We have two main course sets: Intro to Programming and Mastering Machine Learning.'
                 />
             </Head>
             <Container className={styles.main}>

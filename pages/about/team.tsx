@@ -61,7 +61,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Sean Noh',
-            title: 'Director of Java Data Structures',
+            title: 'Director of Blogs',
             image: 'sean_noh.jpeg',
         },
         {
@@ -139,7 +139,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Aditya Bilawar',
-            title: 'Tutor: Intro to ML + Intermediate Tensorflow + Java Data Structures',
+            title: 'Tutor: Intro to ML',
             image: 'aditya_bilawar.jpeg',
         },
         {

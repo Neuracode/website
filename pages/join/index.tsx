@@ -39,24 +39,12 @@ const Overview: React.FC = () => {
                         description='Intermediate Python tutors will be required to have advanced knowledge of the Python programming language, including concepts like OOP, magic methods, and more.'
                     />
                     <PositionCard
-                        title='Tutor: Intermediate Scikit-Learn'
-                        description='Scikit-Learn tutors will be required to have knowledge of Scikit-Learn and AI concepts.'
-                    />
-                    <PositionCard
-                        title='Tutor: Intermediate Keras'
-                        description='Keras tutors will be required to have knowledge of Keras and AI concepts.'
-                    />
-                    <PositionCard
-                        title='Tutor: Intermediate TensorFlow'
-                        description='TensorFlow tutors will be required to have knowledge of TensorFlow and AI concepts.'
-                    />
-                    <PositionCard
                         title='Tutor: Block Coding with Scratch'
                         description='Scratch tutors will be required to have knowledge of the scratch interface, programming concepts, and the blocks available in scratch.'
                     />
                     <PositionCard
-                        title='Tutor: Java Data Structures'
-                        description='Java Data Structures tutors will be required to have knowledge of the Java programming language and data structures in the curriculum.'
+                        title='Tutor: AI and Modern Applications'
+                        description='AI and Modern Applications tutors will be required to have knowledge of AI concepts and computer vision, object detection, and natural language processing (NLP).'
                     />
                     <PositionCard
                         title='Frontend (UI/UX) Developer'

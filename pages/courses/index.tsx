@@ -143,12 +143,6 @@ const Courses: React.FC = ({}) => {
                                     Scikit-Learn, TensorFlow, and Keras.'
                             image='machine_learning.png'
                         />
-                        <CourseSetCard
-                            href='/courses/java-data-structures'
-                            name='Java Data Structures'
-                            description='If you already know the basics of Java (arrays, array lists, class structure), this course will move you to the next level. You will get an understanding of the core data structures taught in college courses and assessed in tech interviews. This course is a must for anyone planning a career in Computer Science.'
-                            image='data_structures.png'
-                        />
                     </div>
                 </main>
             </Container>

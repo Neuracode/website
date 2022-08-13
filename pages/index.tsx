@@ -172,7 +172,7 @@ const Home: NextPage = () => {
                         <div className={styles.statisticText}>Countries</div>
                     </div>
                     <div>
-                        <div className={styles.statistic}>8</div>
+                        <div className={styles.statistic}>5</div>
                         <div className={styles.statisticText}>Courses</div>
                     </div>
                 </section>
