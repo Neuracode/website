@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import styles from '../../../styles/Courses.module.css';
 import CourseCards from '../../../components/CourseCards';
 import Head from 'next/head';
+import ThreeDButton from '../../../components/ThreeDButton';
 
 const MasteringMachineLearning: React.FC = () => {
     interface ICourse {
@@ -49,6 +50,28 @@ const MasteringMachineLearning: React.FC = () => {
                 <h1 className={styles.title}>Mastering Machine Learning</h1>
                 <main className='mt-5'>
                     <CourseCards courses={courses} />
+                    <div className={`${styles.aiAndMA} mt-5`}>
+                        <h2 className="mt-3 mb-5" style={{ fontWeight: 'bold' }}>AI and Modern Applications</h2>
+                        <div className="d-flex flex-row justify-content-around mb-3">
+                            <div className={styles.aiAndMABox}>
+                                <h4 style={{ color: 'red', fontWeight: 'bold' }}>Practical Machine Learning</h4>
+                                <h5>Computer Vision</h5>
+                                <h5>Object Detection</h5>
+                                <h5>Natural Language Processing</h5>
+                            </div>
+                            <div className={styles.aiAndMABox}>
+                                <h4 style={{ color: 'red', fontWeight: 'bold' }}>Build Projects</h4>
+                                <h5>Object Detection with Self-Driving Cars</h5>
+                                <h5>Lung Segmentation</h5>
+                                <h5>Fake News Detection</h5>
+                            </div>
+                        </div>
+                        <div className="d-flex flex-row justify-center mb-3">
+                            <a href="https://bit.ly/neuracode-programs" className="text-decoration-none">
+                                <ThreeDButton text="Sign Up Now!"/>
+                            </a>
+                        </div>
+                    </div>
                 </main>
             </Container>
             <div style={{ height: '3rem' }}></div>

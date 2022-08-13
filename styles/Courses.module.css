@@ -117,3 +117,20 @@
 .courseSet:hover {
     cursor: pointer;
 }
+
+.aiAndMA {
+    text-align: center;
+    border: 6px solid black;
+    border-radius: 16px;
+    color: white;
+    background-color: black;
+}
+
+.aiAndMABox {
+    width: 40%;
+    background-color: #F1F1F1;
+    margin-right: 2px;
+    border-radius: 16px;
+    padding: 2rem;
+    color: black;
+}
