@@ -27,7 +27,7 @@ const CourseHeader: React.FC<CourseHeaderProps> = ({
     prerequisites
 }) => {
 
-    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+    const formUrl = 'https://bit.ly/neuracode-programs';
 
     return (
         <>
