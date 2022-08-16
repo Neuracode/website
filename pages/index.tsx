@@ -8,7 +8,7 @@ import ThreeDButton from '../components/ThreeDButton';
 import * as ga from '../lib/ga';
 
 const Home: NextPage = () => {
-    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+    const formUrl = 'https://bit.ly/neuracode-programs';
 
     return (
         <div className={styles.container}>
