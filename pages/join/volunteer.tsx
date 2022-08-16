@@ -95,7 +95,7 @@ const Volunteer: React.FC = ({}) => {
                             </div>
 
                             <a
-                                href= 'https://docs.google.com/forms/d/e/1FAIpQLSeoy9YX618hIeBu-Fxu9dFTwkpx9dgwyuAKjcfj3TkQNGLbgw/viewform'
+                                href= 'https://bit.ly/neuracode-programs'
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
