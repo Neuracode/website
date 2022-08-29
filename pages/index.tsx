@@ -136,7 +136,7 @@ const Home: NextPage = () => {
                                 data-aos-delay='200'
                             >
                                 <div className={styles.viewCoursesBtn}>
-                                    <ThreeDButton text='View FREE Courses' />
+                                    <ThreeDButton text='View Free Courses' />
                                 </div>
                             </div>
                         </Link>
@@ -294,7 +294,7 @@ const Home: NextPage = () => {
                             data-aos-once='true'
                         >
                             <div className={styles.infoBox}>
-                                FREE
+                                Free
                             </div>
                             <div className={styles.infoBox}>
                                 Rigorous Curriculum
