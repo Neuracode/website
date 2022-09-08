@@ -28,7 +28,7 @@ const Team: React.FC = () => {
         },
         {
             name: 'Jaiman Pandya',
-            title: 'Founder + Chief Operating Officer',
+            title: 'Chief Operating Officer',
             image: 'jaiman_pandya.jpeg',
             description:
                 'Student researcher in machine learning with a passion for computational biology',

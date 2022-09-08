@@ -8,7 +8,7 @@ import ThreeDButton from '../components/ThreeDButton';
 import * as ga from '../lib/ga';
 
 const Home: NextPage = () => {
-    const formUrl = 'https://forms.gle/y4jfEVaoNM2HrzRe8';
+    const formUrl = 'https://bit.ly/neuracode-programs';
 
     return (
         <div className={styles.container}>
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
                                 data-aos-delay='200'
                             >
                                 <div className={styles.viewCoursesBtn}>
-                                    <ThreeDButton text='View FREE Courses' />
+                                    <ThreeDButton text='View Free Courses' />
                                 </div>
                             </div>
                         </Link>
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                 </section>
                 <section className={styles.statisticsSection}>
                     <div>
-                        <div className={styles.statistic}>200+</div>
+                        <div className={styles.statistic}>500+</div>
                         <div className={styles.statisticText}>Students</div>
                     </div>
                     <div>
@@ -294,7 +294,7 @@ const Home: NextPage = () => {
                             data-aos-once='true'
                         >
                             <div className={styles.infoBox}>
-                                FREE
+                                Free
                             </div>
                             <div className={styles.infoBox}>
                                 Rigorous Curriculum
