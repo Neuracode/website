@@ -209,6 +209,7 @@ const Team: React.FC = () => {
             </Head>
             <Container>
                 <h1 className={styles.title}>Team</h1>
+                
                 <h3 className={styles.topText}>
                     <span className={styles.topTextSpan}>Executive Board</span>
                 </h3>
