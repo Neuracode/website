@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import styles from '../../styles/About.module.css';
 import TeamCard from '../../components/TeamCard';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const Team: React.FC = () => {
     interface ITeamCard {
@@ -18,7 +19,7 @@ const Team: React.FC = () => {
     const executiveBoard: ITeamCard[] = [
         {
             name: 'Azam Ahmed',
-            title: 'Founder + Chief Executive Officer',
+            title: 'Chief Executive Officer',
             image: 'azam.jpg',
             description:
                 'High school student who loves to code and delve deeper into the field of machine learning',
@@ -34,7 +35,7 @@ const Team: React.FC = () => {
                 'Student researcher in machine learning with a passion for computational biology',
             linkedin: 'https://www.linkedin.com/in/jaiman-pandya-825350234',
             github: 'https://github.com/Jaiman-Pandya',
-            website: 'https://jaiman-pandya.github.io/Portfolio/', 
+            website: 'https://jaiman-pandya.github.io/Portfolio/',
         },
         {
             name: 'Arnav Podichetty',
@@ -209,7 +210,31 @@ const Team: React.FC = () => {
             </Head>
             <Container>
                 <h1 className={styles.title}>Team</h1>
-                
+                <div className={styles.meetTheFounder}>
+                    <h2>Meet The Founder</h2>
+                    <h3>Azam Ahmed</h3>
+                    <div className='d-flex flex-row'>
+                        <Image
+                            className={styles.founderImage}
+                            src='/team/azam.jpg'
+                            alt='azam'
+                            width={320}
+                            height={300}
+                        />
+                        <p className='w-75 ms-5'>
+                            Azam Ahmed is a high school student who loves the
+                            field of computer science. He is the founder and CEO
+                            of Neuracode, a nonprofit that focuses on inspiring
+                            students to learn more about machine learning.
+                            Additionally, he is on the board of Quantum
+                            Computing Club and Computer Science Club at his high
+                            school. He has used his coding skills to place top 3
+                            in multiple hackathons. In his free time, he loves
+                            to develop mobile apps, design websites, and work on
+                            his own coding/research projects.
+                        </p>
+                    </div>
+                </div>
                 <h3 className={styles.topText}>
                     <span className={styles.topTextSpan}>Executive Board</span>
                 </h3>
@@ -259,7 +284,9 @@ const Team: React.FC = () => {
                 </div>
                 <hr />
                 <h3 className={styles.topText}>
-                    <span className={`${styles.topTextSpan} ${styles.collegeVolunteers}`}>
+                    <span
+                        className={`${styles.topTextSpan} ${styles.collegeVolunteers}`}
+                    >
                         College Volunteers
                     </span>
                 </h3>
