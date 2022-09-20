@@ -213,7 +213,7 @@ const Team: React.FC = () => {
                 <div className={styles.meetTheFounder}>
                     <h2>Meet The Founder</h2>
                     <h3>Azam Ahmed</h3>
-                    <div className='d-flex flex-row'>
+                    <div className='d-flex flex-row flex-wrap align-items-center justify-content-around'>
                         <Image
                             className={styles.founderImage}
                             src='/team/azam.jpg'
@@ -221,7 +221,7 @@ const Team: React.FC = () => {
                             width={320}
                             height={300}
                         />
-                        <p className='w-75 ms-5'>
+                        <p className='w-75 ms-5 mt-5'>
                             Azam Ahmed is a high school student who loves the
                             field of computer science. He is the founder and CEO
                             of Neuracode, a nonprofit that focuses on inspiring
