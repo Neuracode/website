@@ -63,6 +63,7 @@
   padding: 3rem;
   font-family: 'Roboto', sans-serif;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 
 .meetTheFounder h2 {
