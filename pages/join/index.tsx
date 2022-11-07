@@ -15,7 +15,7 @@ const Overview: React.FC = () => {
                 <h1>Join us!</h1>
                 <div className='mt-5 text-center'>
                     <a
-                        href='https://bit.ly/neuracode-programs'
+                        href='https://bit.ly/volunteer-neuracode'
                         target='_blank'
                         rel='noreferrer'
                         className='text-decoration-none'
