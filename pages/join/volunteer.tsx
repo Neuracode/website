@@ -95,7 +95,7 @@ const Volunteer: React.FC = ({}) => {
                             </div>
 
                             <a
-                                href= 'https://bit.ly/neuracode-programs'
+                                href= 'https://bit.ly/volunteer-neuracode'
                                 target='_blank'
                                 rel='noreferrer'
                                 className='text-decoration-none'
